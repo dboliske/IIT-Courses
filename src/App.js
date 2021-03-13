@@ -8,6 +8,7 @@ import { ThemeProvider } from '@material-ui/core/styles';
 
 import Header from './general/Header';
 import Sideline from './general/Sideline';
+import Footer from './general/Footer';
 
 import Home from './home';
 
@@ -42,22 +43,26 @@ export default function App() {
     setShowSide(!showSide);
   }
 
+  const footerHeight = '10rem';
+
   return (
     <ThemeProvider theme={theme}>
       {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
       <CssBaseline />
-      <div id="outer-container">
-        <Header handleSideToggle={handleSideToggle}/>
-        <Sideline showSide={showSide} handleSideToggle={handleSideToggle} />
-        <div id="body" className={theme.mixins.toolbar}>
-          <Router>
-            <Switch>
-              <Route exact path="/" component={Home}/>
-              <Route exact path="/home" component={Home}/>
-            </Switch>
-          </Router>
+      <div id="general-container" style={{position:'relative',minHeight:'100vh'}}>
+        <div style={{paddingBottom:footerHeight}}>
+          <Header handleSideToggle={handleSideToggle}/>
+          <Sideline showSide={showSide} handleSideToggle={handleSideToggle} />
+          <div id="body" className={theme.mixins.toolbar}>
+            <Router>
+              <Switch>
+                <Route exact path="/" component={Home}/>
+                <Route exact path="/home" component={Home}/>
+              </Switch>
+            </Router>
+          </div>
         </div>
-        <div id="footer"></div>
+        <Footer height={footerHeight} />
       </div>
     </ThemeProvider>
   );

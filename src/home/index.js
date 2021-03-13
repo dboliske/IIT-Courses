@@ -2,6 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 
 import { Container, Divider, Typography } from '@material-ui/core';
+import Calendar from './Calendar';
 
 const useStyles = makeStyles((theme) => ({
     title: {
@@ -25,6 +26,7 @@ export default function Home() {
             Problem-solving and design using an object-oriented programming language. Introduces a variety of problem-solving techniques, algorithms, and data structures in object-oriented programming.
             </Typography>
             <Divider variant="middle" />
+            <Calendar />
         </Container>
     );
 }

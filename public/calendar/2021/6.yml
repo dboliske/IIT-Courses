@@ -1,0 +1,10 @@
+7:
+  type: lecture
+  text: Welcome to CS 201
+  link: /syllabus
+9:
+  type: lecture
+  text: Programming Basics
+  link: /
+11:
+  type: lab
