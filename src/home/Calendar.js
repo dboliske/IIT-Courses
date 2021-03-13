@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link as RouterLink, BrowserRouter } from 'react-router-dom';
+import { Link as RouterLink, HashRouter } from 'react-router-dom';
 
 import { Grid, IconButton, Link, Paper, Typography } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
@@ -23,7 +23,7 @@ function ProperLink(props) {
       const { text, to, color } = props;
     
       const renderLink = React.useMemo(
-        () => React.forwardRef((itemProps, ref) => <RouterLink to={'/#'+to} ref={ref} {...itemProps} />),
+        () => React.forwardRef((itemProps, ref) => <RouterLink to={to} ref={ref} {...itemProps} />),
         [to],
       );
     
@@ -72,13 +72,13 @@ function weekDisplay(i, week, data, classes) {
         } else if (currentData.type === 'lecture') {
             days.push(<Grid item style={{width:'14.28%'}}>
                 <Paper variant="outlined" square className={classes.day} >
-                    <BrowserRouter>
+                    <HashRouter>
                         <ProperLink
                             color='primary'
                             text={day<10?'0'+day:day}
                             to={currentData.link}
                         />
-                    </BrowserRouter>
+                    </HashRouter>
                 </Paper>
             </Grid>);
         } else if (currentData.type === 'lab') {

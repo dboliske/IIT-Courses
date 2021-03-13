@@ -11,6 +11,9 @@ import Sideline from './general/Sideline';
 import Footer from './general/Footer';
 
 import Home from './home';
+import Syllabus from './syllabus';
+import Modules from './modules';
+import About from './general/About';
 
 export default function App() {
   const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
@@ -31,6 +34,7 @@ export default function App() {
           '"Segoe UI Emoji"',
           '"Segoe UI Symbol"',
         ].join(','),
+        fontSize: 16,
     },
     palette: {
       type: prefersDarkMode ? 'dark' : 'light',
@@ -53,11 +57,14 @@ export default function App() {
         <div style={{paddingBottom:footerHeight}}>
           <Header handleSideToggle={handleSideToggle}/>
           <Sideline showSide={showSide} handleSideToggle={handleSideToggle} />
-          <div id="body" className={theme.mixins.toolbar}>
+          <div id="body" className={theme.mixins.toolbar} style={{paddingTop:'5rem'}}>
             <Router>
               <Switch>
                 <Route exact path="/" component={Home}/>
                 <Route exact path="/home" component={Home}/>
+                <Route exact path="/syllabus" component={Syllabus}/>
+                <Route exact path="/modules" component={Modules}/>
+                <Route exact path="/about" component={About}/>
               </Switch>
             </Router>
           </div>

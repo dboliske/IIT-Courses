@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link as RouterLink, BrowserRouter } from 'react-router-dom';
+import { Link as RouterLink, HashRouter } from 'react-router-dom';
 
 import { makeStyles } from '@material-ui/core/styles';
 import { ButtonGroup, Divider, Grid, IconButton, Link, List, ListItem, ListItemIcon, ListItemText, Typography } from '@material-ui/core';
@@ -52,7 +52,7 @@ function ListItemLink(props) {
     const { icon, primary, to } = props;
   
     const renderLink = React.useMemo(
-      () => React.forwardRef((itemProps, ref) => <RouterLink to={'/#'+to} ref={ref} {...itemProps} />),
+      () => React.forwardRef((itemProps, ref) => <RouterLink to={to} ref={ref} {...itemProps} />),
       [to],
     );
   
@@ -92,7 +92,7 @@ export default function Footer(props) {
                     </Link>
                 </Grid>
                 <Grid item xs={4} align="center">
-                    <BrowserRouter>
+                    <HashRouter>
                         <ButtonGroup
                             variant="text"
                             color="info"
@@ -102,15 +102,15 @@ export default function Footer(props) {
                             <IconButtonLink className={classes.footerButtons} icon={<RiDiscordFill />} to='' />
                             <IconButtonLink className={classes.footerButtons} icon={<RiGithubFill />} to='' />
                         </ButtonGroup>
-                    </BrowserRouter>
+                    </HashRouter>
                 </Grid>
                 <Grid item xs={4}>
-                    <BrowserRouter>
+                    <HashRouter>
                         <List style={{paddingTop:0}}>
                             <ListItemLink to="/support" primary="Support" />
                             <ListItemLink to="/about" primary="About" />
                         </List>
-                    </BrowserRouter>
+                    </HashRouter>
                 </Grid>
             </Grid>
         </div>

@@ -5,7 +5,7 @@ import { withStyles } from '@material-ui/core/styles';
 import { grey } from '@material-ui/core/colors';
 import { VscMenu as MenuIcon } from 'react-icons/vsc';
 
-const drawerWidth = 240;
+const drawerWidth = 360;
 
 const classes = theme => ({
     appBar: {
@@ -27,7 +27,7 @@ class Header extends React.Component {
         const { classes } = this.props;
 
         return (
-            <AppBar position="static" className={classes.appBar} style={{background:grey[800]}}>
+            <AppBar position="fixed" className={classes.appBar} style={{background:grey[800]}}>
                 <Toolbar>
                     <IconButton
                         color="inherit"

@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import { Link as RouterLink, BrowserRouter } from 'react-router-dom';
+import { Link as RouterLink, HashRouter } from 'react-router-dom';
 
 import { Divider, Drawer, Hidden, List, ListItem, ListItemIcon, ListItemText, Typography } from '@material-ui/core';
 
-const drawerWidth = 240;
+const drawerWidth = 360;
 
 const classes = theme => ({
     drawerHeader: {
@@ -29,16 +29,16 @@ const classes = theme => ({
   });
 
 function ListItemLink(props) {
-    const { icon, primary, to } = props;
+    const { icon, primary, to, onClick } = props;
   
     const renderLink = React.useMemo(
-      () => React.forwardRef((itemProps, ref) => <RouterLink to={'/#'+to} ref={ref} {...itemProps} />),
+      () => React.forwardRef((itemProps, ref) => <RouterLink to={to} ref={ref} {...itemProps} />),
       [to],
     );
   
     return (
       <li>
-        <ListItem button component={renderLink}>
+        <ListItem button component={renderLink} onClick={onClick}>
           {icon ? <ListItemIcon>{icon}</ListItemIcon> : null}
           <ListItemText primary={primary} />
         </ListItem>
@@ -50,6 +50,7 @@ ListItemLink.propTypes = {
     icon: PropTypes.element,
     primary: PropTypes.string.isRequired,
     to: PropTypes.string.isRequired,
+    onClick: PropTypes.func
 };
 
 class Sideline extends React.Component {
@@ -71,28 +72,28 @@ class Sideline extends React.Component {
                     </Typography>
                 </div>
                 <Divider />
-                <BrowserRouter>
+                <HashRouter>
                     <List>
-                        <ListItemLink to="/" primary="Home" />
-                        <ListItemLink to="/syllabus" primary="Syllabus" />
+                        <ListItemLink to="/" primary="Home" onClick={this.props.handleSideToggle} />
+                        <ListItemLink to="/syllabus" primary="Syllabus" onClick={this.props.handleSideToggle} />
                     </List>
-                </BrowserRouter>
+                </HashRouter>
                 <Divider />
-                <BrowserRouter>
+                <HashRouter>
                     <List>
-                        <ListItemLink to="/modules" primary="Modules" />
-                        <ListItemLink to="/activity" primary="Activity" />
-                        <ListItemLink to="/exams" primary="Exams" />
+                        <ListItemLink to="/modules" primary="Modules" onClick={this.props.handleSideToggle} />
+                        <ListItemLink to="/activity" primary="Activity" onClick={this.props.handleSideToggle} />
+                        <ListItemLink to="/exams" primary="Exams" onClick={this.props.handleSideToggle} />
                     </List>
-                </BrowserRouter>
+                </HashRouter>
                 <div className={classes.footer}>
                     <Divider />
-                    <BrowserRouter>
+                    <HashRouter>
                         <List>
-                            <ListItemLink to="/support" primary="Support" />
-                            <ListItemLink to="/about" primary="About" />
+                            <ListItemLink to="/support" primary="Support" onClick={this.props.handleSideToggle} />
+                            <ListItemLink to="/about" primary="About" onClick={this.props.handleSideToggle} />
                         </List>
-                    </BrowserRouter>
+                    </HashRouter>
                 </div>
             </div>
         )
