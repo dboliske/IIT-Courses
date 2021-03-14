@@ -14,6 +14,8 @@ import Home from './home';
 import Syllabus from './syllabus';
 import Modules from './modules';
 import About from './general/About';
+import Support from './general/Support';
+import NotFound from './general/NotFound';
 
 export default function App() {
   const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
@@ -65,6 +67,9 @@ export default function App() {
                 <Route exact path="/syllabus" component={Syllabus}/>
                 <Route exact path="/modules" component={Modules}/>
                 <Route exact path="/about" component={About}/>
+                <Route exact path="/support" component={Support}/>
+
+                <Route component={NotFound} />
               </Switch>
             </Router>
           </div>

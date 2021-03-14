@@ -80,15 +80,24 @@ export default function Footer(props) {
             <Grid container spacing={2} style={{color:'#fff'}}>
                 <Grid item xs={4}>
                     <Typography variant="h5" color="inherit">
-                        Course Information
+                        Contact Information
                     </Typography>
                     <Divider className={classes.divider} />
+                    <Typography variant="body1">Dylan Boliske</Typography>
                     <Link
                         href="mailto:dboliske@hawk.iit.edu"
                         variant="body1"
                         className={classes.footerLinks}
                     >
                         dboliske@hawk.iit.edu
+                    </Link>
+                    <br/>
+                    <Link
+                        href="https://www.google.com/maps/place/Stuart+Building/@41.8386693,-87.6280428,19z"
+                        variant="body1"
+                        className={classes.footerLinks}
+                    >
+                        Stuart Building 105C
                     </Link>
                 </Grid>
                 <Grid item xs={4} align="center">
