@@ -1,0 +1,15 @@
+id: '3.0'
+title: List Data Structures
+description: Introduction to the course's final major and one of the world's most widely used data structures, lists.
+related:
+  -
+    name: Arrays
+    link:
+  -
+    name: Generics
+    link:
+previous: 8
+next: 10
+examples: https://bitbucket.org/dboliske/cs201-202008-lectures/src/master/src/lectures/zero/
+slides: https://docs.google.com/presentation/d/e/2PACX-1vQDnmbHIcLD4xuwS3PAc_UmvtU_uX6mAFgCdT64RBO7jik2NmbFjOmwyyKS5p3rM0Qcj5vMVoZcXH-O/embed?start=false
+video:

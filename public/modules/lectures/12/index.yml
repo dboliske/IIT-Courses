@@ -1,0 +1,15 @@
+id: '3.3'
+title: Searching Algorithms
+description: Once data has been gathered, it is often required that specific pieces are needed to individual computations. This in turn requires finding the data within the data structure. This lecture looks at some of the various algorithms used to search for values within linear data structures.
+related:
+  -
+    name: Lists
+    link:
+  -
+    name: Sorting
+    link:
+previous: 11
+next: 13
+examples: https://bitbucket.org/dboliske/cs201-202008-lectures/src/master/src/lectures/zero/
+slides: https://docs.google.com/presentation/d/e/2PACX-1vQDnmbHIcLD4xuwS3PAc_UmvtU_uX6mAFgCdT64RBO7jik2NmbFjOmwyyKS5p3rM0Qcj5vMVoZcXH-O/embed?start=false
+video:

@@ -1,0 +1,15 @@
+id: '0.2'
+title: Introduction to Eclipse
+description: A lecture detailing specifically how to work within the Eclipse IDE.
+related:
+  -
+    name: Version Control
+    link:
+  -
+    name: Basic Programming
+    link:
+previous:
+next:
+examples: https://bitbucket.org/dboliske/cs201-202008-lectures/src/master/src/lectures/zero/
+slides: https://docs.google.com/presentation/d/e/2PACX-1vQDnmbHIcLD4xuwS3PAc_UmvtU_uX6mAFgCdT64RBO7jik2NmbFjOmwyyKS5p3rM0Qcj5vMVoZcXH-O/embed?start=false
+video:

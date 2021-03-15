@@ -1,0 +1,15 @@
+id: '2.4'
+title: Generics
+description: In the lectures on objects, various ways of passing in data to a class was discussed. This lecture shows a way to pass in a data type rather than just a specific value.
+related:
+  -
+    name: Objects
+    link:
+  -
+    name: Lists
+    link:
+previous: 13
+next:
+examples: https://bitbucket.org/dboliske/cs201-202008-lectures/src/master/src/lectures/zero/
+slides: https://docs.google.com/presentation/d/e/2PACX-1vQDnmbHIcLD4xuwS3PAc_UmvtU_uX6mAFgCdT64RBO7jik2NmbFjOmwyyKS5p3rM0Qcj5vMVoZcXH-O/embed?start=false
+video:

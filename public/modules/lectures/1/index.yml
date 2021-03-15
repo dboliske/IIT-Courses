@@ -1,0 +1,15 @@
+id: '1.1'
+title: "Flow of Control: Selection"
+description: Introduction to selection control structures such as if, switch, and the ternary operator.
+related:
+  -
+    name: Repetitions
+    link:
+  -
+    name: Enums
+    link:
+previous: 0
+next: 2
+examples: https://bitbucket.org/dboliske/cs201-202008-lectures/src/master/src/lectures/zero/
+slides: https://docs.google.com/presentation/d/e/2PACX-1vQDnmbHIcLD4xuwS3PAc_UmvtU_uX6mAFgCdT64RBO7jik2NmbFjOmwyyKS5p3rM0Qcj5vMVoZcXH-O/embed?start=false
+video:

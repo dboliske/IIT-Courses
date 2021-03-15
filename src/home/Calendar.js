@@ -2,8 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link as RouterLink, HashRouter } from 'react-router-dom';
 
-import { Grid, IconButton, Link, Paper, Typography } from '@material-ui/core';
+import { Grid, Hidden, IconButton, Link, Paper, Tooltip, Typography } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
+import { Alert } from '@material-ui/lab';
 
 import { RiArrowDropLeftLine, RiArrowDropRightLine } from 'react-icons/ri';
 
@@ -13,9 +14,20 @@ const classes = theme => ({
     },
     day: {
         paddingTop: theme.spacing(2),
-        paddingRight: theme.spacing(2),
-        paddingBottom: theme.spacing(6),
-        textAlign: 'right'
+        paddingBottom: theme.spacing(2),
+        textAlign: 'right',
+        height: '100%'
+    },
+    dayNumber: {
+        paddingRight: theme.spacing(2)
+    },
+    dayName: {
+        padding: theme.spacing(2),
+        textAlign: 'center'
+    },
+    event: {
+        padding: 0,
+        margin: 0
     }
   });
 
@@ -58,41 +70,79 @@ function weekDisplay(i, week, data, classes) {
             currentData = data[day];
         }
 
+        var color = 'initial';
+        var events = [];
         if (currentData === null || currentData === undefined) {
-            days.push(<Grid item style={{width:'14.28%'}}>
-                <Paper variant="outlined" square className={classes.day} >
+            color = (i===0&&day>7)||(i>3&&day<20)?'textSecondary':'initial';
+        } else {
+            var k;
+            for (k=0; k<currentData.length; k++) {
+                var event = currentData[k];
+                var alertColor = 'primary';
+                var tooltip = '';
+                var disabled = false;
+                var to = '';
+                switch (event.type) {
+                    case 'lecture':
+                        alertColor = 'success';
+                        tooltip = event.text;
+                        to = event.link
+                        break;
+                    case 'lab':
+                        alertColor = 'info';
+                        tooltip = 'Lab';
+                        break;
+                    case 'assignment':
+                        alertColor = 'warning';
+                        if (event.due==='lab') {
+                            tooltip = event.name + " Due";
+                        } else if (event.due==='project') {
+                            tooltip = "Part " + event.part + " Due";
+                        }
+                        break;
+                    case 'exam':
+                        alertColor = 'error';
+                        tooltip = 'Exam';
+                        break;
+                    case 'holiday':
+                        color = 'textSecondary';
+                        tooltip = event.name;
+                }
+                var alert = (
+                    <ProperLink 
+                        to={to}
+                        text={<Tooltip
+                            title={tooltip}
+                            display={disabled?'none':'inherit'}
+                            arrow
+                            placement='top'
+                        >
+                            <Alert icon={false} severity={alertColor} variant="filled"></Alert>
+                        </Tooltip>}
+                    />
+                );
+                events.push(alert);
+            }
+        }
+
+        while (events.length < 2) {
+            events.push(<Alert icon={false} color='secondary'></Alert>)
+        }
+
+        days.push(<Grid item style={{width:'14.28%'}}>
+                <Paper variant="outlined" square className={classes.day}>
                     <Typography
                         variant="h5"
-                        color={(i===0&&day>7)||(i>3&&day<20)?'textSecondary':'initial'}
+                        color={color}
+                        className={classes.dayNumber}
                     >
                         {day<10?'0'+day:day}
                     </Typography>
-                </Paper>
-            </Grid>);
-        } else if (currentData.type === 'lecture') {
-            days.push(<Grid item style={{width:'14.28%'}}>
-                <Paper variant="outlined" square className={classes.day} >
                     <HashRouter>
-                        <ProperLink
-                            color='primary'
-                            text={day<10?'0'+day:day}
-                            to={currentData.link}
-                        />
+                        {events}
                     </HashRouter>
                 </Paper>
             </Grid>);
-        } else if (currentData.type === 'lab') {
-            days.push(<Grid item style={{width:'14.28%'}}>
-                <Paper variant="outlined" square className={classes.day} >
-                    <Typography
-                        variant="h5"
-                        color='secondary'
-                    >
-                        {day<10?'0'+day:day}
-                    </Typography>
-                </Paper>
-            </Grid>);
-        }
     }
 
     return (
@@ -276,6 +326,32 @@ class Calendar extends React.Component {
                         </IconButton>
                     </Grid>
                 </Grid>
+                <Hidden smDown>
+                    <Grid container justify="center" alignItems="center">
+                        {["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"].map((day) => (
+                            <Grid item style={{width:'14.28%'}}>
+                                <Paper variant="outlined" square className={classes.dayName}>
+                                    <Typography variant="body2">
+                                        {day}
+                                    </Typography>
+                                </Paper>
+                            </Grid>
+                        ))}
+                    </Grid>
+                </Hidden>
+                <Hidden mdUp>
+                    <Grid container justify="center" alignItems="center">
+                        {["SU","MO","TU","WE","TH","FR","SA"].map((day) => (
+                            <Grid item style={{width:'14.28%'}}>
+                                <Paper variant="outlined" square className={classes.dayName}>
+                                    <Typography variant="body2">
+                                        {day}
+                                    </Typography>
+                                </Paper>
+                            </Grid>
+                        ))}
+                    </Grid>
+                </Hidden>
                 {this.buildCalendar().map((week, i) =>  weekDisplay(i, week, this.state.monthData, classes))}
             </Paper>
         );

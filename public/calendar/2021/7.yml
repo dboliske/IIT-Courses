@@ -1,37 +1,50 @@
+2:
+  -
+    type: holiday
+    name: Independence Day
+  -
+    type: assignment
+    due: lab
+    name: Lab 3
+5:
+  -
+    type: lecture
+    text: TBD
+    link: /
 7:
   -
     type: lecture
-    text: Welcome to CS 201!
-    link: /syllabus
+    text: TBD
+    link: /
 9:
-  -
-    type: lecture
-    text: Programming Basics
-    link: /lecture/0
-11:
   -
     type: lab
   -
     type: assignment
     due: lab
-    name: Lab 0
+    name: Lab 4
+12:
+  -
+    type: lecture
+    text: TBD
+    link: /
 14:
   -
     type: lecture
-    text: "Flow of Control: Selction"
+    text: TBD
     link: /
 16:
-  -
-    type: lecture
-    text: "Flow of Control: Selection"
-    link: /
-18:
   -
     type: lab
   -
     type: assignment
     due: lab
-    name: Lab 1
+    name: Lab 5
+19:
+  -
+    type: lecture
+    text: TBD
+    link: /
 21:
   -
     type: lecture
@@ -39,16 +52,16 @@
     link: /
 23:
   -
-    type: lecture
-    text: TBD
-    link: /
-25:
-  -
     type: lab
   -
     type: assignment
     due: lab
-    name: Lab 2
+    name: Lab 6
+26:
+  -
+    type: lecture
+    text: TBD
+    link: /
 28:
   -
     type: lecture
@@ -56,6 +69,4 @@
     link: /
 30:
   -
-    type: lecture
-    text: TBD
-    link: /
+    type: exam

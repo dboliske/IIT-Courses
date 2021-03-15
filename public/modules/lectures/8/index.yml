@@ -1,0 +1,15 @@
+id: '2.3'
+title: Interfaces
+description: A simple Java construct used to specify requirements for a class.
+related:
+  -
+    name: Inheritance/Polymorphism
+    link:
+  -
+    name: Abstract Classes
+    link:
+previous: 7
+next: 9
+examples: https://bitbucket.org/dboliske/cs201-202008-lectures/src/master/src/lectures/zero/
+slides: https://docs.google.com/presentation/d/e/2PACX-1vQDnmbHIcLD4xuwS3PAc_UmvtU_uX6mAFgCdT64RBO7jik2NmbFjOmwyyKS5p3rM0Qcj5vMVoZcXH-O/embed?start=false
+video:

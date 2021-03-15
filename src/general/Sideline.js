@@ -100,7 +100,7 @@ class Sideline extends React.Component {
 
         return (
             <nav className={classes.drawer} aria-label="site navigation">
-                <Hidden lgUp implementation="css">
+                <Hidden lgUp>
                     <Drawer
                         container={container}
                         variant="temporary"
@@ -117,7 +117,7 @@ class Sideline extends React.Component {
                         {drawer}
                     </Drawer>
                 </Hidden>
-                <Hidden mdDown implementation="css">
+                <Hidden mdDown>
                     <Drawer
                         classes={{
                             paper: classes.drawerPaper,

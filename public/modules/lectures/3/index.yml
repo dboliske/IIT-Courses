@@ -1,0 +1,18 @@
+id: '1.3'
+title: Arrays
+description: A look at the course's first major data structure, arrays.
+related:
+  -
+    name: Lists
+    link:
+  -
+    name: Sorting
+    link:
+  -
+    name: Searching
+    link:
+previous: 2
+next: 4
+examples: https://bitbucket.org/dboliske/cs201-202008-lectures/src/master/src/lectures/zero/
+slides: https://docs.google.com/presentation/d/e/2PACX-1vQDnmbHIcLD4xuwS3PAc_UmvtU_uX6mAFgCdT64RBO7jik2NmbFjOmwyyKS5p3rM0Qcj5vMVoZcXH-O/embed?start=false
+video:

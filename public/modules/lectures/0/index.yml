@@ -1,0 +1,18 @@
+id: '1.0'
+title: Introduction to Programming
+description: The purpose of this lecture is to introduce basic programming concepts such as data types, variables, and arithmetic operations which may be familiar to students have prior programming experience in Java or other languages.
+related:
+  -
+    name: Objects
+    link:
+  -
+    name: Enums
+    link:
+  -
+    name: Generics
+    link:
+previous:
+next: 1
+examples: https://bitbucket.org/dboliske/cs201-202008-lectures/src/master/src/lectures/zero/
+slides: https://docs.google.com/presentation/d/e/2PACX-1vQDnmbHIcLD4xuwS3PAc_UmvtU_uX6mAFgCdT64RBO7jik2NmbFjOmwyyKS5p3rM0Qcj5vMVoZcXH-O/embed?start=false
+video:

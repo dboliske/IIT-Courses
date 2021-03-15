@@ -1,0 +1,12 @@
+id: '3.1'
+title: Recursion
+description: Beginning the course's look at algorithms and logical processes, this lecture looks at an alternative solution to repetition problems, recursion.
+related:
+  -
+    name: Repetitions
+    link:
+previous: 9
+next: 11
+examples: https://bitbucket.org/dboliske/cs201-202008-lectures/src/master/src/lectures/zero/
+slides: https://docs.google.com/presentation/d/e/2PACX-1vQDnmbHIcLD4xuwS3PAc_UmvtU_uX6mAFgCdT64RBO7jik2NmbFjOmwyyKS5p3rM0Qcj5vMVoZcXH-O/embed?start=false
+video:

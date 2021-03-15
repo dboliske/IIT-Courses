@@ -8,6 +8,8 @@ import { grey } from '@material-ui/core/colors';
 
 import { RiDiscordFill, RiGithubFill } from 'react-icons/ri';
 
+const drawerWidth = 360;
+
 const useStyles = makeStyles((theme) => ({
     footer: {
         background:grey[800],
@@ -15,6 +17,10 @@ const useStyles = makeStyles((theme) => ({
         bottom:0,
         width:'100%',
         padding: theme.spacing(2),
+        [theme.breakpoints.up('lg')]: {
+            width: `calc(100% - ${drawerWidth}px)`,
+            marginLeft: drawerWidth,
+        },
     },
     footerLinks: {
         color: theme.palette.info.main

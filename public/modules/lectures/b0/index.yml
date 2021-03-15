@@ -1,0 +1,15 @@
+id: '0.0'
+title: Introduction to Version Control
+description: An introduction into how to work with version control systems.
+related:
+  -
+    name: Unix
+    link:
+  -
+    name: Eclipse
+    link:
+previous:
+next:
+examples: https://bitbucket.org/dboliske/cs201-202008-lectures/src/master/src/lectures/zero/
+slides: https://docs.google.com/presentation/d/e/2PACX-1vQDnmbHIcLD4xuwS3PAc_UmvtU_uX6mAFgCdT64RBO7jik2NmbFjOmwyyKS5p3rM0Qcj5vMVoZcXH-O/embed?start=false
+video:

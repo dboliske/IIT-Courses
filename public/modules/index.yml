@@ -3,13 +3,13 @@
   capsules:
     -
       title: Introduction to Version Control
-      to: b1
+      to: b0
     -
       title: Introduction to Unix
-      to: b4
+      to: b3
     -
       title: Introduction to Eclipse
-      to: b2
+      to: b1
     -
       title: Regular Expressions and Enums
       to: 13
@@ -51,7 +51,7 @@
       to: 14
     -
       title: UML Diagrams
-      to: b3
+      to: b2
 -
   title: Data Structures and Algorithms
   capsules:

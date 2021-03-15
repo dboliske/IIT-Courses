@@ -1,0 +1,15 @@
+id: '0.3'
+title: Regular Expressions and Enums
+description: This lecture combines two somewhat related topics, regular expressions, which is a pattern language used in multiple coding environments, and enums, finite use of classes in Java.
+related:
+  -
+    name: Strings
+    link:
+  -
+    name: Objects
+    link:
+previous: 12
+next: 14
+examples: https://bitbucket.org/dboliske/cs201-202008-lectures/src/master/src/lectures/zero/
+slides: https://docs.google.com/presentation/d/e/2PACX-1vQDnmbHIcLD4xuwS3PAc_UmvtU_uX6mAFgCdT64RBO7jik2NmbFjOmwyyKS5p3rM0Qcj5vMVoZcXH-O/embed?start=false
+video:
