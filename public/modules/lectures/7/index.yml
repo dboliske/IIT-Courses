@@ -4,15 +4,15 @@ description: Begin looking at more advanced class design, specifically, partiall
 related:
   -
     name: Objects
-    link:
+    link: 5
   -
     name: Inheritance/Polymorphism
-    link:
+    link: 6
   -
     name: Interfaces
-    link:
+    link: 8
 previous: 6
 next: 8
-examples: https://bitbucket.org/dboliske/cs201-202008-lectures/src/master/src/lectures/zero/
-slides: https://docs.google.com/presentation/d/e/2PACX-1vQDnmbHIcLD4xuwS3PAc_UmvtU_uX6mAFgCdT64RBO7jik2NmbFjOmwyyKS5p3rM0Qcj5vMVoZcXH-O/embed?start=false
+examples: 
+slides: https://docs.google.com/presentation/d/e/2PACX-1vQPEv8a0v60QCH0qiruR7JN-U2SMtH8qibqizbuL8V14I0zU8UNbOgEu4SEBRQ8ZHfAXPsewXpilSry/embed?start=false
 video:

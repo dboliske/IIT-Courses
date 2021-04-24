@@ -4,15 +4,15 @@ description: A continued look at objects and more specifically the relationships
 related:
   -
     name: Objects
-    link:
+    link: 5
   -
     name: Abstract Classes
-    link:
+    link: 7
   -
     name: Interfaces
-    link:
+    link: 8
 previous: 5
 next: 7
-examples: https://bitbucket.org/dboliske/cs201-202008-lectures/src/master/src/lectures/zero/
-slides: https://docs.google.com/presentation/d/e/2PACX-1vQDnmbHIcLD4xuwS3PAc_UmvtU_uX6mAFgCdT64RBO7jik2NmbFjOmwyyKS5p3rM0Qcj5vMVoZcXH-O/embed?start=false
+examples: 
+slides: https://docs.google.com/presentation/d/e/2PACX-1vSQXXv_XKRCv2fWchir5IW7a-ly6K0V5TIbUaVQy-_n8jyZbJFc7GfijOc6J8qoWG4PiVhhnG32dSzp/embed?start=false
 video:

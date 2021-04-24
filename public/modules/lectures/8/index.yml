@@ -4,12 +4,12 @@ description: A simple Java construct used to specify requirements for a class.
 related:
   -
     name: Inheritance/Polymorphism
-    link:
+    link: 6
   -
     name: Abstract Classes
-    link:
+    link: 7
 previous: 7
 next: 9
-examples: https://bitbucket.org/dboliske/cs201-202008-lectures/src/master/src/lectures/zero/
-slides: https://docs.google.com/presentation/d/e/2PACX-1vQDnmbHIcLD4xuwS3PAc_UmvtU_uX6mAFgCdT64RBO7jik2NmbFjOmwyyKS5p3rM0Qcj5vMVoZcXH-O/embed?start=false
+examples: 
+slides: https://docs.google.com/presentation/d/e/2PACX-1vTDvBaZcAuEznqZuT-rLsEAlvRaGvzrwlUuLpY_c3WlSDHiT1qzIEocvuVr4zTbFORmR5UeKK-aYr1a/embed?start=false
 video:

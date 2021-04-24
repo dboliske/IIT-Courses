@@ -4,9 +4,9 @@ description: Introduction to handling errors and exceptions in code as well as h
 related:
   -
     name: Objects
-    link:
+    link: 5
 previous: 3
 next: 5
-examples: https://bitbucket.org/dboliske/cs201-202008-lectures/src/master/src/lectures/zero/
-slides: https://docs.google.com/presentation/d/e/2PACX-1vQDnmbHIcLD4xuwS3PAc_UmvtU_uX6mAFgCdT64RBO7jik2NmbFjOmwyyKS5p3rM0Qcj5vMVoZcXH-O/embed?start=false
+examples: 
+slides: https://docs.google.com/presentation/d/e/2PACX-1vQnU-ITaeUtMXLBfnuvu4E7yLmqp_H1zYwF8C2rigyq2aza_quhDgZwoYAYvjC6dHLOLunshZVkL-aK/embed?start=false
 video:

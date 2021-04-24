@@ -4,15 +4,15 @@ description: Introduction to the course's second and most important data structu
 related:
   -
     name: Inheritance/Polymorphism
-    link:
+    link: 6
   -
     name: Abstract Classes
-    link:
+    link: 7
   -
     name: Interfaces
-    link:
+    link: 8
 previous: 4
 next: 6
-examples: https://bitbucket.org/dboliske/cs201-202008-lectures/src/master/src/lectures/zero/
-slides: https://docs.google.com/presentation/d/e/2PACX-1vQDnmbHIcLD4xuwS3PAc_UmvtU_uX6mAFgCdT64RBO7jik2NmbFjOmwyyKS5p3rM0Qcj5vMVoZcXH-O/embed?start=false
+examples: 
+slides: https://docs.google.com/presentation/d/e/2PACX-1vSQFqvENn18pbxnv25DN6M3v0cj24lnFeB8nKalFLtGDzDqqmM6ANSKYPgG_ac5FrbDqQyu5Ob_sYsg/embed?start=false
 video:

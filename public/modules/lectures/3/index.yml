@@ -4,15 +4,15 @@ description: A look at the course's first major data structure, arrays.
 related:
   -
     name: Lists
-    link:
+    link: 9
   -
     name: Sorting
-    link:
+    link: 11
   -
     name: Searching
-    link:
+    link: 12
 previous: 2
 next: 4
-examples: https://bitbucket.org/dboliske/cs201-202008-lectures/src/master/src/lectures/zero/
-slides: https://docs.google.com/presentation/d/e/2PACX-1vQDnmbHIcLD4xuwS3PAc_UmvtU_uX6mAFgCdT64RBO7jik2NmbFjOmwyyKS5p3rM0Qcj5vMVoZcXH-O/embed?start=false
+examples: 
+slides: https://docs.google.com/presentation/d/e/2PACX-1vTMqH5vm1dWvJIdCMfSEDW_ahViXMXIme4uekUBkySrABz-DcgQEBBIj2F3NV3PlcSGv6DvxMOazjLJ/embed?start=false
 video:

@@ -4,9 +4,9 @@ description: Beginning the course's look at algorithms and logical processes, th
 related:
   -
     name: Repetitions
-    link:
+    link: 2
 previous: 9
 next: 11
-examples: https://bitbucket.org/dboliske/cs201-202008-lectures/src/master/src/lectures/zero/
-slides: https://docs.google.com/presentation/d/e/2PACX-1vQDnmbHIcLD4xuwS3PAc_UmvtU_uX6mAFgCdT64RBO7jik2NmbFjOmwyyKS5p3rM0Qcj5vMVoZcXH-O/embed?start=false
+examples: 
+slides: https://docs.google.com/presentation/d/e/2PACX-1vRyhoPemI-yhWXx3Wf6MoZTVbLkg0Yi-6r4gmbIuITRxKbG-U8kq0wnn5bV7CFiyAg16kmmN976Syp6/embed?start=false
 video:

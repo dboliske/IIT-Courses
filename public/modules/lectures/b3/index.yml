@@ -1,12 +1,12 @@
 id: '0.1'
 title: Introduction to Unix
-description: A bonus lecture covering the basics of how to work within a Unix terminal.
+description: A bonus lecture covering the basics of how to work within a Unix terminal. Slides still under development.
 related:
   -
     name: Version Control
-    link:
+    link: b0
 previous:
 next:
-examples: https://bitbucket.org/dboliske/cs201-202008-lectures/src/master/src/lectures/zero/
-slides: https://docs.google.com/presentation/d/e/2PACX-1vQDnmbHIcLD4xuwS3PAc_UmvtU_uX6mAFgCdT64RBO7jik2NmbFjOmwyyKS5p3rM0Qcj5vMVoZcXH-O/embed?start=false
+examples:
+slides: 
 video:

@@ -4,12 +4,12 @@ description: Introduction to selection control structures such as if, switch, an
 related:
   -
     name: Repetitions
-    link:
+    link: 2
   -
     name: Enums
-    link:
+    link: 13
 previous: 0
 next: 2
-examples: https://bitbucket.org/dboliske/cs201-202008-lectures/src/master/src/lectures/zero/
-slides: https://docs.google.com/presentation/d/e/2PACX-1vQDnmbHIcLD4xuwS3PAc_UmvtU_uX6mAFgCdT64RBO7jik2NmbFjOmwyyKS5p3rM0Qcj5vMVoZcXH-O/embed?start=false
+examples: 
+slides: https://docs.google.com/presentation/d/e/2PACX-1vTBWqgMBn8w6JPmNGVU5pRbukmFgcGfWS6E-trCn9vEUMM_nXoVn_XGnCGZiMve1EJ9lPZc--RXGLoS/embed?start=false
 video:

@@ -4,12 +4,12 @@ description: In practice, data often needs to be organized in order to be useful
 related:
   -
     name: Lists
-    link:
+    link: 9
   -
     name: Searching
-    link:
+    link: 12
 previous: 10
 next: 12
-examples: https://bitbucket.org/dboliske/cs201-202008-lectures/src/master/src/lectures/zero/
-slides: https://docs.google.com/presentation/d/e/2PACX-1vQDnmbHIcLD4xuwS3PAc_UmvtU_uX6mAFgCdT64RBO7jik2NmbFjOmwyyKS5p3rM0Qcj5vMVoZcXH-O/embed?start=false
+examples: 
+slides: https://docs.google.com/presentation/d/e/2PACX-1vSg8KexYG1DvwdEIq-IwRovM27YHAyiZSDC9v8FLy5eYENhFHmejHahz1kHnhBh1abh0Qgqzi4thusK/embed?start=false
 video:

@@ -4,12 +4,12 @@ description: A lecture describing how to read, write, and work with UML diagrams
 related:
   -
     name: Objects
-    link:
+    link: 5
   -
     name: Inheritance/Polymorphism
-    link:
+    link: 6
 previous:
 next:
-examples: https://bitbucket.org/dboliske/cs201-202008-lectures/src/master/src/lectures/zero/
+examples:
 slides: https://docs.google.com/presentation/d/e/2PACX-1vQDnmbHIcLD4xuwS3PAc_UmvtU_uX6mAFgCdT64RBO7jik2NmbFjOmwyyKS5p3rM0Qcj5vMVoZcXH-O/embed?start=false
 video:

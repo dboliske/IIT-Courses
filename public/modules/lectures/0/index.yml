@@ -4,15 +4,53 @@ description: The purpose of this lecture is to introduce basic programming conce
 related:
   -
     name: Objects
-    link:
+    link: 5
   -
     name: Enums
-    link:
+    link: 13
   -
     name: Generics
-    link:
+    link: 14
 previous:
 next: 1
-examples: https://bitbucket.org/dboliske/cs201-202008-lectures/src/master/src/lectures/zero/
+examples: 
 slides: https://docs.google.com/presentation/d/e/2PACX-1vQDnmbHIcLD4xuwS3PAc_UmvtU_uX6mAFgCdT64RBO7jik2NmbFjOmwyyKS5p3rM0Qcj5vMVoZcXH-O/embed?start=false
 video:
+  # url: https://www.dropbox.com/s/q5r0jjjjidu5k6l/lecture-0.mp4?dl=1
+  # timestamps:
+  #   -
+  #     tag: Announcements
+  #     value: 38
+  #   -
+  #     tag: Start
+  #     value: 177
+  #   -
+  #     tag: Eclipse
+  #     value: 423
+  #   -
+  #     tag: Data Types
+  #     value: 1080.5
+  #   -
+  #     tag: Operations
+  #     value: 1899
+  #   -
+  #     tag: Type Casting
+  #     value: 2175
+  #   -
+  #     tag: Booleans
+  #     value: 2358
+  #   -
+  #     tag: Strings
+  #     value: 3150
+  #   -
+  #     tag: Git
+  #     value: 3541
+  #   -
+  #     tag: Git Clone
+  #     value: 4066
+  #   -
+  #     tag: Commit/Push
+  #     value: 4369
+  #   -
+  #     tag: End
+  #     value: 4921

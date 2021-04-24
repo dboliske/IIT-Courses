@@ -4,12 +4,12 @@ description: Introduction to the course's final major and one of the world's mos
 related:
   -
     name: Arrays
-    link:
+    link: 3
   -
     name: Generics
-    link:
+    link: 14
 previous: 8
 next: 10
-examples: https://bitbucket.org/dboliske/cs201-202008-lectures/src/master/src/lectures/zero/
-slides: https://docs.google.com/presentation/d/e/2PACX-1vQDnmbHIcLD4xuwS3PAc_UmvtU_uX6mAFgCdT64RBO7jik2NmbFjOmwyyKS5p3rM0Qcj5vMVoZcXH-O/embed?start=false
+examples: 
+slides: https://docs.google.com/presentation/d/e/2PACX-1vQUuJgePji4iCzEr-tNVFrWE-cax5XN_0WUPgsWd3ksejDq0h-B0sbznEA1ABIcjtbjzjkXMaFSfic-/embed?start=false
 video:

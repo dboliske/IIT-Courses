@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useDebugValue } from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import { Link as RouterLink, HashRouter } from 'react-router-dom';
@@ -30,11 +30,22 @@ const classes = theme => ({
 
 function ListItemLink(props) {
     const { icon, primary, to, onClick } = props;
-  
+
     const renderLink = React.useMemo(
       () => React.forwardRef((itemProps, ref) => <RouterLink to={to} ref={ref} {...itemProps} />),
       [to],
     );
+
+    if (props.disabled !== undefined) {
+        return (
+            <li>
+                <ListItem button disabled>
+                {icon ? <ListItemIcon>{icon}</ListItemIcon> : null}
+                <ListItemText primary={primary} />
+                </ListItem>
+            </li>
+        );
+    }
   
     return (
       <li>
@@ -82,8 +93,8 @@ class Sideline extends React.Component {
                 <HashRouter>
                     <List>
                         <ListItemLink to="/modules" primary="Modules" onClick={this.props.handleSideToggle} />
-                        <ListItemLink to="/activity" primary="Activity" onClick={this.props.handleSideToggle} />
-                        <ListItemLink to="/exams" primary="Exams" onClick={this.props.handleSideToggle} />
+                        <ListItemLink to="/activity" primary="Activity" disabled />
+                        <ListItemLink to="/review" primary="Exams" disabled />
                     </List>
                 </HashRouter>
                 <div className={classes.footer}>

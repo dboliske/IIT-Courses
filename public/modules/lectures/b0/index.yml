@@ -4,12 +4,12 @@ description: An introduction into how to work with version control systems.
 related:
   -
     name: Unix
-    link:
+    link: b3
   -
     name: Eclipse
-    link:
+    link: b1
 previous:
 next:
-examples: https://bitbucket.org/dboliske/cs201-202008-lectures/src/master/src/lectures/zero/
-slides: https://docs.google.com/presentation/d/e/2PACX-1vQDnmbHIcLD4xuwS3PAc_UmvtU_uX6mAFgCdT64RBO7jik2NmbFjOmwyyKS5p3rM0Qcj5vMVoZcXH-O/embed?start=false
+examples: 
+slides: https://docs.google.com/presentation/d/e/2PACX-1vRFkMoytqJ1nh0A7FH8sOhfE3uJvzWJHtwpa8o4iulVp-OddsCvCDBE1_Soj5B3mXDxC8PoPvw2u_Cc/embed?start=false
 video:

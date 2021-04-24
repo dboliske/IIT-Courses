@@ -16,6 +16,9 @@ import Home from './home';
 import Syllabus from './syllabus';
 import Modules from './modules';
 import Lecture from './modules/Lecture';
+import Review from './exams';
+import Topic from './exams/Topic';
+
 import About from './general/About';
 import Support from './general/Support';
 import NotFound from './general/NotFound';
@@ -83,6 +86,8 @@ export default function App() {
                 <Route exact path="/syllabus" component={Syllabus}/>
                 <Route exact path="/modules" component={Modules}/>
                 <Route path="/lecture/:lect" component={Lecture} />
+                {/* <Route exact path="/review" component={Review}/> */}
+                {/* <Route exact path="/review/topic/:id" component={Topic}/> */}
                 <Route exact path="/about" component={About}/>
                 <Route exact path="/support" component={Support}/>
 
