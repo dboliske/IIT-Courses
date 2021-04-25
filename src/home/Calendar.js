@@ -10,7 +10,9 @@ import { RiArrowDropLeftLine, RiArrowDropRightLine } from 'react-icons/ri';
 
 const classes = theme => ({
     frame: {
-        margin: theme.spacing(2)
+        margin: theme.spacing(2),
+        marginLeft: theme.spacing(5),
+        marginRight: theme.spacing(5)
     },
     day: {
         paddingTop: theme.spacing(2),

@@ -74,9 +74,9 @@ class Review extends React.Component {
         return (
             <Container maxWidth="xl">
                 <Typography variant="h4" align="center" className={classes.title}>Advanced Introduction to Object Oriented Programming</Typography>
-                <Grid container spacing={2}>
+                <Grid container spacing={2} justify="center">
                     {this.state.modules.map((mod, i) => (
-                        <Grid item xs={12} md={6} lg={4} xl={3}>
+                        <Grid item xs={12} md={6} xl={3}>
                             <Paper className={classes.module} variant="outlined" style={{height:'100%'}}>
                                 <Typography variant="h6" align="center" className={classes.subtitle}>
                                     {mod.title}

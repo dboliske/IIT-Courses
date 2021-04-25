@@ -29,7 +29,21 @@ const classes = theme => ({
         bottom: 0,
         right: 0,
         width: '100%',
+        height: '100%'
+    },
+    slides: {
+        paddingRight: theme.spacing(5),
+        paddingLeft: theme.spacing(5)
+    },
+    skeleton: {
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        bottom: 0,
+        right: 0,
+        width: '80%',
         height: '100%',
+        transform: 'translateX(10%)'
     },
     hugeButton: {
         width: '100%'
@@ -59,9 +73,9 @@ function SlideShowPane(props) {
 
     return (
         <Box className={classes.slidesOuter}>
-            <Skeleton animation="wave" className={classes.slidesInner}/>
+            <Skeleton animation="wave" className={classes.skeleton}/>
             <Box className={classes.slidesInner}>
-                <IFrame url={slides} width="100%" height="100%" allow="fullscreen" frameBorder="0"/>
+                <IFrame url={slides} width="100%" height="100%" allow="fullscreen" frameBorder="0" className={classes.slides} />
             </Box>
         </Box>
     );

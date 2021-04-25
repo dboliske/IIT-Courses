@@ -1,3 +1,5 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Disallow: /calendar/
+Disallow: /review/
+Disallow: /static/
+Sitemap: http://mypages.iit.edu/~dboliske/sitemap.xml
