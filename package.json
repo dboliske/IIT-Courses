@@ -1,5 +1,6 @@
 {
   "name": "cs201-site",
+  "homepage": "http://mypages.iit.edu/~dboliske",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
