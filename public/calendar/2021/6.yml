@@ -1,13 +1,17 @@
 7:
   -
     type: lecture
-    text: Welcome to CS 201!
+    text: Syllabus
     link: /syllabus
-9:
   -
     type: lecture
     text: Programming Basics
     link: /lecture/0
+9:
+  -
+    type: lecture
+    text: "Flow of Control: Selection"
+    link: /lecture/1
 11:
   -
     type: lab
@@ -18,13 +22,17 @@
 14:
   -
     type: lecture
-    text: "Flow of Control: Selction"
-    link: /
+    text: "Flow of Control: Iteration"
+    link: /lecture/2
 16:
   -
     type: lecture
-    text: "Flow of Control: Selection"
-    link: /
+    text: Arrays
+    link: /lecture/3
+  -
+    type: lecture
+    text: Exceptions and FileWriters
+    link: /lecture/4
 18:
   -
     type: lab
@@ -34,14 +42,13 @@
     name: Lab 1
 21:
   -
-    type: lecture
-    text: TBD
-    link: /
+    type: holiday
+    name: Juneteenth
 23:
   -
     type: lecture
-    text: TBD
-    link: /
+    text: Objects
+    link: /lecture/5
 25:
   -
     type: lab
@@ -52,10 +59,10 @@
 28:
   -
     type: lecture
-    text: TBD
-    link: /
+    text: Inheritance/ Polymorphism
+    link: /lecture/6
 30:
   -
     type: lecture
-    text: TBD
-    link: /
+    text: Review
+    link: /review

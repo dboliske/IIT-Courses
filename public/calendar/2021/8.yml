@@ -1,0 +1,26 @@
+23:
+  -
+    type: lecture
+    text: Syllabus
+    link: /syllabus
+  -
+    type: lecture
+    text: Programming Basics
+    link: /lecture/0
+25:
+  -
+    type: lecture
+    text: "Flow of Control: Selection"
+    link: /lecture/1
+27:
+  -
+    type: lab
+30:
+  -
+    type: lecture
+    text: "Flow of Control: Selection"
+    link: /lecture/1
+  -
+    type: assignment
+    due: lab
+    name: Lab 0

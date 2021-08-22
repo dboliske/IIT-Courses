@@ -1,10 +1,10 @@
-id: '2.0'
+id: '1.1'
 title: "Flow of Control: Selection"
 description: The purpose of these questions is to test your ability to write selection control structures such as if and switch structures. Additionally, since selection structures are for code that is meant to take different paths, these questions also include prompts for user input in order to make testing each path easier.
 related:
   -
     name: "Flow of Control: Repetition"
-    link: 2
+    link: /~dboliske/#/review/topic/2
 previous: 0
 next: 2
 questions:

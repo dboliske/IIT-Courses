@@ -1,37 +1,28 @@
-id: '2.0'
-title: "Flow of Control: Selection"
-description: The purpose of these questions is to test your ability to write selection control structures such as if and switch structures. Additionally, since selection structures are for code that is meant to take different paths, these questions also include prompts for user input in order to make testing each path easier.
+id: '3.3'
+title: "Searching Algorithms"
+description: The purpose of these questions is to test your ability to implement the specific searching algorithms.
 related:
   -
-    name: "Flow of Control: Repetition"
-    link:
-previous: 0
-next: 2
+    name: Sorting Algorithms
+    link: /~dboliske/#/review/topic/11
+previous: 11
+next:
 questions:
   -
     question:
       -
         type: text
-        content: Write a program that prompts the user for an integer. If the number is even, divide it by two and print the result. If the number is odd, then multiply it by three and add one and then print out the result.
+        content: Implement the Sequential Search algorithm to work with an array of integers.
     solution:
       -
-        name: SelectionOne.java
-        gist: dboliske/16ffacb8d699e65b14e4c9664db48403
+        name: SequentialSearch.java
+        gist: dboliske/63f3505d3efe8e44c50395c4b54501bf
   -
     question:
       -
         type: text
-        content: Write a program that prompts the user for two integers and either multiplication or addition, performs that operation on those two numbers, and prints out the result.
+        content: Implement the Binary Search algorithm to work with an array of integers.
     solution:
       -
-        name: SelectionTwo.java
-        gist: dboliske/16ffacb8d699e65b14e4c9664db48403
-  -
-    question:
-      -
-        type: text
-        content: Write a program that prompts the user to enter 'a', 'b', 'c', or 'd' and will then print out a word starting with that letter. (You may pick whatever word you like so long as it starts with the correct letter.) If they enter any other letter, your program should return a message telling them that they failed.
-    solution:
-      -
-        name: SelectionThree.java
-        gist: dboliske/16ffacb8d699e65b14e4c9664db48403
+        name: BinarySearch.java
+        gist: dboliske/63f3505d3efe8e44c50395c4b54501bf

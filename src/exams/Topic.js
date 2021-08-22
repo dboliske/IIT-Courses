@@ -22,7 +22,7 @@ const classes = theme => ({
         marginRight: theme.spacing(1)
     },
     relatedBar: {
-        textAlign: 'left',
+        textAlign: 'center',
         margin: theme.spacing(3),
         marginTop: 0
     },
@@ -37,11 +37,11 @@ const classes = theme => ({
         margin: theme.spacing(2)
     },
     questionImage: {
-        width: '100%',
+        height: '100%',
         maxWidth: '480px'
     },
     solution: {
-        background: green[100]
+        background: green['A700']
     },
   });
 
@@ -50,7 +50,8 @@ class Topic extends React.Component {
         super(props);
         this.state = {
             properties: null,
-            loaded: false
+            loaded: false,
+            id: this.props.match.params.id
         }
     }
 
@@ -59,7 +60,10 @@ class Topic extends React.Component {
     }
 
     componentDidUpdate() {
-        this.load(this.props.match.params.id);
+        if (this.state.id !== this.props.match.params.id) {
+            this.load(this.props.match.params.id);
+            this.setState({id: this.props.match.params.id});
+        }
     }
 
     load(id) {
@@ -102,7 +106,7 @@ class Topic extends React.Component {
                 );
             case "image":
                 return (
-                    <Box className={classes.questionContent}>
+                    <Box className={classes.questionContent} style={{textAlign:'center'}}>
                         <img src={question.content} className={classes.questionImage} />
                     </Box>
                 );
@@ -139,7 +143,7 @@ class Topic extends React.Component {
                                     properties.previous!==null?
                                         <Button
                                             onClick={() => {
-                                                window.location.href='/#/review/topic/'+properties.previous;
+                                                window.location.href='/~dboliske/#/review/topic/'+properties.previous;
                                                 this.setState({loaded:false,properties:null});
                                             }}
                                         >
@@ -151,7 +155,7 @@ class Topic extends React.Component {
                                     properties.next!==null?
                                         <Button
                                             onClick={() => {
-                                                window.location.href='/#/review/topic/'+properties.next;
+                                                window.location.href='/~dboliske/#/review/topic/'+properties.next;
                                                 this.setState({loaded:false,properties:null});
                                             }}
                                         >
@@ -194,7 +198,7 @@ class Topic extends React.Component {
                                                 aria-controls={"solution"+s+"-content"}
                                                 id={"solution"+s+"-header"}
                                             >
-                                                <Typography variant="subtitle1">{sol.name}</Typography>
+                                                <Typography variant="subtitle1">{(sol.name===null?"Solution":sol.name)}</Typography>
                                             </AccordionSummary>
                                             <AccordionDetails>
                                                 <EmbeddedGist gist={sol.gist} file={sol.name}/>

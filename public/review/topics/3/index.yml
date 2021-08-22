@@ -1,37 +1,34 @@
-id: '2.0'
-title: "Flow of Control: Selection"
-description: The purpose of these questions is to test your ability to write selection control structures such as if and switch structures. Additionally, since selection structures are for code that is meant to take different paths, these questions also include prompts for user input in order to make testing each path easier.
+id: '1.3'
+title: Arrays
+description: The purpose of these questions is to test your ability to work with the array data structure. While these problems may be able to be solved by other means, the use of arrays is required.
 related:
-  -
-    name: "Flow of Control: Repetition"
-    link:
-previous: 0
-next: 2
+previous: 2
+next: 4
 questions:
   -
     question:
       -
         type: text
-        content: Write a program that prompts the user for an integer. If the number is even, divide it by two and print the result. If the number is odd, then multiply it by three and add one and then print out the result.
+        content: Using an array, write a program that will prompt the user for 10 numbers and print out the numbers entered.
     solution:
       -
-        name: SelectionOne.java
+        name: ArraysOne.java
         gist: dboliske/16ffacb8d699e65b14e4c9664db48403
   -
     question:
       -
         type: text
-        content: Write a program that prompts the user for two integers and either multiplication or addition, performs that operation on those two numbers, and prints out the result.
+        content: Using an array, write a program that will prompt the user for 5 numbers and print them out as characters.
     solution:
       -
-        name: SelectionTwo.java
+        name: ArraysTwo.java
         gist: dboliske/16ffacb8d699e65b14e4c9664db48403
   -
     question:
       -
         type: text
-        content: Write a program that prompts the user to enter 'a', 'b', 'c', or 'd' and will then print out a word starting with that letter. (You may pick whatever word you like so long as it starts with the correct letter.) If they enter any other letter, your program should return a message telling them that they failed.
+        content: Write a program that prompts the user for 10 words and returns the word that occurs first alphabetically.
     solution:
       -
-        name: SelectionThree.java
+        name: ArraysThree.java
         gist: dboliske/16ffacb8d699e65b14e4c9664db48403

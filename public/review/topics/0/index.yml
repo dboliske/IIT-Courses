@@ -2,9 +2,6 @@ id: '1.0'
 title: Introduction to Programming
 description: The purpose of these questions is to test your ability to write programs that declare, instantiate, and manipulate primitive variables.
 related:
-  -
-    name: Objects
-    link: 5
 previous:
 next: 1
 questions:

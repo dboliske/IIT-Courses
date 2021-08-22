@@ -13,44 +13,41 @@ related:
     link: 14
 previous:
 next: 1
-examples: 
+examples:
 slides: https://docs.google.com/presentation/d/e/2PACX-1vQDnmbHIcLD4xuwS3PAc_UmvtU_uX6mAFgCdT64RBO7jik2NmbFjOmwyyKS5p3rM0Qcj5vMVoZcXH-O/embed?start=false
 video:
-  # url: https://www.dropbox.com/s/q5r0jjjjidu5k6l/lecture-0.mp4?dl=1
+  # url: https://www.dropbox.com/s/5eypqs7gxer1xzr/Lecture-0.mp4?dl=1
   # timestamps:
   #   -
   #     tag: Announcements
-  #     value: 38
+  #     value: 300
   #   -
-  #     tag: Start
-  #     value: 177
+  #     tag: Syllabus
+  #     value: 486.25
   #   -
-  #     tag: Eclipse
-  #     value: 423
+  #     tag: Introduction
+  #     value: 2229
+  #   -
+  #     tag: Hello World
+  #     value: 2579
   #   -
   #     tag: Data Types
-  #     value: 1080.5
+  #     value: 3005
   #   -
   #     tag: Operations
-  #     value: 1899
+  #     value: 3588
   #   -
   #     tag: Type Casting
-  #     value: 2175
+  #     value: 3858
   #   -
   #     tag: Booleans
-  #     value: 2358
+  #     value: 4081
   #   -
   #     tag: Strings
-  #     value: 3150
+  #     value: 4785
   #   -
   #     tag: Git
-  #     value: 3541
-  #   -
-  #     tag: Git Clone
-  #     value: 4066
-  #   -
-  #     tag: Commit/Push
-  #     value: 4369
+  #     value: 5556
   #   -
   #     tag: End
-  #     value: 4921
+  #     value: 6917

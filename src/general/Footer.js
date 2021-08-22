@@ -6,7 +6,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { ButtonGroup, Divider, Grid, IconButton, Link, List, ListItem, ListItemIcon, ListItemText, Typography } from '@material-ui/core';
 import { grey } from '@material-ui/core/colors';
 
-import { RiDiscordFill, RiGithubFill } from 'react-icons/ri';
+import { FaDiscord, FaBitbucket, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 
 const drawerWidth = 360;
 
@@ -21,9 +21,9 @@ const useStyles = makeStyles((theme) => ({
             width: `calc(100% - ${drawerWidth}px)`,
             marginLeft: drawerWidth,
         },
-    },
-    footerLinks: {
-        color: theme.palette.info.main
+        [theme.breakpoints.up('md')]: {
+            display: 'none'
+        }
     },
     footerButtons: {
         color: theme.palette.info.main,
@@ -32,17 +32,11 @@ const useStyles = makeStyles((theme) => ({
         margin: theme.spacing(1, 0),
     },
 }));
-
 function IconButtonLink(props) {
     const { icon, to, className } = props;
   
-    const renderLink = React.useMemo(
-      () => React.forwardRef((itemProps, ref) => <RouterLink to={to} ref={ref} {...itemProps} />),
-      [to],
-    );
-  
     return (
-      <IconButton component={renderLink} className={className}>
+      <IconButton className={className} onClick={() => {window.open(to, '_blank')}} size='small'>
         {icon}
       </IconButton>
     );
@@ -82,50 +76,38 @@ export default function Footer(props) {
     const classes = useStyles();
 
     return (
-        <div className={classes.footer} style={{height:props.height}}>
+        <div className={classes.footer}>
             <Grid container spacing={2} style={{color:'#fff'}}>
-                <Grid item xs={4}>
-                    <Typography variant="h5" color="inherit">
-                        Contact Information
-                    </Typography>
-                    <Divider className={classes.divider} />
-                    <Typography variant="body1">Dylan Boliske</Typography>
-                    <Link
-                        href="mailto:dboliske@hawk.iit.edu"
-                        variant="body1"
-                        className={classes.footerLinks}
-                    >
-                        dboliske@hawk.iit.edu
-                    </Link>
-                    <br/>
-                    <Link
-                        href="https://www.google.com/maps/place/Stuart+Building/@41.8386693,-87.6280428,19z"
-                        variant="body1"
-                        className={classes.footerLinks}
-                    >
-                        Stuart Building 105C
-                    </Link>
+                <Grid item xs={8} align="left">
+                    <Typography variant="h6">Advanced Introduction to Object Oriented Programming</Typography>
                 </Grid>
-                <Grid item xs={4} align="center">
-                    <HashRouter>
-                        <ButtonGroup
-                            variant="text"
-                            color="info"
-                            aria-label="text button group"
-                            size="large"
-                        >
-                            <IconButtonLink className={classes.footerButtons} icon={<RiDiscordFill />} to='' />
-                            <IconButtonLink className={classes.footerButtons} icon={<RiGithubFill />} to='' />
-                        </ButtonGroup>
-                    </HashRouter>
+                <Grid item xs={1} align="right">
+                    <IconButtonLink
+                        to="mailto:dboliske@hawk.iit.edu"
+                        className={classes.footerButtons}
+                        icon={<FaEnvelope />}
+                    />
                 </Grid>
-                <Grid item xs={4}>
-                    <HashRouter>
-                        <List style={{paddingTop:0}}>
-                            <ListItemLink to="/support" primary="Support" />
-                            <ListItemLink to="/about" primary="About" />
-                        </List>
-                    </HashRouter>
+                <Grid item xs={1} align="right">
+                    <IconButtonLink
+                        to="https://www.google.com/maps/place/Stuart+Building/@41.8386693,-87.6280428,19z"
+                        className={classes.footerButtons}
+                        icon={<FaMapMarkerAlt />}
+                    />
+                </Grid>
+                <Grid item xs={1} align="right">
+                    <IconButtonLink
+                        to="https://discord.com/channels/849303573611282464/849303574248423487"
+                        className={classes.footerButtons}
+                        icon={<FaDiscord />}
+                    />
+                </Grid>
+                <Grid item xs={1} align="right">
+                    <IconButtonLink
+                        to="https://bitbucket.org/dboliske/cs201-202106-lectures/src/master/"
+                        className={classes.footerButtons}
+                        icon={<FaBitbucket />}
+                    />
                 </Grid>
             </Grid>
         </div>

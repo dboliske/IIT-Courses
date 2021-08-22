@@ -84,11 +84,16 @@ function SlideShowPane(props) {
 class Lecture extends React.Component {
     constructor(props) {
         super(props);
+        const queryString = "?"+window.location.hash.split("?")[1];
+        const urlParams = new URLSearchParams(queryString);
         this.state = {
             properties: null,
             loaded: false,
-            videoModal: false
+            id: props.match.params.lect,
+            videoModal: urlParams.has('_video')&&urlParams.get('_video')
         }
+        this.handleVideoClose = this.handleVideoClose.bind(this);
+        this.handleVideoOpen = this.handleVideoOpen.bind(this);
     }
 
     componentDidMount() {
@@ -96,7 +101,10 @@ class Lecture extends React.Component {
     }
 
     componentDidUpdate() {
-        this.load(this.props.match.params.lect);
+        if (this.state.id !== this.props.match.params.lect) {
+            this.load(this.props.match.params.lect);
+            this.setState({id: this.props.match.params.lect});
+        }
     }
 
     load(id) {
@@ -127,6 +135,15 @@ class Lecture extends React.Component {
             )
     }
 
+    handleVideoOpen = () => {
+        this.setState({videoModal: true});
+    };
+
+    handleVideoClose = () => {
+        console.log("close");
+        this.setState({videoModal: false});
+    };
+
     render() {
         document.title = "CS 201 - Lecture";
         const classes = this.props.classes;
@@ -142,16 +159,8 @@ class Lecture extends React.Component {
         } else {
             document.title = "CS 201 - " + properties.title;
 
-            const handleVideoOpen = () => {
-                this.setState({videoModal: true});
-            };
-
-            const handleVideoClose = () => {
-                this.setState({videoModal: false});
-            };
-
             return (
-                <Container maxWidth="xl">
+                <Container maxWidth="xl" style={{marginBottom:'1rem'}}>
                     <Typography variant="h3" className={classes.title}>
                         Lecture {properties.id} - {properties.title}
                     </Typography>
@@ -162,7 +171,7 @@ class Lecture extends React.Component {
                                     properties.previous!==null?
                                         <Button
                                             onClick={() => {
-                                                window.location.href='/#/lecture/'+properties.previous;
+                                                window.location.href='/~dboliske/#/lecture/'+properties.previous;
                                                 this.setState({loaded:false,properties:null});
                                             }}
                                         >
@@ -174,7 +183,7 @@ class Lecture extends React.Component {
                                     properties.next!==null?
                                         <Button
                                             onClick={() => {
-                                                window.location.href='/#/lecture/'+properties.next;
+                                                window.location.href='/~dboliske/#/lecture/'+properties.next;
                                                 this.setState({loaded:false,properties:null});
                                             }}
                                         >
@@ -204,7 +213,9 @@ class Lecture extends React.Component {
                         <Button
                             className={classes.hugeButton}
                             size="large"
-                            variant="outlined"
+                            variant="contained"
+                            color="primary"
+                            style={{marginBottom:(properties.video!==null?'0.5rem':0)}}
                             onClick={() => {window.open(properties.examples, '_blank')}}
                         >
                             <GoMarkGithub className={classes.buttonIcon} />
@@ -217,21 +228,23 @@ class Lecture extends React.Component {
                             <Button
                                 className={classes.hugeButton}
                                 size="large"
-                                variant="outlined"
-                                onClick={handleVideoOpen}
+                                variant="contained"
+                                color="primary"
+                                onClick={this.handleVideoOpen}
                             >
                                 <GoDeviceCameraVideo className={classes.buttonIcon} />
                                 Video
                             </Button>
                             <Modal
                                 open={videoModal}
-                                onClose={handleVideoClose}
+                                onClose={this.handleVideoClose}
                                 aria-labelledby="lecture-video"
                                 arai-describedby="modal-for-lecture-video"
                             >
                                 <Player
                                     video={properties.video}
-                                    num={this.props.match.params.lect}
+                                    onClose={this.handleVideoClose}
+                                    num={properties.next}
                                 />
                             </Modal>
                         </>

@@ -11,14 +11,21 @@ import { RiArrowDropLeftLine, RiArrowDropRightLine } from 'react-icons/ri';
 const classes = theme => ({
     frame: {
         margin: theme.spacing(2),
-        marginLeft: theme.spacing(5),
-        marginRight: theme.spacing(5)
+        [theme.breakpoints.down('md')]: {
+            marginLeft: theme.spacing(5),
+            marginRight: theme.spacing(5)
+        },
+        [theme.breakpoints.up('lg')]: {
+            marginLeft: theme.spacing(15),
+            marginRight: theme.spacing(15)
+        }
     },
     day: {
         paddingTop: theme.spacing(2),
         paddingBottom: theme.spacing(2),
         textAlign: 'right',
-        height: '100%'
+        height: '100%',
+        minHeight: '8rem'
     },
     dayNumber: {
         paddingRight: theme.spacing(2)
@@ -88,7 +95,7 @@ function weekDisplay(i, week, data, classes) {
                     case 'lecture':
                         alertColor = 'success';
                         tooltip = event.text;
-                        to = event.link
+                        to = event.link;
                         break;
                     case 'lab':
                         alertColor = 'info';
@@ -99,16 +106,20 @@ function weekDisplay(i, week, data, classes) {
                         if (event.due==='lab') {
                             tooltip = event.name + " Due";
                         } else if (event.due==='project') {
-                            tooltip = "Part " + event.part + " Due";
+                            tooltip = event.name + " Due";
                         }
                         break;
                     case 'exam':
                         alertColor = 'error';
-                        tooltip = 'Exam';
+                        tooltip = event.text;
+                        to = event.link;
                         break;
                     case 'holiday':
                         color = 'textSecondary';
                         tooltip = event.name;
+                        break;
+                    default:
+                        tooltip = event.type;
                 }
                 var alert = (
                     <ProperLink 
@@ -119,7 +130,9 @@ function weekDisplay(i, week, data, classes) {
                             arrow
                             placement='top'
                         >
-                            <Alert icon={false} severity={alertColor} variant="filled"></Alert>
+                            <Alert icon={false} severity={alertColor} variant="filled" style={{padding:0,paddingLeft:'1rem',paddingRight:'1rem',textAlign:'left'}}>
+                                <Hidden mdDown>{tooltip}</Hidden>
+                            </Alert>
                         </Tooltip>}
                     />
                 );
@@ -148,7 +161,7 @@ function weekDisplay(i, week, data, classes) {
     }
 
     return (
-        <Grid container justify="center" alignItems="center">
+        <Grid container justify="center" alignItems="center" style={{height:'100%',alignItems: 'stretch'}}>
             {days}
         </Grid>
     )
@@ -175,6 +188,10 @@ class Calendar extends React.Component {
 
     loadMonth(year, month) {
         const yaml = require('js-yaml');
+        this.setState({
+            isLoaded: false,
+            monthData: null    
+        });
         fetch("calendar/"+year+"/"+month+".yml")
             .then(res => res.text())
             .then(

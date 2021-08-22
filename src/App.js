@@ -33,6 +33,11 @@ const useStyles = makeStyles((theme) => ({
       marginLeft: drawerWidth,
     },
   },
+  mainTray: {
+    [theme.breakpoints.down('sm')]: {
+      paddingBottom: '7rem'
+    }
+  }
 }));
 
 export default function App() {
@@ -66,15 +71,13 @@ export default function App() {
   const handleSideToggle = () => {
     setShowSide(!showSide);
   }
-  
-  const footerHeight = '10rem';
 
   return (
     <ThemeProvider theme={theme}>
       {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
       <CssBaseline />
       <div id="general-container" style={{position:'relative',minHeight:'100vh'}}>
-        <div style={{paddingBottom:footerHeight}}>
+        <div className={classes.mainTray}>
           <Header handleSideToggle={handleSideToggle}/>
           <Sideline showSide={showSide} handleSideToggle={handleSideToggle} />
           <div id="body" className={classes.content}>
@@ -86,8 +89,8 @@ export default function App() {
                 <Route exact path="/syllabus" component={Syllabus}/>
                 <Route exact path="/modules" component={Modules}/>
                 <Route path="/lecture/:lect" component={Lecture} />
-                {/* <Route exact path="/review" component={Review}/> */}
-                {/* <Route exact path="/review/topic/:id" component={Topic}/> */}
+                <Route exact path="/review" component={Review}/>
+                <Route exact path="/review/topic/:id" component={Topic}/>
                 <Route exact path="/about" component={About}/>
                 <Route exact path="/support" component={Support}/>
 
@@ -96,7 +99,7 @@ export default function App() {
             </Router>
           </div>
         </div>
-        <Footer height={footerHeight} />
+        <Footer />
       </div>
     </ThemeProvider>
   );

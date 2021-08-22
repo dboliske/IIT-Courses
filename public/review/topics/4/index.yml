@@ -1,37 +1,34 @@
-id: '2.0'
-title: "Flow of Control: Selection"
+id: '1.4'
+title: Exceptions and FileWriters
 description: The purpose of these questions is to test your ability to write selection control structures such as if and switch structures. Additionally, since selection structures are for code that is meant to take different paths, these questions also include prompts for user input in order to make testing each path easier.
 related:
-  -
-    name: "Flow of Control: Repetition"
-    link:
-previous: 0
-next: 2
+previous: 3
+next: 5
 questions:
   -
     question:
       -
         type: text
-        content: Write a program that prompts the user for an integer. If the number is even, divide it by two and print the result. If the number is odd, then multiply it by three and add one and then print out the result.
+        content: Write a program that prompts the user for a file name, reads from that file, and echos the contents to the console. Be sure to handle the situation where no file can be found.
     solution:
       -
-        name: SelectionOne.java
+        name: ExceptionsOne.java
         gist: dboliske/16ffacb8d699e65b14e4c9664db48403
   -
     question:
       -
         type: text
-        content: Write a program that prompts the user for two integers and either multiplication or addition, performs that operation on those two numbers, and prints out the result.
+        content: Write a program that prompts the user for a number and divides it by two, printing the result to the console. Be sure to handle the situation where a user does not enter a valid number.
     solution:
       -
-        name: SelectionTwo.java
+        name: ExceptionsTwo.java
         gist: dboliske/16ffacb8d699e65b14e4c9664db48403
   -
     question:
       -
         type: text
-        content: Write a program that prompts the user to enter 'a', 'b', 'c', or 'd' and will then print out a word starting with that letter. (You may pick whatever word you like so long as it starts with the correct letter.) If they enter any other letter, your program should return a message telling them that they failed.
+        content: Write a program that prompts the user for two numbers, 'a' and 'b', does a/b and prints the result to the console. Be sure to handle the situations where the user does not enter a valid number.
     solution:
       -
-        name: SelectionThree.java
+        name: ExceptionsThree.java
         gist: dboliske/16ffacb8d699e65b14e4c9664db48403

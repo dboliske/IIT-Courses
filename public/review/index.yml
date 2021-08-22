@@ -31,9 +31,9 @@
     -
       title: List Data Structures
       to: 9
-    -
-      title: Recursion
-      to: 10
+    # -
+    #   title: Recursion
+    #   to: 10
     -
       title: Sorting Algorithms
       to: 11

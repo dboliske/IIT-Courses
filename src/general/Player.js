@@ -2,11 +2,9 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { findDOMNode } from 'react-dom';
 import screenfull from 'screenfull';
-import ReactPlayer from 'react-player';
-// import { Fade } from 'react-bootstrap';
-import { FaPlay, FaVolumeMute, FaPause, FaForward, FaStepForward, FaVolumeDown, FaExpandArrowsAlt, FaExpand, FaInfo } from 'react-icons/fa';
+import ReactPlayer from 'react-player/lazy';
+import { FaPlay, FaVolumeMute, FaPause, FaForward, FaStepForward, FaVolumeDown, FaExpandArrowsAlt, FaExpand, FaInfo, FaTimes } from 'react-icons/fa';
 import { Button, ButtonGroup, Fade, Grid, Menu, MenuItem, Popover, Slider, Tooltip } from '@material-ui/core';
-import { Skeleton } from '@material-ui/lab';
 
 function formatTimestamp(timestamp) {
     if (timestamp===undefined || timestamp===null) {
@@ -67,7 +65,7 @@ class Player extends Component {
             volumeAnchor: null,
             shownControls: 0,
             playedSeconds: 0,
-            number: props.num===undefined?0:props.num
+            number: props.num===undefined?0:props.num,
         }
         this.player = React.createRef();
         this.video = React.createRef();
@@ -80,6 +78,10 @@ class Player extends Component {
             loaded: 0,
             pip: false
         })
+    }
+
+    onClose = () => {
+        this.props.onClose()
     }
 
     handlePlayPause = () => {
@@ -118,6 +120,8 @@ class Player extends Component {
           var currentPlayback = this.state.playbackRate;
           var nextPlayback = 1.0;
           if(currentPlayback === 1.0) {
+              nextPlayback = 1.5;
+          } else if (currentPlayback === 1.5) {
               nextPlayback = 2.0;
           } else if (currentPlayback === 2.0) {
               nextPlayback = 0.5;
@@ -233,7 +237,7 @@ class Player extends Component {
 
       changeVideos = () => {
         if (this.props.num !== undefined && this.props.num !== null) {
-            window.location.href = "#/lectures/"+(this.props.num+1)+"?_video";
+            window.location.href = "#/lecture/"+(this.props.num)+"?_video=true";
             window.location.reload();
         }
       }
@@ -243,9 +247,6 @@ class Player extends Component {
 
         return (
             <div style={{position:'relative',paddingTop:'56.25%',width:'100%',maxHeight:'100vh'}} ref={element => this.video = element} onMouseMove={this.setShowControls}>
-                <div style={{position:'absolute',top:'50%',left:'50%',background:'#fff',margin:0,transform:'translate(-50%,-50%)'}}>
-                    <Skeleton style={{width:'100%',height:'100%'}}/>
-                </div>
                 <ReactPlayer
                     ref={element => this.player = element}
                     className='react-player'
@@ -274,10 +275,10 @@ class Player extends Component {
                     onProgress={this.handleProgress}
                     onDuration={this.handleDuration}
                 />
-                <div style={{position:'absolute',top:0,left:0,background:'none',margin:0,transform:'translate(50vw,50vh) translate(-50%,-50%)',zIndex:20,display:((loaded&&!playing)?'block':'none')}}>
+                <div style={{position:'absolute',top:0,left:0,background:'none',margin:0,transform:'translate(50vw,50vh) translate(-50%,-50%)',zIndex:20,display:((loaded&&!playing)?'block':'none'),borderRadius:'2rem'}}>
                     <Button onClick={this.handlePlay}>
                         <FaPlay
-                            color='#f8f9f1'
+                            color='#717171'
                             size={100}
                         />
                     </Button>
@@ -291,15 +292,22 @@ class Player extends Component {
                         background:'none',
                         maxHeight:'100vh',
                         paddingRight:'1rem',
+                        paddingLeft:'1rem',
                         transform:'translateX(50vw) translateX(-50%)',
-                        maxWidth:'calc(100vh * 16.0/9.0)',
-                        textAlign:'right'
+                        maxWidth:'calc(100vh * 16.0/9.0)'
                     }}
                     in={this.state.showControls}
                     timeout={600}
                 >
-                    <Grid container>
+                    <Grid container justify="space-evenly">
                         <Grid item xs>
+                            <ButtonGroup style={{background:'#ffffff'}} variant="contained">
+                                <Tooltip title="Close Player" placement="bottom">
+                                    <Button onClick={this.onClose}><FaTimes /></Button>
+                                </Tooltip>
+                            </ButtonGroup>
+                        </Grid>
+                        <Grid item xs style={{textAlign:'right'}}>
                             <ButtonGroup style={{background:'#ffffff'}} variant="contained">
                                 <Tooltip title="Change Playback Speed" placement="bottom">
                                     <Button onClick={this.handleSetPlaybackRate}>{playbackRate===1||playbackRate===2?(playbackRate+".0"):playbackRate}x</Button>

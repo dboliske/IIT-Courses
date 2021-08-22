@@ -1,0 +1,82 @@
+1:
+  -
+    type: lecture
+    text: Sorting
+    link: /lecture/11
+  -
+    type: assignment
+    due: lab
+    name: Lab 6
+3:
+  -
+    type: lecture
+    text: Searching
+    link: /lecture/12
+5:
+  -
+    type: lab
+8:
+  -
+    type: lecture
+    text: Regex/Enums
+    link: /lecture/13
+  -
+    type: assignment
+    due: lab
+    name: Lab 7
+10:
+  -
+    type: lecture
+    text: Regex/Enums
+    link: /lecture/13
+12:
+  -
+    type: lab
+15:
+  -
+    type: lecture
+    text: Generics
+    link: /lecture/14
+  -
+    type: assignment
+    due: project
+    part: 1
+    name: Final Project Design
+17:
+  -
+    type: lecture
+    text: Generics
+    link: /lecture/14
+19:
+  -
+    type: lab
+22:
+  -
+    type: lecture
+    text: TBD
+    link:
+24:
+  -
+    type: holiday
+    name: Thanksgiving Break
+25:
+  -
+    type: holiday
+    name: Thanksgiving Break
+26:
+  -
+    type: holiday
+    name: Thanksgiving Break
+27:
+  -
+    type: holiday
+    name: Thanksgiving Break
+28:
+  -
+    type: holiday
+    name: Thanksgiving Break
+29:
+  -
+    type: lecture
+    text: TBD
+    link:
