@@ -1,0 +1,414 @@
+title: CS 201
+name: Advanced Introduction to Object Oriented Programming
+description: These are all the available practice problems for CS 201. Most of them are prior exam questions so should give a good indication to the level of difficulty to expect on an exam. Each question also includes a solution, but keep in mind, that there are multiple ways to answer most of these questions, the solution provided is just how I would answer it.
+midterm: October 8th 17.10-18.50
+final: December 3rd 17.10-18.50
+sections:
+  -
+    title: Data Types
+    description: The purpose of these questions is to test your ability to write programs that declare, instantiate, and manipulate primitive variables.
+    exam: midterm
+    lecture: 0
+    questions:
+      -
+        question:
+          -
+            type: text
+            content: Write a program that prompts the user for a String input and then prints it back out to the console.
+        solution:
+          -
+            name: DataTypesOne.java
+            gist: dboliske/16ffacb8d699e65b14e4c9664db48403
+      -
+        question:
+          -
+            type: text
+            content: Write a program that prompts the user for a character, converts that character to an integer, multiplies that number by 3, subtracts 65 from that result, and prints the final result to the console as a character.
+        solution:
+          -
+            name: DataTypesTwo.java
+            gist: dboliske/16ffacb8d699e65b14e4c9664db48403
+      -
+        question:
+          -
+            type: text
+            content: Write a program that prompts the user for two integers and returns the exact result of dividing the first by the second.
+        solution:
+          -
+            name: DataTypesThree.java
+            gist: dboliske/16ffacb8d699e65b14e4c9664db48403
+  -
+    title: "Flow of Control: Selection"
+    description: The purpose of these questions is to test your ability to write selection control structures such as if and switch structures. Additionally, since selection structures are for code that is meant to take different paths, these questions also include prompts for user input in order to make testing each path easier.
+    exam: midterm
+    lecture: 1
+    questions:
+      -
+        question:
+          -
+            type: text
+            content: Write a program that prompts the user for an integer. If the number is even, divide it by two and print the result. If the number is odd, then multiply it by three and add one and then print out the result.
+        solution:
+          -
+            name: SelectionOne.java
+            gist: dboliske/16ffacb8d699e65b14e4c9664db48403
+      -
+        question:
+          -
+            type: text
+            content: Write a program that prompts the user for two integers and either multiplication or addition, performs that operation on those two numbers, and prints out the result.
+        solution:
+          -
+            name: SelectionTwo.java
+            gist: dboliske/16ffacb8d699e65b14e4c9664db48403
+      -
+        question:
+          -
+            type: text
+            content: Write a program that prompts the user to enter 'a', 'b', 'c', or 'd' and will then print out a word starting with that letter. (You may pick whatever word you like so long as it starts with the correct letter.) If they enter any other letter, your program should return a message telling them that they failed.
+        solution:
+          -
+            name: SelectionThree.java
+            gist: dboliske/16ffacb8d699e65b14e4c9664db48403
+  -
+    title: "Flow of Control: Repetition"
+    description: The purpose of these questions is to test your ability to write repetition control structures such as while and for structures.
+    exam: midterm
+    lecture: 2
+    questions:
+      -
+        question:
+          -
+            type: text
+            content: Write a program that prompts the user for an integer and then prints out a square of that height and width.
+        solution:
+          -
+            name: RepetitionOne.java
+            gist: dboliske/16ffacb8d699e65b14e4c9664db48403
+      -
+        question:
+          -
+            type: text
+            content: Write a program that prompts the user for addition, subtraction, multiplication, or division. If they enter anything else, continue to prompt them until they have selected on of the choices. Next prompt the user for two numbers, performs the desired operation on them, and prints out the result.
+        solution:
+          -
+            name: RepetitionTwo.java
+            gist: dboliske/16ffacb8d699e65b14e4c9664db48403
+      -
+        question:
+          -
+            type: text
+            content: Write a program that prompts the user to enter a positive number repeatedly until -1 has been entered, and then prints out the maximum and minimum of the numbers entered (not including -1).
+        solution:
+          -
+            name: RepetitionThree.java
+            gist: dboliske/16ffacb8d699e65b14e4c9664db48403
+  -
+    title: Arrays Data Structures
+    description: The purpose of these questions is to test your ability to work with the array data structure. While these problems may be able to be solved by other means, the use of arrays is required.
+    exam: midterm
+    lecture: 3
+    questions:
+      -
+        question:
+          -
+            type: text
+            content: Using an array, write a program that will prompt the user for 10 numbers and print out the numbers entered.
+        solution:
+          -
+            name: ArraysOne.java
+            gist: dboliske/16ffacb8d699e65b14e4c9664db48403
+      -
+        question:
+          -
+            type: text
+            content: Using an array, write a program that will prompt the user for 5 numbers and print them out as characters.
+        solution:
+          -
+            name: ArraysTwo.java
+            gist: dboliske/16ffacb8d699e65b14e4c9664db48403
+      -
+        question:
+          -
+            type: text
+            content: Write a program that prompts the user for 10 words and returns the word that occurs first alphabetically.
+        solution:
+          -
+            name: ArraysThree.java
+            gist: dboliske/16ffacb8d699e65b14e4c9664db48403
+  -
+    title: Exceptions and FileWriters
+    description: The purpose of these questions is to test your ability to write selection control structures such as if and switch structures. Additionally, since selection structures are for code that is meant to take different paths, these questions also include prompts for user input in order to make testing each path easier.
+    exam: midterm
+    lecture: 4
+    questions:
+      -
+        question:
+          -
+            type: text
+            content: Write a program that prompts the user for a file name, reads from that file, and echos the contents to the console. Be sure to handle the situation where no file can be found.
+        solution:
+          -
+            name: ExceptionsOne.java
+            gist: dboliske/16ffacb8d699e65b14e4c9664db48403
+      -
+        question:
+          -
+            type: text
+            content: Write a program that prompts the user for a number and divides it by two, printing the result to the console. Be sure to handle the situation where a user does not enter a valid number.
+        solution:
+          -
+            name: ExceptionsTwo.java
+            gist: dboliske/16ffacb8d699e65b14e4c9664db48403
+      -
+        question:
+          -
+            type: text
+            content: Write a program that prompts the user for two numbers, 'a' and 'b', does a/b and prints the result to the console. Be sure to handle the situations where the user does not enter a valid number.
+        solution:
+          -
+            name: ExceptionsThree.java
+            gist: dboliske/16ffacb8d699e65b14e4c9664db48403
+  -
+    title: Objects and Classes
+    description: The purpose of these questions is to test your ability to write a user defined class that follows the provided UML diagram. You are welcome to write an application class to test your implementation, but it is not required.
+    exam: midterm
+    lecture: 5
+    questions:
+      -
+        question:
+          -
+            type: text
+            content: Write a class that implements the following UML diagram. Make sure to include all shown methods. Additionally, make sure to validate data so that day is between 1 and 31 and month is between 1 and 12.
+          -
+            type: image
+            content: /~dboliske/assets/review/Date.png
+        solution:
+          -
+            name: Date.java
+            gist: dboliske/16ffacb8d699e65b14e4c9664db48403 
+      -
+        question:
+          -
+            type: text
+            content: Write a class that implements the following UML diagram. For haveBirthday(), the method body should increase the age by one.
+          -
+            type: image
+            content: /~dboliske/assets/review/Person.png
+        solution:
+          -
+            name: Person.java
+            gist: dboliske/16ffacb8d699e65b14e4c9664db48403
+      -
+        question:
+          -
+            type: text
+            content: Write a class that implements the following UML diagram. For distance(Point), the method body should calculate the distance between the instance data and the parameter.
+          -
+            type: image
+            content: /~dboliske/assets/review/Point.png
+        solution:
+          -
+            name: Point.java
+            gist: dboliske/16ffacb8d699e65b14e4c9664db48403
+  -
+    title: "Inheritance/Polymorphism"
+    description: The purpose of these questions is to test your ability to write classes that demonstrate an inheritance relationship.
+    exam: final
+    lecture: 6
+    questions:
+      -
+        question:
+          -
+            type: text
+            content: Write a java classes based on the following UML diagram. Include all standard methods, such as constructors, mutators, accessors, toString, and equals. Additionally, implement all methods shown in the diagram.
+          -
+            type: image
+            content: http://mypages.iit.edu/~dboliske/assets/review/rectangle-square.png
+        solution:
+          -
+            name: Rectangle.java
+            gist: dboliske/bfe997e85dd0bbb12c64809cc19c46fb
+          -
+            name: Square.java
+            gist: dboliske/bfe997e85dd0bbb12c64809cc19c46fb
+      -
+        question:
+          -
+            type: text
+            content: Write a java classes based on the following UML diagram. Include all standard methods, such as constructors, mutators, accessors, toString, and equals. Additionally, implement all methods shown in the diagram.
+          -
+            type: image
+            content: http://mypages.iit.edu/~dboliske/assets/review/rectangle-cube.png
+        solution:
+          -
+            name: Rectangle.java
+            gist: dboliske/0b2533cf70ecc36f43ec64b746140fde
+          -
+            name: Cube.java
+            gist: dboliske/0b2533cf70ecc36f43ec64b746140fde
+  -
+    title: "Abstract Classes"
+    description: The purpose of these questions is to test your ability to write abstract classes and abstract methods.
+    exam: final
+    lecture: 7
+    questions:
+      -
+        question:
+          -
+            type: text
+            content: Write a java classes based on the following UML diagram. Include all standard methods, such as constructors, mutators, accessors, toString, and equals. Additionally, implement all methods shown in the diagram.
+          -
+            type: image
+            content: http://mypages.iit.edu/~dboliske/assets/review/animal-cat-dog.png
+        solution:
+          -
+            name: Animal.java
+            gist: dboliske/c806ffde64a6745a3d9e8ecc5c6e1530
+          -
+            name: Cat.java
+            gist: dboliske/c806ffde64a6745a3d9e8ecc5c6e1530
+          -
+            name: Dog.java
+            gist: dboliske/c806ffde64a6745a3d9e8ecc5c6e1530
+      -
+        question:
+          -
+            type: text
+            content: Write a java classes based on the following UML diagram. Include all standard methods, such as constructors, mutators, accessors, toString, and equals. Additionally, implement all methods shown in the diagram.
+          -
+            type: image
+            content: http://mypages.iit.edu/~dboliske/assets/review/phones.png
+        solution:
+          -
+            name: Phone.java
+            gist: dboliske/0da0337df2a05191c8df89ee25477843
+          -
+            name: CellPhone.java
+            gist: dboliske/0da0337df2a05191c8df89ee25477843
+          -
+            name: HomePhone.java
+            gist: dboliske/0da0337df2a05191c8df89ee25477843
+  -
+    title: List Data Structures
+    description: The purpose of these questions is to test your ability to work with the List data structure. While these problems may be solved using other means, the use of lists (or more specifically ArrayLists) is required.
+    exam: final
+    lecture: 9
+    questions:
+      -
+        question:
+          -
+            type: text
+            content: Using an ArrayList, write a program that will prompt the user for 25 numbers and print out the numbers entered.
+        solution:
+          -
+            name: ListOne.java
+            gist: dboliske/63f3505d3efe8e44c50395c4b54501bf
+      -
+        question:
+          -
+            type: text
+            content: Using an ArrayList, write a program that will prompt the user for 5 numbers and print them out as characters.
+        solution:
+          -
+            name: ListTwo.java
+            gist: dboliske/63f3505d3efe8e44c50395c4b54501bf
+      -
+        question:
+          -
+            type: text
+            content: Write a program, using an ArrayList, that prompts the user for 12 words and returns the word that occurs first alphabetically.
+        solution:
+          -
+            name: ListThree.java
+            gist: dboliske/63f3505d3efe8e44c50395c4b54501bf
+  -
+    title: Recursion
+    description: The purpose of these questions is to test your ability to write selection control structures such as if and switch structures. Additionally, since selection structures are for code that is meant to take different paths, these questions also include prompts for user input in order to make testing each path easier.
+    exam: final
+    lecture: 10
+    questions:
+      -
+        question:
+          -
+            type: text
+            content: Write a program that prompts the user for an integer. If the number is even, divide it by two and print the result. If the number is odd, then multiply it by three and add one and then print out the result.
+        solution:
+          -
+            name: SelectionOne.java
+            gist: dboliske/16ffacb8d699e65b14e4c9664db48403
+      -
+        question:
+          -
+            type: text
+            content: Write a program that prompts the user for two integers and either multiplication or addition, performs that operation on those two numbers, and prints out the result.
+        solution:
+          -
+            name: SelectionTwo.java
+            gist: dboliske/16ffacb8d699e65b14e4c9664db48403
+      -
+        question:
+          -
+            type: text
+            content: Write a program that prompts the user to enter 'a', 'b', 'c', or 'd' and will then print out a word starting with that letter. (You may pick whatever word you like so long as it starts with the correct letter.) If they enter any other letter, your program should return a message telling them that they failed.
+        solution:
+          -
+            name: SelectionThree.java
+            gist: dboliske/16ffacb8d699e65b14e4c9664db48403
+  -
+    title: Sorting Algorithms
+    description: The purpose of these questions is to test your ability to implement the specific sorting algorithms.
+    exam: final
+    lecture: 11
+    questions:
+      -
+        question:
+          -
+            type: text
+            content: Implement the Bubble Sort algorithm to work on an array of integers.
+        solution:
+          -
+            name: BubbleSort.java
+            gist: dboliske/63f3505d3efe8e44c50395c4b54501bf
+      -
+        question:
+          -
+            type: text
+            content: Implement the Selection Sort algorithm to work on an array of integers.
+        solution:
+          -
+            name: SelectionSort.java
+            gist: dboliske/63f3505d3efe8e44c50395c4b54501bf
+      -
+        question:
+          -
+            type: text
+            content: Implement the Insertion Sort algorithm to work on an array of integers.
+        solution:
+          -
+            name: InsertionSort.java
+            gist: dboliske/63f3505d3efe8e44c50395c4b54501bf
+  -
+    title: Searching Algorithms
+    description: The purpose of these questions is to test your ability to implement the specific searching algorithms.
+    exam: final
+    lecture: 12
+    questions:
+      -
+        question:
+          -
+            type: text
+            content: Implement the Sequential Search algorithm to work with an array of integers.
+        solution:
+          -
+            name: SequentialSearch.java
+            gist: dboliske/63f3505d3efe8e44c50395c4b54501bf
+      -
+        question:
+          -
+            type: text
+            content: Implement the Binary Search algorithm to work with an array of integers.
+        solution:
+          -
+            name: BinarySearch.java
+            gist: dboliske/63f3505d3efe8e44c50395c4b54501bf

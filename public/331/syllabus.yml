@@ -1,0 +1,97 @@
+title: CS 331
+name: Data Structures and Algorithms
+description: Implementation and application of the essential data structures used in computer science. Analysis of basic sorting and searching algorithms and their relationship to these data structures. Particular emphasis is given to the use of object-oriented design and data abstraction in the creation and application of data structures. (3-1-3)
+instructor:
+  name: Dylan Boliske
+  hours: 16.00-17.00 CDT
+  office: SB 105C
+  mailbox: CS Dept. (SB 235-236)
+  email: dboliske@hawk.iit.edu
+  discord:
+assistants:
+  # -
+  #   name: Rishi Shukla
+  #   hours: TH 17.00-18.00 CDT
+  #   office: SB 108
+  #   email: rshukla2@hawk.iit.edu
+textbooks:
+  required: false
+  books:
+    # -
+    #   title: Programming and Problem Solving with Java
+    #   author: Nell Dale, Chip Weems, and Mark R Headington
+    #   publisher: Jones and Bartlett Publishers © 2003
+    #   isbn: 9780763704902
+    # -
+    #   title: Java All-In-One Desk Reference For Dummies, 2nd Edition
+    #   author: Doug Lowe and Barry Burd
+    #   publisher: John Wiley & Sons © 2007
+    #   isbn: 9780470124512
+    # -
+    #   title: "Object-Oriented Programming: From Problem Solving to Java"
+    #   author: Jose M Garrido
+    #   publisher: Cengage Charles River Media © 2003
+    #   isbn: 9781584502876
+resources:
+  -
+    title: Discord
+    description: While you are always welcome to email either myself of the TAs with questions, sometimes, for simple questions, it might be easier to just send a quick message that the TAs, myself, or even other students could answer. For this reason, I've also set up a Discord server this semester to allow for quicker, easier communication.
+    links:
+      -
+        name: Download Discord
+        link: https://discord.com/download
+goals:
+  - "Explain, implement, and apply the following data-structures: lists (unordered and ordered), stacks, queues, expression trees, binary search trees, heaps, and hash tables"
+  - Analyze the time and space complexity of algorithms using asymptotic upper bounds (big-O notation).
+  - Explain and use references and linked structures.
+  - "Outline basic object-oriented design concepts: composition, inheritance, polymorphism"
+  - Outline basic concepts of immutable data structures and explain the trade-offs compared to mutable data.
+  - Write and test recursive procedures, and explain the run-time stack concept.
+  - Analyze searching and sorting algorithms, and explain their relationship to data-structures.
+  - Choose and implement appropriate data-structures to solve an application problem.
+  - Understand techniques of software development, such as unit testing and version control.
+outcomes:
+  # - An ability to apply knowledge of computing and mathematics appropriate to the program's student outcomes and to the discipline.
+assignments:
+  - There will be approximately 12 machine problems assigned over the course of the semester. They will be accessed, completed, and submitted via the online development environment and learning platform Mimir. Machine problems are not equally weighted.
+  - Each student starts the semester with a "late pool" of 7 days. Late days are automatically applied when machine problems are submitted late (though not after the last day of the semester). After the late day pool is exhausted, late assignments will not be accepted for credit.
+quizzes:
+  - Quizzes will be periodically released on Mimir to help students prepare for upcoming exams. Students may retake quizzes as often as they wish before the deadline, though scores will not be released until after the final submission date. Quizzes are equally weighted.
+exams:
+  - all exams are nominally cumulative, though will generally focus on material not covered by preceding exam(s). Exams are equally weighted.
+grading:
+  chart:
+    -
+      assignment: Machine Problems
+      value: 35
+    -
+      assignment: Quizzes
+      value: 5
+    -
+      assignment: Midterm Exam 1
+      value: 20
+    -
+      assignment: Midterm Exam 2
+      value: 20
+    -
+      assignment: Final Exam
+      value: 20
+  letterBreakdowns:
+    -
+      title: 
+      values:
+        -
+          letter: A
+          range: 90-100
+        -
+          letter: B
+          range: 80-89
+        -
+          letter: C
+          range: 70-79
+        -
+          letter: D
+          range: 60-69
+        -
+          letter: E
+          range: 0-59

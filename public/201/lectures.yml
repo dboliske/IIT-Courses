@@ -1,0 +1,152 @@
+title: CS 201
+name: Advanced Introduction to Object Oriented Programming
+description: These are all the available sets of lectures for CS 201. Most of these will be presented during a lecture session and will contain both slides and example code. However, there are a few that are considered 'Bonus Material' and may only contain lecture slides or other text.
+lectures:
+  -
+    title: Introduction to Programming
+    description: The purpose of this lecture is to introduce basic programming concepts such as data types, variables, and arithmetic operations which may be familiar to students have prior programming experience in Java or other languages.
+    dates: August 23rd
+    section: midterm
+    slides: https://docs.google.com/presentation/d/e/2PACX-1vQDnmbHIcLD4xuwS3PAc_UmvtU_uX6mAFgCdT64RBO7jik2NmbFjOmwyyKS5p3rM0Qcj5vMVoZcXH-O/embed?start=false
+    examples: https://bitbucket.org/dboliske/cs201-202108-lectures/src/main/src/lectures/intro/
+    video:
+      # url: https://www.dropbox.com/s/5eypqs7gxer1xzr/Lecture-0.mp4?dl=1
+      # timestamps:
+      #   -
+      #     tag: Announcements
+      #     value: 300
+      #   -
+      #     tag: Syllabus
+      #     value: 486.25
+      #   -
+      #     tag: Introduction
+      #     value: 2229
+      #   -
+      #     tag: Hello World
+      #     value: 2579
+      #   -
+      #     tag: Data Types
+      #     value: 3005
+      #   -
+      #     tag: Operations
+      #     value: 3588
+      #   -
+      #     tag: Type Casting
+      #     value: 3858
+      #   -
+      #     tag: Booleans
+      #     value: 4081
+      #   -
+      #     tag: Strings
+      #     value: 4785
+      #   -
+      #     tag: Git
+      #     value: 5556
+      #   -
+      #     tag: End
+      #     value: 6917
+  -
+    title: "Flow of Control: Selection"
+    description: Introduction to selection control structures such as if, switch, and the ternary operator.
+    dates: August 25th + 30th
+    section: midterm
+    slides: https://docs.google.com/presentation/d/e/2PACX-1vTBWqgMBn8w6JPmNGVU5pRbukmFgcGfWS6E-trCn9vEUMM_nXoVn_XGnCGZiMve1EJ9lPZc--RXGLoS/embed?start=false
+    examples: https://bitbucket.org/dboliske/cs201-202108-lectures/src/main/src/lectures/selection/
+  -
+    title: "Flow of Control: Repetition"
+    description: Continued discussion of control structures this time focused on repetition structures such as while, do, and for.
+    dates: September 1st + 8th
+    section: midterm
+    slides: https://docs.google.com/presentation/d/e/2PACX-1vTu59pAd08-OO-qcwxttOOqbTQPYqUtOjWbW6tcKR5X4z_ZxZN094N5LhyPnHoAgWTytC8wHMy0WJGn/embed?start=false
+    examples: https://bitbucket.org/dboliske/cs201-202108-lectures/src/main/src/lectures/repetition/
+  -
+    title: Arrays
+    description: A look at the course's first major data structure, arrays.
+    dates: September 13th + 15th
+    section: midterm
+    slides: https://docs.google.com/presentation/d/e/2PACX-1vTMqH5vm1dWvJIdCMfSEDW_ahViXMXIme4uekUBkySrABz-DcgQEBBIj2F3NV3PlcSGv6DvxMOazjLJ/embed?start=false
+    examples: https://bitbucket.org/dboliske/cs201-202108-lectures/src/main/src/lectures/arrays/
+  -
+    title: Exceptions and FileWriters
+    description: Introduction to handling errors and exceptions in code as well as how to read information from files.
+    dates: September 20th
+    section: midterm
+    slides: https://docs.google.com/presentation/d/e/2PACX-1vQnU-ITaeUtMXLBfnuvu4E7yLmqp_H1zYwF8C2rigyq2aza_quhDgZwoYAYvjC6dHLOLunshZVkL-aK/embed?start=false
+    examples: https://bitbucket.org/dboliske/cs201-202108-lectures/src/main/src/lectures/exceptions/
+  -
+    title: Objects and Classes
+    description: Introduction to the course's second and most important data structure, objects and classes.
+    dates: September 22nd + 27th
+    section: midterm
+    slides: https://docs.google.com/presentation/d/e/2PACX-1vSQFqvENn18pbxnv25DN6M3v0cj24lnFeB8nKalFLtGDzDqqmM6ANSKYPgG_ac5FrbDqQyu5Ob_sYsg/embed?start=false
+    examples: https://bitbucket.org/dboliske/cs201-202108-lectures/src/main/src/lectures/objects/
+  -
+    title: Inheritance/Polymorphism
+    description: A continued look at objects and more specifically the relationships between multiple objects.
+    dates: September 29th + October 4th
+    section: final
+    slides: https://docs.google.com/presentation/d/e/2PACX-1vSQXXv_XKRCv2fWchir5IW7a-ly6K0V5TIbUaVQy-_n8jyZbJFc7GfijOc6J8qoWG4PiVhhnG32dSzp/embed?start=false
+    examples: 
+  -
+    title: Abstract Classes
+    description: Begin looking at more advanced class design, specifically, partially implemented classes.
+    dates: October 13th
+    section: final
+    slides: https://docs.google.com/presentation/d/e/2PACX-1vQPEv8a0v60QCH0qiruR7JN-U2SMtH8qibqizbuL8V14I0zU8UNbOgEu4SEBRQ8ZHfAXPsewXpilSry/embed?start=false
+    examples: 
+  -
+    title: Interfaces
+    description: A simple Java construct used to specify requirements for a class.
+    dates: October 18th
+    section: final
+    slides: https://docs.google.com/presentation/d/e/2PACX-1vTDvBaZcAuEznqZuT-rLsEAlvRaGvzrwlUuLpY_c3WlSDHiT1qzIEocvuVr4zTbFORmR5UeKK-aYr1a/embed?start=false
+    examples: 
+  -
+    title: Lists Data Structures
+    description: Introduction to the course's final major and one of the world's most widely used data structures, lists.
+    dates: October 20th + 25th
+    section: final
+    slides: https://docs.google.com/presentation/d/e/2PACX-1vQUuJgePji4iCzEr-tNVFrWE-cax5XN_0WUPgsWd3ksejDq0h-B0sbznEA1ABIcjtbjzjkXMaFSfic-/embed?start=false
+    examples: 
+  -
+    title: Recursion
+    description: Beginning the course's look at algorithms and logical processes, this lecture looks at an alternative solution to repetition problems, recursion.
+    dates: October 27th
+    section: final
+    slides: https://docs.google.com/presentation/d/e/2PACX-1vRyhoPemI-yhWXx3Wf6MoZTVbLkg0Yi-6r4gmbIuITRxKbG-U8kq0wnn5bV7CFiyAg16kmmN976Syp6/embed?start=false
+    examples: 
+  -
+    title: Sorting Algorithms
+    description: In practice, data often needs to be organized in order to be useful, this lecture looks at some of the various algorithms that can be used to organize linear data, i.e. data stored in an array or list-like structure.
+    dates: November 1st
+    section: final
+    slides: https://docs.google.com/presentation/d/e/2PACX-1vSg8KexYG1DvwdEIq-IwRovM27YHAyiZSDC9v8FLy5eYENhFHmejHahz1kHnhBh1abh0Qgqzi4thusK/embed?start=false
+    examples: 
+  -
+    title: Searching Algorithms
+    description: Once data has been gathered, it is often required that specific pieces are needed to individual computations. This in turn requires finding the data within the data structure. This lecture looks at some of the various algorithms used to search for values within linear data structures.
+    dates: November 3rd
+    section: final
+    slides: https://docs.google.com/presentation/d/e/2PACX-1vRjN54qCwHsKD73oYgV_gOcME3SAPspvnC6qvEwouKLzP6_Qn0oJVFDDL-SXY50f7TDx_4aQBCBAVFG/embed?start=false
+    examples: 
+  -
+    title: Regular Expressions and Enums
+    description: This lecture combines two somewhat related topics, regular expressions, which is a pattern language used in multiple coding environments, and enums, finite use of classes in Java.
+    dates: November 8th + 10th
+    section: bonus
+    slides: https://docs.google.com/presentation/d/e/2PACX-1vS56ABS0zLKi76tSLvtwLW4MsuatcsCRiYDNvk7iHVnzLlUOWzDqKbVw1Z6TcPuVmWTitdnKuUZ2Ma5/embed?start=false
+    examples: 
+  -
+    title: Generics
+    description: In the lectures on objects, various ways of passing in data to a class was discussed. This lecture shows a way to pass in a data type rather than just a specific value.
+    dates: November 15th + 17th
+    section: bonus
+    slides: https://docs.google.com/presentation/d/e/2PACX-1vQaFOCNPmXoPBjoI9MeyuVr8_TlclWZjkF5xgwIgKGHCwkfPkWXEQsb4366AVQsCgcD7HIc9eCYPF2M/embed?start=false
+    examples: 
+  -
+    title: JUnit Testing
+    description: Throughout the semester, you have had to manually test your programs to confirm that they work. This lecture, we will discuss the process of writing code that automates this testing process for you.
+    dates: November 22nd + 29th
+    section: bonus
+    slides: https://docs.google.com/presentation/d/e/2PACX-1vQDnmbHIcLD4xuwS3PAc_UmvtU_uX6mAFgCdT64RBO7jik2NmbFjOmwyyKS5p3rM0Qcj5vMVoZcXH-O/embed?start=false
+    examples: 

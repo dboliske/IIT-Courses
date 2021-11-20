@@ -1,0 +1,162 @@
+title: CS 201
+name: Advanced Introduction to Object Oriented Programming
+description: Problem-solving and design using an object-oriented programming language. Introduces a variety of problem-solving techniques, algorithms, and data structures in object-oriented programming. (3-2-4)
+instructor:
+  name: Dylan Boliske
+  hours: 16.30-17.00 + 18.25+18.55 CDT
+  office: SB 105C
+  mailbox: CS Dept. (SB 235-236)
+  email: dboliske@hawk.iit.edu
+  discord:
+assistants:
+  -
+    name: Rishi Shukla
+    hours: TH 17.00-18.00 CDT
+    office: SB 108
+    email: rshukla2@hawk.iit.edu
+  -
+    name: Isaac Kane
+    hours: TBA
+    office: SB 108
+    email: ikane@hawk.iit.edu
+  -
+    name: Elliot Tan
+    hours: FRI 16.10-17.10 CDT
+    office: SB 108
+    email: etan1@hawk.iit.edu
+  -
+    name: Arman Idress
+    hours: TH 13.30-15.30 CDT
+    office: SB 108
+    email: aidress1@hawk.iit.edu
+textbooks:
+  required: false
+  books:
+    -
+      title: Programming and Problem Solving with Java
+      author: Nell Dale, Chip Weems, and Mark R Headington
+      publisher: Jones and Bartlett Publishers © 2003
+      isbn: 9780763704902
+    -
+      title: Java All-In-One Desk Reference For Dummies, 2nd Edition
+      author: Doug Lowe and Barry Burd
+      publisher: John Wiley & Sons © 2007
+      isbn: 9780470124512
+    -
+      title: "Object-Oriented Programming: From Problem Solving to Java"
+      author: Jose M Garrido
+      publisher: Cengage Charles River Media © 2003
+      isbn: 9781584502876
+resources:
+  -
+    title: Java SE Development Kit
+    description: As this course will require you to write and run Java code, you will need to download the Java compiler. The download for this compiler can be found below. I will be focusing on Java version 8 as it is one of the most widely used versions, but any release newer than that should still work if you stick with the code discussed during lecture.
+    links:
+      -
+        name: Download Java JDK
+        link: https://docs.microsoft.com/en-us/java/openjdk/download
+  -
+    title: Integrated Development Environment (IDE)
+    description: You are welcome to use any IDE (an application used to write, read, and run code) you wish, however, I will be using Eclipse for lectures and demonstrations as it is installed on all the campus computers. If you choose to use Eclipse as well, you will want to install the 'Eclipse IDE for Java Developers'.
+    links:
+      -
+        name: Download Eclipse
+        link: https://www.eclipse.org/downloads/
+  -
+    title: Version Control
+    description: We will be using BitBucket as our version control and submissions system for labs, exams, and the project this semester. You can either use the built in Git controls in your IDE, terminal commands, or another standalone application (such as SourceTree or GitKraken) to handle committing, pushing, and pulling from your repository, which will be set up for you.
+    links:
+      -
+        name: Visit BitBucket
+        link: https://www.bitbucket.org/
+      -
+        name: Download SourceTree
+        link: https://www.sourcetreeapp.com/
+      -
+        name: Download GitKraken
+        link: https://www.gitkraken.com/download
+  -
+    title: Discord
+    description: While you are always welcome to email either myself of the TAs with questions, sometimes, for simple questions, it might be easier to just send a quick message that the TAs, myself, or even other students could answer. For this reason, I've also set up a Discord server this semester to allow for quicker, easier communication.
+    links:
+      -
+        name: Download Discord
+        link: https://discord.com/download
+goals:
+  - "Analyze and explain the behavior of simple programs involving the following fundamental programming constructs: assignment, I/O (including file I/O), selection, iteration, methods"
+  - "Write a program that uses each of the following fundamental programming constructs: assignment, I/O (including file I/O), selection, iteration, methods"
+  - Break a problem into logical pieces that can be solved (programmed) independently.
+  - Develop, and analyze, algorithms for solving simple problems.
+  - Use a suitable programming language, and development environment, to implement, test, and debug algorithms for solving simple problems.
+  - "Write programs that use each of the following data structures (and describe how they are represented in memory): strings, arrays"
+  - Explain the basics of the concept of recursion.
+  - Write, test, and debug simple recursive functions and procedures.
+  - "Explain and apply object-oriented design and testing involving the following concepts: data abstraction, encapsulation, information hiding, inheritance, polymorphism"
+  - Use a development environment to design, code, test, and debug simple programs, including multi-file source projects, in an object-oriented programming language.
+  - Implement basic error handling
+  - Solve problems by creating and using sequential search, binary search, and quadratic sorting algorithms (selection, insertion)
+  - Determine the time complexity of simple algorithms.
+  - Apply appropriate problem-solving strategies
+  - Use APIs (Application Programmer Interfaces) and design/program APIs
+outcomes:
+  - An ability to apply knowledge of computing and mathematics appropriate to the program's student outcomes and to the discipline.
+  - An ability to analyze a problem, and identify and define the computing requirements appropriate to its solution.
+  - An ability to design, implement and evaluate a computer-based system, process, component, or program to meet desired needs.
+  - An ability to use current techniques, skills, and tools necessary for computing practices.
+  - An ability to apply mathematical foundations, algorithmic principles, and computer science theory in the modeling and design of computer-based systems in a way that demonstrates comprehension of the tradeoffs involved in design choices.
+  - An ability to apply design and development principles in the construction of software systems of varying complexity.
+assignments:
+  - The assignments are designed to assist you in developing a more concrete understanding of the concepts introduced in class. They also serve as a springboard for the programming project that you will create later in the semester. You are required to do each assignment. Assignments will be pushed to your repository no later than the due date for the previous assignment. Additional coding demonstrations and information concerning the assignments will be given during the lab period. As a result, attendance to the labs is strongly encouraged.
+  - "The policy for late assignments is this: 10% off for each day late, up to 5 days late. Your TA will pull your repositories exactly 5 days after the assignment is due in order to grade them, so if you intend for the assignment to be graded, please make sure you push your code to your repository and that it shows up when looking at the web interface."
+exams:
+  - You will have two exams, one midterm and one final. Exams are closed book, closed notes, closed neighbor, no calculators, and no cell phones. Each exam will, generally, be four questions each focusing on a different topic covered during the semester. If you are caught cheating on an exam, you will automatically receive a zero. There are no make-up exams without an university-accepted excuse.
+project:
+  - "You will be assigned a programming project where you solve a real world problem. The project will consist of a design phase and an implementation phase. No late projects will be accepted. Each student is responsible for deleting their project from labs computers and taking all safeguards to prevent copying of the final project. The instructor has the right to test (written or oral) any student on their project. All projects found to be similar to another student's project will be given a grade of zero. There are 2 parts to the final project: design and coding. Part II will NOT be accepted without a reasonable Part I submission. The instructor reserves the right to assign a failing semester grade to any student who fails or does not submit the final project."
+grading:
+  chart:
+    -
+      assignment: Lab Assignments
+      value: 20
+    -
+      assignment: Final Project
+      value: 20
+    -
+      assignment: Midterm Exam
+      value: 30
+    -
+      assignment: Final Exam
+      value: 30
+  letterBreakdowns:
+    -
+      title: Undergraduate
+      values:
+        -
+          letter: A
+          range: 90-100
+        -
+          letter: B
+          range: 80-89
+        -
+          letter: C
+          range: 70-79
+        -
+          letter: D
+          range: 60-69
+        -
+          letter: E
+          range: 0-59
+    -
+      title: Graduate
+      values:
+        -
+          letter: A
+          range: 90-100
+        -
+          letter: B
+          range: 80-89
+        -
+          letter: C
+          range: 70-79
+        -
+          letter: E
+          range: 0-69
