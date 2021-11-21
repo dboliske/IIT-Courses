@@ -16,6 +16,10 @@ import IFrame from 'react-iframe';
 
 import { Route, HashRouter as Router, Switch } from 'react-router-dom';
 
+import ReactEmbedGist from 'react-embed-gist';
+
+import NotFound from '../NotFound.js';
+
 const mdTheme = createTheme();
 
 function avatarIcon(section) {
@@ -88,6 +92,9 @@ class LectureContent extends React.Component {
                             <Route exact path="/" render={() => (
                                 <Landing loaded={this.state.loaded} details={this.state.details} course={this.props.course} />)} />
                             <Route exact path="/:id" render={({ match }) => (<Lecture id={parseInt(match.params.id)} details={this.state.details} loaded={this.state.loaded} course={this.props.course} />)}/>
+                            <Route>
+                                <NotFound home={this.props.course} />
+                            </Route>
                         </Switch>
                     </Router>
                 </Box>
@@ -173,23 +180,38 @@ class Landing extends React.Component {
 }
 
 class Lecture extends React.Component {
+    componentDidUpdate() {
+        document.querySelectorAll('[role="status"]').forEach(function (e1){console.log(e1);e1.remove()})
+    }
+
     render() {
         var { id, details, loaded} = this.props;
-        
+
         return (
             <Box sx={{flexGrow:1}}>
                 <Typography variant='h3' style={{minWidth:'100%',textAlign:'center'}} gutterBottom>
-                    {loaded?('Lecture '+id+' - '+details.lectures[id].title):<Skeleton animation='wave' />}
+                    {loaded?('Lecture '+(id+1)+' - '+details.lectures[id].title):<Skeleton animation='wave' />}
                 </Typography>
                 <Typography variant='subtitle1' style={{minWidth:'100%',textAlign:'center'}} gutterBottom>
                     {loaded?(details.lectures[id].description):<Skeleton animation='wave' />}
                 </Typography>
-                <Box style={{position: 'relative',width: '100%',paddingTop: '60%',marginBottom: mdTheme.spacing(2)}}>
-                    <Skeleton animation="wave" style={{position: 'absolute',top: 0,left: 0,bottom: 0,right: 0,width: '80%',height: '100%',transform: 'translateX(10%)'}} />
-                    <Box style={{position: 'absolute',top: 0,left: 0,bottom: 0,right: 0,width: '100%',height: '100%'}}>
-                        <IFrame url={loaded?details.lectures[id].slides:''} width="100%" height="100%" allow="fullscreen" frameBorder="0" style={{paddingRight: mdTheme.spacing(5),paddingLeft: mdTheme.spacing(5)}} />
-                    </Box>
-                </Box>
+                {loaded&&details.lectures[id].slides!==undefined?
+                    <Box style={{position: 'relative',width: '100%',paddingTop: '60%',marginBottom: mdTheme.spacing(2)}}>
+                        <Skeleton animation="wave" style={{position: 'absolute',top: 0,left: 0,bottom: 0,right: 0,width: '80%',height: '100%',transform: 'translateX(10%)'}} />
+                        <Box style={{position: 'absolute',top: 0,left: 0,bottom: 0,right: 0,width: '100%',height: '100%'}}>
+                            <IFrame key={id} url={loaded?details.lectures[id].slides:''} width="100%" height="100%" allow="fullscreen" frameBorder="0" style={{paddingRight: mdTheme.spacing(5),paddingLeft: mdTheme.spacing(5)}} />
+                        </Box>
+                    </Box>:(
+                        loaded&&details.lectures[id].notebook!==undefined?
+                        <Box  style={{width: '100%',marginBottom: mdTheme.spacing(2)}}>
+                            <ReactEmbedGist
+                                gist={details.lectures[id].notebook.gist}
+                                file={details.lectures[id].notebook.name}
+                                key={id}
+                            />
+                        </Box>:''
+                    )
+                }
                 {
                     loaded&&details.lectures[id].examples!==undefined&&details.lectures[id].examples!==null?
                     <Box sx={{width:'100%'}}>

@@ -14,24 +14,6 @@ assistants:
   #   hours: TH 17.00-18.00 CDT
   #   office: SB 108
   #   email: rshukla2@hawk.iit.edu
-textbooks:
-  required: false
-  books:
-    # -
-    #   title: Programming and Problem Solving with Java
-    #   author: Nell Dale, Chip Weems, and Mark R Headington
-    #   publisher: Jones and Bartlett Publishers © 2003
-    #   isbn: 9780763704902
-    # -
-    #   title: Java All-In-One Desk Reference For Dummies, 2nd Edition
-    #   author: Doug Lowe and Barry Burd
-    #   publisher: John Wiley & Sons © 2007
-    #   isbn: 9780470124512
-    # -
-    #   title: "Object-Oriented Programming: From Problem Solving to Java"
-    #   author: Jose M Garrido
-    #   publisher: Cengage Charles River Media © 2003
-    #   isbn: 9781584502876
 resources:
   -
     title: Discord
@@ -40,6 +22,34 @@ resources:
       -
         name: Download Discord
         link: https://discord.com/download
+  -
+    title: Mimir
+    description: You should receive an invite to Mimir, the platform where you'll be completing all assessments this spring. If not, you can sign up below.
+    links:
+      -
+        name: Mimir Login
+        link: https://class.mimir.io/login
+  -
+    title: Python
+    description: While data structures exist in all programming languages, we will be using Python to explore various structures throughout the semester.
+    links:
+      -
+        name: Download Python
+        link: https://www.python.org/downloads/
+  -
+    title: Google Colaboratory
+    description: All of our starter notebooks are accessible through Google Colab. This will make it easier for you to follow along (and evaluate along) during lectures.
+    links:
+      -
+        name: Google Colab
+        link: https://colab.research.google.com/
+  -
+    title: Jupyter Notebooks
+    description: Jupyter notebooks provide an in-browser Python development platform. This will make it eaiser to distribute and interact with code written during lecture. All lecture notes, demos, and assignments will be distributed as notebook files.
+    links:
+      -
+        name: Installation Guide
+        link: http://jupyter.org/install.html
 goals:
   - "Explain, implement, and apply the following data-structures: lists (unordered and ordered), stacks, queues, expression trees, binary search trees, heaps, and hash tables"
   - Analyze the time and space complexity of algorithms using asymptotic upper bounds (big-O notation).

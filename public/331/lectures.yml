@@ -3,143 +3,138 @@ name: Data Structures and Algorithms
 description: Implementation and application of the essential data structures used in computer science. Analysis of basic sorting and searching algorithms and their relationship to these data structures. Particular emphasis is given to the use of object-oriented design and data abstraction in the creation and application of data structures. 
 lectures:
   -
-    title: Python Language Introduction
-    description: ''
-    dates: August 27th - September 8th
+    title: Python Language Introduction A
+    description: The purpose of this lecture is to give you a quick understanding of the Python programming language.
+    dates: January 11th
     section: midterm-1
-    slides: ''
-    examples:
-    video:
-      # url: https://www.dropbox.com/s/5eypqs7gxer1xzr/Lecture-0.mp4?dl=1
-      # timestamps:
-      #   -
-      #     tag: Announcements
-      #     value: 300
-      #   -
-      #     tag: Syllabus
-      #     value: 486.25
-      #   -
-      #     tag: Introduction
-      #     value: 2229
-      #   -
-      #     tag: Hello World
-      #     value: 2579
-      #   -
-      #     tag: Data Types
-      #     value: 3005
-      #   -
-      #     tag: Operations
-      #     value: 3588
-      #   -
-      #     tag: Type Casting
-      #     value: 3858
-      #   -
-      #     tag: Booleans
-      #     value: 4081
-      #   -
-      #     tag: Strings
-      #     value: 4785
-      #   -
-      #     tag: Git
-      #     value: 5556
-      #   -
-      #     tag: End
-      #     value: 6917
+    notebook:
+      name: 01-lang-intro-a.ipynb
+      gist: dboliske/fb8cbeb1874b0172297e3370b463f563
+  -
+    title: Python Language Introduction B
+    description: The purpose of this lecture is to give you a quick understanding of the Python programming language.
+    dates: January 18th
+    section: midterm-1
+    notebook:
+      name: 02-lang-intro-b.ipynb
+      gist: dboliske/fb8cbeb1874b0172297e3370b463f563
+  -
+    title: Python Language Introduction C
+    description: The purpose of this lecture is to give you a quick understanding of the Python programming language.
+    dates: January 18th
+    section: midterm-1
+    notebook:
+      name: 03-lang-intro-c.ipynb
+      gist: dboliske/fb8cbeb1874b0172297e3370b463f563
   -
     title: Python Data Structures
     description: ''
-    dates: September 10th + 15th
+    dates: January 25th
     section: midterm-1
-    slides: ''
-    examples: ''
+    notebook:
+      name: 04-data-structure-demo.ipynb
+      gist: dboliske/fb8cbeb1874b0172297e3370b463f563
   -
     title: Timing and Runtime Complexity
     description: ''
-    dates: September 17th + 22nd
+    dates: February 1st
     section: midterm-1
-    slides: ''
-    examples:
+    notebook:
+      name: 05-timing.ipynb
+      gist: dboliske/fb8cbeb1874b0172297e3370b463f563
   -
     title: Array-backed Lists
     description: ''
-    dates: September 24th
+    dates: February 8th
     section: midterm-1
-    slides: ''
-    examples:
+    notebook:
+      name: 06-array-list.ipynb
+      gist: dboliske/fb8cbeb1874b0172297e3370b463f563
   -
-    title: Iterators and Generators
+    title: Iterators
     description: ''
-    dates: September 29th
+    dates: February 15th
     section: midterm-1
-    slides: ''
-    examples:
+    notebook:
+      name: 07-iterators.ipynb
+      gist: dboliske/fb8cbeb1874b0172297e3370b463f563
   -
     title: Linked Structures
     description: ''
-    dates: October 1st
+    dates: February 22nd
     section: midterm-1
-    slides: ''
-    examples:
+    notebook:
+      name: 08-linked-structures.ipynb
+      gist: dboliske/fb8cbeb1874b0172297e3370b463f563
   -
     title: Linked Lists
     description: ''
-    dates: October 6th + 8th
+    dates: March 1st
     section: midterm-2
-    slides: ''
-    examples:
+    notebook:
+      name: 09-linked-list.ipynb
+      gist: dboliske/fb8cbeb1874b0172297e3370b463f563
   -
-    title: Hashing and Hashtables
+    title: Map
     description: ''
-    dates: October 13th + 15th
+    dates: March 8th
     section: midterm-2
-    slides: ''
-    examples:
+    notebook:
+      name: 10-map.ipynb
+      gist: dboliske/fb8cbeb1874b0172297e3370b463f563
   -
-    title: Stacks
+    title: Hashtables
     description: ''
-    dates: October 20th
+    dates: March 15th
     section: midterm-2
-    slides: ''
-    examples:
+    notebook:
+      name: 10-map.ipynb
+      gist: dboliske/fb8cbeb1874b0172297e3370b463f563
   -
-    title: Queues
+    title: Stacks and Queues
     description: ''
-    dates: October 22nd
+    dates: March 22nd
     section: midterm-2
-    slides: ''
-    examples: 
+    notebook:
+      name: 11-stack-and-queue.ipynb
+      gist: dboliske/fb8cbeb1874b0172297e3370b463f563
   -
-    title: Priority Queues and Heaps
+    title: Priority Queues
     description: ''
-    dates: October 27th + 29th
+    dates: March 29th
     section: midterm-2
-    slides: ''
-    examples: 
+    notebook:
+      name: 12-priority-queue.ipynb
+      gist: dboliske/fb8cbeb1874b0172297e3370b463f563
   -
     title: Recursion
     description: ''
-    dates: November 3rd - 10th
+    dates: April 5th
     section: final
-    slides: ''
-    examples: 
+    notebook:
+      name: 13-recursion.ipynb
+      gist: dboliske/fb8cbeb1874b0172297e3370b463f563
   -
     title: Tree Structures
     description: ''
-    dates: November 12th
+    dates: April 12th
     section: final
-    slides: ''
-    examples: 
+    notebook:
+      name: 14-bst.ipynb
+      gist: dboliske/fb8cbeb1874b0172297e3370b463f563
   -
     title: Binary Search Trees
     description: ''
-    dates: November 17th + 19th
-    section: bonus
-    slides: ''
-    examples: 
+    dates: April 19th
+    section: final
+    notebook:
+      name: 15-bst-ds.ipynb
+      gist: dboliske/fb8cbeb1874b0172297e3370b463f563
   -
     title: AVL Trees
     description: ''
-    dates: December 1st + 3rd
-    section: bonus
-    slides: ''
-    examples:
+    dates: April 26th
+    section: final
+    notebook:
+      name: 16-avl-tree.ipynb
+      gist: dboliske/fb8cbeb1874b0172297e3370b463f563

@@ -30,6 +30,8 @@ import Review from '../Review';
 
 import ScrollToTop from '../top';
 
+import NotFound from '../NotFound.js';
+
 function Copyright(props) {
   return (
     <Typography variant="body2" color="text.secondary" align="center" {...props}>
@@ -163,7 +165,7 @@ function CS331Content() {
           }} id='content'
         >
           <Toolbar />
-          <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
+          <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }} id='course-container'>
             <Router basename="/331">
               <ScrollToTop>
                 <Switch>
@@ -173,14 +175,16 @@ function CS331Content() {
                   <Route exact path="/syllabus">
                     <Syllabus course="331" />
                   </Route>
-                  <Route exact path="/lectures">
+                  <Route path="/lectures">
                     <Lecture course="331" />
                   </Route>
-                  <Route exact path="/review">
+                  <Route path="/review">
                     <Review course="331" />
                   </Route>
 
-                  {/* <Route component={NotFound} /> */}
+                  <Route>
+                    <NotFound home="331" />
+                  </Route>
                 </Switch>
               </ScrollToTop>
             </Router>

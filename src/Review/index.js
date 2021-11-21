@@ -13,6 +13,8 @@ import { Route, HashRouter as Router, Switch } from 'react-router-dom';
 
 import EmbeddedGist from './EmbeddedGist';
 
+import NotFound from '../NotFound.js';
+
 const mdTheme = createTheme();
 
 function avatarIcon(section) {
@@ -51,7 +53,7 @@ class Landing extends React.Component {
                     }
                 </Typography>
                 {
-                    this.props.loaded?
+                    this.props.loaded&&this.props.details.sections!==null?
                     <Box>
                         {
                             this.props.details.sections.map((topic, i) => (
@@ -91,9 +93,12 @@ class Landing extends React.Component {
                             ))
                         }
                     </Box>:
-                    <Box style={{minWidth:'100%'}}>
-                        <Skeleton animation='wave' height={480} />
-                    </Box>
+                    (
+                        !this.props.loaded?
+                        <Box style={{minWidth:'100%'}}>
+                            <Skeleton animation='wave' height={480} />
+                        </Box>:''
+                    )
                 }
             </Box>
         );
@@ -295,10 +300,13 @@ class ReviewContent extends React.Component {
             <ThemeProvider theme={mdTheme}>
                 <Box sx={{display: 'flex'}}>
                     <CssBaseline />
-                    <Router basename="/201/review">
+                    <Router basename={"/"+this.props.course+"/review"}>
                         <Switch>
                             <Route exact path="/" render={() => (<Landing loaded={this.state.loaded} details={this.state.details} course={this.props.course} />)} />
                             <Route exact path="/:id" render={({ match }) => (<Topic id={parseInt(match.params.id)} details={this.state.details} loaded={this.state.loaded} course={this.props.course} />)}/>
+                            <Route>
+                                <NotFound home={this.props.course} />
+                            </Route>
                         </Switch>
                     </Router>
                 </Box>

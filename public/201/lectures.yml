@@ -5,9 +5,9 @@ lectures:
   -
     title: Introduction to Programming
     description: The purpose of this lecture is to introduce basic programming concepts such as data types, variables, and arithmetic operations which may be familiar to students have prior programming experience in Java or other languages.
-    dates: August 23rd
+    dates: January 10th
     section: midterm
-    slides: https://docs.google.com/presentation/d/e/2PACX-1vQDnmbHIcLD4xuwS3PAc_UmvtU_uX6mAFgCdT64RBO7jik2NmbFjOmwyyKS5p3rM0Qcj5vMVoZcXH-O/embed?start=false
+    slides: https://docs.google.com/presentation/d/e/2PACX-1vQHwnkWYEo6iRHk0UIgMnnT_YP1G52DPKXbrDlsKvoMFj6ytOuA_1aV5RCBRroqO4DHSI2Y08jM4GoY/embed?start=false
     examples: https://bitbucket.org/dboliske/cs201-202108-lectures/src/main/src/lectures/intro/
     video:
       # url: https://www.dropbox.com/s/5eypqs7gxer1xzr/Lecture-0.mp4?dl=1
@@ -48,105 +48,112 @@ lectures:
   -
     title: "Flow of Control: Selection"
     description: Introduction to selection control structures such as if, switch, and the ternary operator.
-    dates: August 25th + 30th
+    dates: January 12th + 19th
     section: midterm
-    slides: https://docs.google.com/presentation/d/e/2PACX-1vTBWqgMBn8w6JPmNGVU5pRbukmFgcGfWS6E-trCn9vEUMM_nXoVn_XGnCGZiMve1EJ9lPZc--RXGLoS/embed?start=false
+    slides: https://docs.google.com/presentation/d/e/2PACX-1vTQ2LjxCmYMCyQE47TAqm9ofhK8vMYEfI7LqkNwRmdminNZfRocwCjKQW3fiYBLM0H91VEFa2cZA4I5/embed?start=false
     examples: https://bitbucket.org/dboliske/cs201-202108-lectures/src/main/src/lectures/selection/
   -
     title: "Flow of Control: Repetition"
     description: Continued discussion of control structures this time focused on repetition structures such as while, do, and for.
-    dates: September 1st + 8th
+    dates: January 24th + 26th
     section: midterm
-    slides: https://docs.google.com/presentation/d/e/2PACX-1vTu59pAd08-OO-qcwxttOOqbTQPYqUtOjWbW6tcKR5X4z_ZxZN094N5LhyPnHoAgWTytC8wHMy0WJGn/embed?start=false
+    slides: https://docs.google.com/presentation/d/e/2PACX-1vROQsWC2Hfw3V1qLFQV4_bHBp2vdUqMp9l34W5GHDrhvvTLsE0fGUhQDUu9Y5eFqa9bAAnaHrBE4jv3/embed?start=false
     examples: https://bitbucket.org/dboliske/cs201-202108-lectures/src/main/src/lectures/repetition/
   -
     title: Arrays
     description: A look at the course's first major data structure, arrays.
-    dates: September 13th + 15th
+    dates: January 31st + February 2nd
     section: midterm
-    slides: https://docs.google.com/presentation/d/e/2PACX-1vTMqH5vm1dWvJIdCMfSEDW_ahViXMXIme4uekUBkySrABz-DcgQEBBIj2F3NV3PlcSGv6DvxMOazjLJ/embed?start=false
+    slides: https://docs.google.com/presentation/d/e/2PACX-1vSsYsnkcRiW4ObQwUddB-Gwgk1OUBchNkPd0Vqv3PnEkWp1oYNMibyPiQJliZugqD6YMWI5xkL7W2D_/embed?start=false
     examples: https://bitbucket.org/dboliske/cs201-202108-lectures/src/main/src/lectures/arrays/
   -
     title: Exceptions and FileWriters
     description: Introduction to handling errors and exceptions in code as well as how to read information from files.
-    dates: September 20th
+    dates: February 7th
     section: midterm
-    slides: https://docs.google.com/presentation/d/e/2PACX-1vQnU-ITaeUtMXLBfnuvu4E7yLmqp_H1zYwF8C2rigyq2aza_quhDgZwoYAYvjC6dHLOLunshZVkL-aK/embed?start=false
+    slides: https://docs.google.com/presentation/d/e/2PACX-1vQWwyROVl4QS92oHKWWYVsGeyrqHjXbpOagUxDQ-hS3aexmqwrWI9VG9uJaZhZUecoUOmf57HPHxrH_/embed?start=false
     examples: https://bitbucket.org/dboliske/cs201-202108-lectures/src/main/src/lectures/exceptions/
   -
     title: Objects and Classes
     description: Introduction to the course's second and most important data structure, objects and classes.
-    dates: September 22nd + 27th
+    dates: February 9th + 14th
     section: midterm
-    slides: https://docs.google.com/presentation/d/e/2PACX-1vSQFqvENn18pbxnv25DN6M3v0cj24lnFeB8nKalFLtGDzDqqmM6ANSKYPgG_ac5FrbDqQyu5Ob_sYsg/embed?start=false
+    slides: https://docs.google.com/presentation/d/e/2PACX-1vREHh-UErq_6DM_L1JInEa_aeWG59WM20XiMFvuwE_wFvpdfEAz7-yiwwBsqDjq9_jkhnPzOBGOyYmf/embed?start=false
     examples: https://bitbucket.org/dboliske/cs201-202108-lectures/src/main/src/lectures/objects/
   -
     title: Inheritance/Polymorphism
     description: A continued look at objects and more specifically the relationships between multiple objects.
-    dates: September 29th + October 4th
+    dates: February 16th + 21st
     section: final
-    slides: https://docs.google.com/presentation/d/e/2PACX-1vSQXXv_XKRCv2fWchir5IW7a-ly6K0V5TIbUaVQy-_n8jyZbJFc7GfijOc6J8qoWG4PiVhhnG32dSzp/embed?start=false
+    slides: https://docs.google.com/presentation/d/e/2PACX-1vS1fYYmcSP23fKV-WJs6SfgvVUep1G2m4itH02Ss8P2x5UiO8vy5h3ndeMw6KRHagb-tOW-UZXmXKo4/embed?start=false
     examples: 
   -
     title: Abstract Classes
     description: Begin looking at more advanced class design, specifically, partially implemented classes.
-    dates: October 13th
+    dates: February 28th
     section: final
-    slides: https://docs.google.com/presentation/d/e/2PACX-1vQPEv8a0v60QCH0qiruR7JN-U2SMtH8qibqizbuL8V14I0zU8UNbOgEu4SEBRQ8ZHfAXPsewXpilSry/embed?start=false
+    slides: https://docs.google.com/presentation/d/e/2PACX-1vTSHzgAkjpMnPBEhAs4eKES20TzeNIigZl-add8TePhCdlJd5LA64ph6cIXcHvdxVC9LhNX2iUgh3OI/embed?start=false
     examples: 
   -
     title: Interfaces
     description: A simple Java construct used to specify requirements for a class.
-    dates: October 18th
+    dates: March 2nd
     section: final
-    slides: https://docs.google.com/presentation/d/e/2PACX-1vTDvBaZcAuEznqZuT-rLsEAlvRaGvzrwlUuLpY_c3WlSDHiT1qzIEocvuVr4zTbFORmR5UeKK-aYr1a/embed?start=false
+    slides: https://docs.google.com/presentation/d/e/2PACX-1vR6wQUeVtvY9XlbhQeCbR5MdlO29lG12f_ImHtndGgbp-STBy_RyJh8L7YZCxLymu30WK5TOKyYsNc7/embed?start=false
     examples: 
   -
     title: Lists Data Structures
     description: Introduction to the course's final major and one of the world's most widely used data structures, lists.
-    dates: October 20th + 25th
+    dates: March 7th + 9th
     section: final
-    slides: https://docs.google.com/presentation/d/e/2PACX-1vQUuJgePji4iCzEr-tNVFrWE-cax5XN_0WUPgsWd3ksejDq0h-B0sbznEA1ABIcjtbjzjkXMaFSfic-/embed?start=false
+    slides: https://docs.google.com/presentation/d/e/2PACX-1vSyRbjLVaLjx83i2ZFAwdc6oxs86E_aCD_YlAibIRXjUDUE5OazT6y9lP4lrII6R3EbLy4bE3fga5cB/embed?start=false
     examples: 
   -
     title: Recursion
     description: Beginning the course's look at algorithms and logical processes, this lecture looks at an alternative solution to repetition problems, recursion.
-    dates: October 27th
+    dates: March 21st
     section: final
-    slides: https://docs.google.com/presentation/d/e/2PACX-1vRyhoPemI-yhWXx3Wf6MoZTVbLkg0Yi-6r4gmbIuITRxKbG-U8kq0wnn5bV7CFiyAg16kmmN976Syp6/embed?start=false
+    slides: https://docs.google.com/presentation/d/e/2PACX-1vRp4TFRAyuWlG_McMRN2AMskKYnES5xdFW3ytRGhs6u9kPpVsHWmwAhSS6EZRYViZsEVFcdmYaXQXcP/embed?start=false
     examples: 
   -
     title: Sorting Algorithms
     description: In practice, data often needs to be organized in order to be useful, this lecture looks at some of the various algorithms that can be used to organize linear data, i.e. data stored in an array or list-like structure.
-    dates: November 1st
+    dates: March 23rd
     section: final
-    slides: https://docs.google.com/presentation/d/e/2PACX-1vSg8KexYG1DvwdEIq-IwRovM27YHAyiZSDC9v8FLy5eYENhFHmejHahz1kHnhBh1abh0Qgqzi4thusK/embed?start=false
+    slides: https://docs.google.com/presentation/d/e/2PACX-1vS40IUwIxmScwWkLaVJvtDVO-n3NIQX03dvBLbp2kbL_vtpYFNenTIWV5j_yor2R3zsPXKT0cfbll10/embed?start=false
     examples: 
   -
     title: Searching Algorithms
     description: Once data has been gathered, it is often required that specific pieces are needed to individual computations. This in turn requires finding the data within the data structure. This lecture looks at some of the various algorithms used to search for values within linear data structures.
-    dates: November 3rd
+    dates: March 28th
     section: final
-    slides: https://docs.google.com/presentation/d/e/2PACX-1vRjN54qCwHsKD73oYgV_gOcME3SAPspvnC6qvEwouKLzP6_Qn0oJVFDDL-SXY50f7TDx_4aQBCBAVFG/embed?start=false
+    slides: https://docs.google.com/presentation/d/e/2PACX-1vQMOybBUef-i6N5jtNba-kXi2sCFLEsq8X9pO7VBLact3VZNyL-BCI9eN2TzFaBauwsGaOgiAMEehwD/embed?start=false
     examples: 
   -
     title: Regular Expressions and Enums
     description: This lecture combines two somewhat related topics, regular expressions, which is a pattern language used in multiple coding environments, and enums, finite use of classes in Java.
-    dates: November 8th + 10th
+    dates: April 4th
     section: bonus
-    slides: https://docs.google.com/presentation/d/e/2PACX-1vS56ABS0zLKi76tSLvtwLW4MsuatcsCRiYDNvk7iHVnzLlUOWzDqKbVw1Z6TcPuVmWTitdnKuUZ2Ma5/embed?start=false
+    slides: https://docs.google.com/presentation/d/e/2PACX-1vS6e2kZraLNw7soWRt1AbrvMjFcdyAW5YjrZ3C5j071DygCQJz-qNpYKDR8ZPHrBYq5a6KLxJWonEGG/embed?start=false
     examples: 
   -
     title: Generics
     description: In the lectures on objects, various ways of passing in data to a class was discussed. This lecture shows a way to pass in a data type rather than just a specific value.
-    dates: November 15th + 17th
+    dates: April 11th
     section: bonus
-    slides: https://docs.google.com/presentation/d/e/2PACX-1vQaFOCNPmXoPBjoI9MeyuVr8_TlclWZjkF5xgwIgKGHCwkfPkWXEQsb4366AVQsCgcD7HIc9eCYPF2M/embed?start=false
+    slides: https://docs.google.com/presentation/d/e/2PACX-1vT5F66vHs2ieZedxvZnRkD1UBI9vlvoaFDEYh6TdFkF2bZOPU-nmfAQQI7rMG35Xan9yYKSXeQttnhe/embed?start=false
     examples: 
   -
     title: JUnit Testing
     description: Throughout the semester, you have had to manually test your programs to confirm that they work. This lecture, we will discuss the process of writing code that automates this testing process for you.
-    dates: November 22nd + 29th
+    dates: April 18th
     section: bonus
-    slides: https://docs.google.com/presentation/d/e/2PACX-1vQDnmbHIcLD4xuwS3PAc_UmvtU_uX6mAFgCdT64RBO7jik2NmbFjOmwyyKS5p3rM0Qcj5vMVoZcXH-O/embed?start=false
+    slides: https://docs.google.com/presentation/d/e/2PACX-1vQEaYYse_Vhn2XBAfY0Yos8j7-SDVAuWhMgVxgQK5QsmOsmHn6r2402-GojiVfoy20KyXCLfI_T-o28/embed?start=false
+    examples: 
+  -
+    title: Lambda Functions
+    description: Throughout the semester, we have looked a various ways of passing different structures around, from data to types. In this lecture, we will discuss the process of passing function definitions as arguments to other functions.
+    dates: April 25th
+    section: bonus
+    slides: https://docs.google.com/presentation/d/e/2PACX-1vTNbN9_jYDpbFXpWJdZ7JB_3iCBuclNWiEUpRzAbG33GMI7Y5KGawf9MVFveakJ3AJYn6Oa_tS-tb6Q/embed?start=false
     examples: 

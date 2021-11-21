@@ -204,7 +204,7 @@ function TAContent(props) {
                     Teaching Assistants
                 </Typography>
                 <Typography variant="subtitle2" textAlign="center" gutterBottm>
-                    TBD
+                    Coming Soon
                 </Typography>
             </Paper>
         );
@@ -543,7 +543,7 @@ function GradingContent(props) {
                 </Typography>
                 <Paper elevation={0}>
                     <Chart data={props.grading.chart}>
-                        <Palette scheme={[blueGrey['A100'], blueGrey['A200'], blueGrey['A400'], blueGrey['A700']]} />
+                        <Palette scheme={[blueGrey['100'], blueGrey['200'], blueGrey['300'], blueGrey['400'], blueGrey['500'], blueGrey['600'], blueGrey['700'], blueGrey['800']]} />
                         <PieSeries valueField='value' argumentField='assignment' />
                         <Legend position='bottom' itemComponent={InLineList} rootComponent={InLineUnorderedList} />
                         <EventTracker />
@@ -660,9 +660,11 @@ class SyllabusContent extends React.Component {
                         <Grid item xs={12}>
                             <TAContent loaded={loaded} assistants={details===null?null:details.assistants} />
                         </Grid>
-                        <Grid item xs={12}>
-                            <TextbookContent loaded={loaded} textbooks={details===null?null:details.textbooks} />
-                        </Grid>
+                        {
+                            loaded&&details.textbooks!==null&&details.textbooks!==undefined?<Grid item xs={12}>
+                                <TextbookContent loaded={loaded} textbooks={details===null?null:details.textbooks} />
+                            </Grid>:''
+                        }
                         <Grid item xs={12}>
                             <ResourceContent loaded={loaded} resources={details===null?null:details.resources} />
                         </Grid>

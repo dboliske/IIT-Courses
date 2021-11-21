@@ -27,6 +27,8 @@ import Review from '../Review';
 
 import ScrollToTop from '../top'
 
+import NotFound from '../NotFound.js'
+
 function Copyright(props) {
   return (
     <Typography variant="body2" color="text.secondary" align="center" {...props}>
@@ -161,7 +163,7 @@ function CS201Content() {
           id='content'
         >
           <Toolbar />
-          <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
+          <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }} id='course-container'>
             <Router basename="/201">
               <ScrollToTop>
                 <Switch>
@@ -181,7 +183,9 @@ function CS201Content() {
                     <Typography>Activities</Typography>
                   </Route>
 
-                  {/* <Route component={NotFound} /> */}
+                  <Route>
+                    <NotFound home="201" />
+                  </Route>
                 </Switch>
               </ScrollToTop>
             </Router>

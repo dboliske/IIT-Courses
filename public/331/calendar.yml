@@ -1,6 +1,194 @@
 -
   title: Syllabus and Course Overview
   type: Lecture
+  startDate: '2022-01-11T17:00'
+  endDate: '2022-01-11T19:30'
+  link: '#/331/syllabus'
+-
+  title: Python Language Intro A
+  type: Lecture
+  startDate: '2022-01-11T17:00'
+  endDate: '2022-01-11T19:30'
+  link: '#/331/lectures/0'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-01-11T19:35'
+  endDate: '2022-01-11T20:25'
+-
+  title: Python Language Intro B
+  type: Lecture
+  startDate: '2022-01-18T17:00'
+  endDate: '2022-01-18T19:30'
+  link: '#/331/lectures/1'
+-
+  title: Python Language Intro C
+  type: Lecture
+  startDate: '2022-01-18T17:00'
+  endDate: '2022-01-18T19:30'
+  link: '#/331/lectures/2'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-01-18T19:35'
+  endDate: '2022-01-18T20:25'
+-
+  title: Data Structures Demo
+  type: Lecture
+  startDate: '2022-01-25T17:00'
+  endDate: '2022-01-25T19:30'
+  link: '#/331/lectures/3'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-01-25T19:35'
+  endDate: '2022-01-25T20:25'
+-
+  title: Timing and Runtime Complexity
+  type: Lecture
+  startDate: '2022-02-01T17:00'
+  endDate: '2022-02-01T19:30'
+  link: '#/331/lectures/4'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-02-01T19:35'
+  endDate: '2022-02-01T20:25'
+-
+  title: Array-backed Lists
+  type: Lecture
+  startDate: '2022-02-08T17:00'
+  endDate: '2022-02-08T19:30'
+  link: '#/331/lectures/5'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-02-08T19:35'
+  endDate: '2022-02-08T20:25'
+-
+  title: Iterators
+  type: Lecture
+  startDate: '2022-02-15T17:00'
+  endDate: '2022-02-15T19:30'
+  link: '#/331/lectures/6'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-02-15T19:35'
+  endDate: '2022-02-15T20:25'
+-
+  title: Linked Structures
+  type: Lecture
+  startDate: '2022-02-22T17:00'
+  endDate: '2022-02-22T19:30'
+  link: '#/331/lectures/7'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-02-22T19:35'
+  endDate: '2022-02-22T20:25'
+-
+  title: Linked List
+  type: Lecture
+  startDate: '2022-03-01T17:00'
+  endDate: '2022-03-01T19:30'
+  link: '#/331/lectures/8'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-03-01T19:35'
+  endDate: '2022-03-01T20:25'
+-
+  title: Map
+  type: Lecture
+  startDate: '2022-03-08T17:00'
+  endDate: '2022-03-08T19:30'
+  link: '#/331/lectures/9'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-03-08T19:35'
+  endDate: '2022-03-08T20:25'
+-
+  title: Hashtables
+  type: Lecture
+  startDate: '2022-03-15T17:00'
+  endDate: '2022-03-15T19:30'
+  link: '#/331/lectures/9'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-03-15T19:35'
+  endDate: '2022-03-15T20:25'
+-
+  title: Stacks and Queues
+  type: Lecture
+  startDate: '2022-03-22T17:00'
+  endDate: '2022-03-22T19:30'
+  link: '#/331/lectures/10'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-03-22T19:35'
+  endDate: '2022-03-22T20:25'
+-
+  title: Priority Queues
+  type: Lecture
+  startDate: '2022-03-29T17:00'
+  endDate: '2022-03-29T19:30'
+  link: '#/331/lectures/11'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-03-29T19:35'
+  endDate: '2022-03-29T20:25'
+-
+  title: Recursion
+  type: Lecture
+  startDate: '2022-04-05T17:00'
+  endDate: '2022-04-05T19:30'
+  link: '#/331/lectures/12'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-04-05T19:35'
+  endDate: '2022-04-05T20:25'
+-
+  title: Tree Structures
+  type: Lecture
+  startDate: '2022-04-12T17:00'
+  endDate: '2022-04-12T19:30'
+  link: '#/331/lectures/13'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-04-12T19:35'
+  endDate: '2022-04-12T20:25'
+-
+  title: Binary Search Trees
+  type: Lecture
+  startDate: '2022-04-19T17:00'
+  endDate: '2022-04-19T19:30'
+  link: '#/331/lectures/14'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-04-19T19:35'
+  endDate: '2022-04-19T20:25'
+-
+  title: AVL Trees
+  type: Lecture
+  startDate: '2022-04-26T17:00'
+  endDate: '2022-04-26T19:30'
+  link: '#/331/lectures/15'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-04-26T19:35'
+  endDate: '2022-04-26T20:25'
+-
+  title: Syllabus and Course Overview
+  type: Lecture
   startDate: '2021-08-25T11:15'
   endDate: '2021-08-25T12:30'
   link: '#/331/syllabus'
