@@ -1,0 +1,30 @@
+-
+  name: Home
+  url: '#/201'
+  text: Home
+  icon: java
+-
+  name: Syllabus
+  url: '#/201/syllabus'
+  text: Syllabus
+  icon: toc
+-
+  name: Lectures
+  url: '#/201/lectures'
+  text: Lectures
+  icon: notes
+-
+  name: Exams
+  url: '#/201/review'
+  text: Exam Review
+  icon: assignment-in
+-
+  name: Discord
+  url: ''
+  text: Discord
+  icon: discord
+-
+  name: BitBucket
+  url: ''
+  text: Lecture Repository
+  icon: bitbucket
