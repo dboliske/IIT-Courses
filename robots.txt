@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /calendar/
+Disallow: /review/
+Disallow: /static/
+Sitemap: http://mypages.iit.edu/~dboliske/sitemap.xml

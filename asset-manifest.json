@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/IIT-CourseWebsite/static/css/main.55589a5f.css",
+    "main.js": "/IIT-CourseWebsite/static/js/main.bcb05d55.js",
+    "index.html": "/IIT-CourseWebsite/index.html",
+    "main.55589a5f.css.map": "/IIT-CourseWebsite/static/css/main.55589a5f.css.map",
+    "main.bcb05d55.js.map": "/IIT-CourseWebsite/static/js/main.bcb05d55.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55589a5f.css",
+    "static/js/main.bcb05d55.js"
+  ]
+}

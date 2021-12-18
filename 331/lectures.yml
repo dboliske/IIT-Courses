@@ -1,0 +1,140 @@
+title: CS 331
+name: Data Structures and Algorithms
+description: Implementation and application of the essential data structures used in computer science. Analysis of basic sorting and searching algorithms and their relationship to these data structures. Particular emphasis is given to the use of object-oriented design and data abstraction in the creation and application of data structures. 
+lectures:
+  -
+    title: Python Language Introduction A
+    description: The purpose of this lecture is to give you a quick understanding of the Python programming language.
+    dates: January 11th
+    section: midterm-1
+    notebook:
+      name: 01-lang-intro-a.ipynb
+      gist: dboliske/fb8cbeb1874b0172297e3370b463f563
+  -
+    title: Python Language Introduction B
+    description: The purpose of this lecture is to give you a quick understanding of the Python programming language.
+    dates: January 18th
+    section: midterm-1
+    notebook:
+      name: 02-lang-intro-b.ipynb
+      gist: dboliske/fb8cbeb1874b0172297e3370b463f563
+  -
+    title: Python Language Introduction C
+    description: The purpose of this lecture is to give you a quick understanding of the Python programming language.
+    dates: January 18th
+    section: midterm-1
+    notebook:
+      name: 03-lang-intro-c.ipynb
+      gist: dboliske/fb8cbeb1874b0172297e3370b463f563
+  -
+    title: Python Data Structures
+    description: ''
+    dates: January 25th
+    section: midterm-1
+    notebook:
+      name: 04-data-structure-demo.ipynb
+      gist: dboliske/fb8cbeb1874b0172297e3370b463f563
+  -
+    title: Timing and Runtime Complexity
+    description: ''
+    dates: February 1st
+    section: midterm-1
+    notebook:
+      name: 05-timing.ipynb
+      gist: dboliske/fb8cbeb1874b0172297e3370b463f563
+  -
+    title: Array-backed Lists
+    description: ''
+    dates: February 8th
+    section: midterm-1
+    notebook:
+      name: 06-array-list.ipynb
+      gist: dboliske/fb8cbeb1874b0172297e3370b463f563
+  -
+    title: Iterators
+    description: ''
+    dates: February 15th
+    section: midterm-1
+    notebook:
+      name: 07-iterators.ipynb
+      gist: dboliske/fb8cbeb1874b0172297e3370b463f563
+  -
+    title: Linked Structures
+    description: ''
+    dates: February 22nd
+    section: midterm-1
+    notebook:
+      name: 08-linked-structures.ipynb
+      gist: dboliske/fb8cbeb1874b0172297e3370b463f563
+  -
+    title: Linked Lists
+    description: ''
+    dates: March 1st
+    section: midterm-2
+    notebook:
+      name: 09-linked-list.ipynb
+      gist: dboliske/fb8cbeb1874b0172297e3370b463f563
+  -
+    title: Map
+    description: ''
+    dates: March 8th
+    section: midterm-2
+    notebook:
+      name: 10-map.ipynb
+      gist: dboliske/fb8cbeb1874b0172297e3370b463f563
+  -
+    title: Hashtables
+    description: ''
+    dates: March 15th
+    section: midterm-2
+    notebook:
+      name: 10-map.ipynb
+      gist: dboliske/fb8cbeb1874b0172297e3370b463f563
+  -
+    title: Stacks and Queues
+    description: ''
+    dates: March 22nd
+    section: midterm-2
+    notebook:
+      name: 11-stack-and-queue.ipynb
+      gist: dboliske/fb8cbeb1874b0172297e3370b463f563
+  -
+    title: Priority Queues
+    description: ''
+    dates: March 29th
+    section: midterm-2
+    notebook:
+      name: 12-priority-queue.ipynb
+      gist: dboliske/fb8cbeb1874b0172297e3370b463f563
+  -
+    title: Recursion
+    description: ''
+    dates: April 5th
+    section: final
+    notebook:
+      name: 13-recursion.ipynb
+      gist: dboliske/fb8cbeb1874b0172297e3370b463f563
+  -
+    title: Tree Structures
+    description: ''
+    dates: April 12th
+    section: final
+    notebook:
+      name: 14-bst.ipynb
+      gist: dboliske/fb8cbeb1874b0172297e3370b463f563
+  -
+    title: Binary Search Trees
+    description: ''
+    dates: April 19th
+    section: final
+    notebook:
+      name: 15-bst-ds.ipynb
+      gist: dboliske/fb8cbeb1874b0172297e3370b463f563
+  -
+    title: AVL Trees
+    description: ''
+    dates: April 26th
+    section: final
+    notebook:
+      name: 16-avl-tree.ipynb
+      gist: dboliske/fb8cbeb1874b0172297e3370b463f563
