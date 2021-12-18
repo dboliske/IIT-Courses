@@ -1,2 +1,2 @@
-# CS201-CourseWebsite
-The code for the course website of CS201 at IIT.
+# IIT-CourseWebsite
+The code for course websites at IIT, specifically, CS201 and CS331.
