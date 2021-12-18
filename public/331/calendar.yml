@@ -1,0 +1,366 @@
+-
+  title: Syllabus and Course Overview
+  type: Lecture
+  startDate: '2022-01-11T17:00'
+  endDate: '2022-01-11T19:30'
+  link: '#/331/syllabus'
+-
+  title: Python Language Intro A
+  type: Lecture
+  startDate: '2022-01-11T17:00'
+  endDate: '2022-01-11T19:30'
+  link: '#/331/lectures/0'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-01-11T19:35'
+  endDate: '2022-01-11T20:25'
+-
+  title: Python Language Intro B
+  type: Lecture
+  startDate: '2022-01-18T17:00'
+  endDate: '2022-01-18T19:30'
+  link: '#/331/lectures/1'
+-
+  title: Python Language Intro C
+  type: Lecture
+  startDate: '2022-01-18T17:00'
+  endDate: '2022-01-18T19:30'
+  link: '#/331/lectures/2'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-01-18T19:35'
+  endDate: '2022-01-18T20:25'
+-
+  title: Data Structures Demo
+  type: Lecture
+  startDate: '2022-01-25T17:00'
+  endDate: '2022-01-25T19:30'
+  link: '#/331/lectures/3'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-01-25T19:35'
+  endDate: '2022-01-25T20:25'
+-
+  title: Timing and Runtime Complexity
+  type: Lecture
+  startDate: '2022-02-01T17:00'
+  endDate: '2022-02-01T19:30'
+  link: '#/331/lectures/4'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-02-01T19:35'
+  endDate: '2022-02-01T20:25'
+-
+  title: Array-backed Lists
+  type: Lecture
+  startDate: '2022-02-08T17:00'
+  endDate: '2022-02-08T19:30'
+  link: '#/331/lectures/5'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-02-08T19:35'
+  endDate: '2022-02-08T20:25'
+-
+  title: Iterators
+  type: Lecture
+  startDate: '2022-02-15T17:00'
+  endDate: '2022-02-15T19:30'
+  link: '#/331/lectures/6'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-02-15T19:35'
+  endDate: '2022-02-15T20:25'
+-
+  title: Linked Structures
+  type: Lecture
+  startDate: '2022-02-22T17:00'
+  endDate: '2022-02-22T19:30'
+  link: '#/331/lectures/7'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-02-22T19:35'
+  endDate: '2022-02-22T20:25'
+-
+  title: Linked List
+  type: Lecture
+  startDate: '2022-03-01T17:00'
+  endDate: '2022-03-01T19:30'
+  link: '#/331/lectures/8'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-03-01T19:35'
+  endDate: '2022-03-01T20:25'
+-
+  title: Map
+  type: Lecture
+  startDate: '2022-03-08T17:00'
+  endDate: '2022-03-08T19:30'
+  link: '#/331/lectures/9'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-03-08T19:35'
+  endDate: '2022-03-08T20:25'
+-
+  title: Hashtables
+  type: Lecture
+  startDate: '2022-03-15T17:00'
+  endDate: '2022-03-15T19:30'
+  link: '#/331/lectures/9'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-03-15T19:35'
+  endDate: '2022-03-15T20:25'
+-
+  title: Stacks and Queues
+  type: Lecture
+  startDate: '2022-03-22T17:00'
+  endDate: '2022-03-22T19:30'
+  link: '#/331/lectures/10'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-03-22T19:35'
+  endDate: '2022-03-22T20:25'
+-
+  title: Priority Queues
+  type: Lecture
+  startDate: '2022-03-29T17:00'
+  endDate: '2022-03-29T19:30'
+  link: '#/331/lectures/11'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-03-29T19:35'
+  endDate: '2022-03-29T20:25'
+-
+  title: Recursion
+  type: Lecture
+  startDate: '2022-04-05T17:00'
+  endDate: '2022-04-05T19:30'
+  link: '#/331/lectures/12'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-04-05T19:35'
+  endDate: '2022-04-05T20:25'
+-
+  title: Tree Structures
+  type: Lecture
+  startDate: '2022-04-12T17:00'
+  endDate: '2022-04-12T19:30'
+  link: '#/331/lectures/13'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-04-12T19:35'
+  endDate: '2022-04-12T20:25'
+-
+  title: Binary Search Trees
+  type: Lecture
+  startDate: '2022-04-19T17:00'
+  endDate: '2022-04-19T19:30'
+  link: '#/331/lectures/14'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-04-19T19:35'
+  endDate: '2022-04-19T20:25'
+-
+  title: AVL Trees
+  type: Lecture
+  startDate: '2022-04-26T17:00'
+  endDate: '2022-04-26T19:30'
+  link: '#/331/lectures/15'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-04-26T19:35'
+  endDate: '2022-04-26T20:25'
+-
+  title: Syllabus and Course Overview
+  type: Lecture
+  startDate: '2021-08-25T11:15'
+  endDate: '2021-08-25T12:30'
+  link: '#/331/syllabus'
+-
+  title: Python Language Introduction
+  type: Lecture
+  startDate: '2021-08-27T11:15'
+  endDate: '2021-08-27T12:30'
+  link: '#/331/lectures/0'
+-
+  title: Python Language Introduction
+  type: Lecture
+  startDate: '2021-09-01T11:15'
+  endDate: '2021-09-01T12:30'
+  link: '#/331/lectures/0'
+-
+  title: Python Language Introduction
+  type: Lecture
+  startDate: '2021-09-03T11:15'
+  endDate: '2021-09-03T12:30'
+  link: '#/331/lectures/0'
+-
+  title: Python Language Introduction
+  type: Lecture
+  startDate: '2021-09-08T11:15'
+  endDate: '2021-09-08T12:30'
+  link: '#/331/lectures/0'
+-
+  title: Python Data Structures
+  type: Lecture
+  startDate: '2021-09-10T11:15'
+  endDate: '2021-09-10T12:30'
+  link: '#/331/lectures/1'
+-
+  title: Python Data Structures
+  type: Lecture
+  startDate: '2021-09-15T11:15'
+  endDate: '2021-09-15T12:30'
+  link: '#/331/lectures/1'
+-
+  title: Timing and Runtime Complexity
+  type: Lecture
+  startDate: '2021-09-17T11:15'
+  endDate: '2021-09-17T12:30'
+  link: '#/331/lectures/2'
+-
+  title: Timing and Runtime Complexity
+  type: Lecture
+  startDate: '2021-09-22T11:15'
+  endDate: '2021-09-22T12:30'
+  link: '#/331/lectures/2'
+-
+  title: Array-backed Lists
+  type: Lecture
+  startDate: '2021-09-24T11:15'
+  endDate: '2021-09-24T12:30'
+  link: '#/331/lectures/3'
+-
+  title: Iterators and Generators
+  type: Lecture
+  startDate: '2021-09-29T11:15'
+  endDate: '2021-09-29T12:30'
+  link: '#/331/lectures/4'
+-
+  title: Linked Structures
+  type: Lecture
+  startDate: '2021-10-01T11:15'
+  endDate: '2021-10-01T12:30'
+  link: '#/331/lectures/3'
+-
+  title: Linked Lists
+  type: Lecture
+  startDate: '2021-10-06T11:15'
+  endDate: '2021-10-06T12:30'
+  link: '#/331/lectures/4'
+-
+  title: Linked Lists
+  type: Lecture
+  startDate: '2021-10-08T11:15'
+  endDate: '2021-10-08T12:30'
+  link: '#/331/lectures/4'
+-
+  title: Fall Break
+  type: Holiday
+  startDate: '2021-10-09T00:00'
+  endDate: '2021-10-11T24:00'
+-
+  title: Hashing and Hashtables
+  type: Lecture
+  startDate: '2021-10-13T11:15'
+  endDate: '2021-10-13T12:30'
+  link: '#/331/lectures/5'
+-
+  title: Hashing and Hashtables
+  type: Lecture
+  startDate: '2021-10-15T11:15'
+  endDate: '2021-10-15T12:30'
+  link: '#/331/lectures/5'
+-
+  title: Stacks
+  type: Lecture
+  startDate: '2021-10-20T11:15'
+  endDate: '2021-10-20T12:30'
+  link: '#/331/lectures/6'
+-
+  title: Queues
+  type: Lecture
+  startDate: '2021-10-22T11:15'
+  endDate: '2021-10-22T12:30'
+  link: '#/331/lectures/7'
+-
+  title: Priority Queues and Heaps
+  type: Lecture
+  startDate: '2021-10-27T11:15'
+  endDate: '2021-10-27T12:30'
+  link: '#/331/lectures/8'
+-
+  title: Priority Queues and Heaps
+  type: Lecture
+  startDate: '2021-10-29T11:15'
+  endDate: '2021-10-29T12:30'
+  link: '#/331/lectures/8'
+-
+  title: Recursion
+  type: Lecture
+  startDate: '2021-11-03T11:15'
+  endDate: '2021-11-03T12:30'
+  link: '#/331/lectures/9'
+-
+  title: Recursion
+  type: Lecture
+  startDate: '2021-11-05T11:15'
+  endDate: '2021-11-05T12:30'
+  link: '#/331/lectures/9'
+-
+  title: Recursion
+  type: Lecture
+  startDate: '2021-11-10T11:15'
+  endDate: '2021-11-10T12:30'
+  link: '#/331/lectures/9'
+-
+  title: Tree Structures
+  type: Lecture
+  startDate: '2021-11-12T11:15'
+  endDate: '2021-11-12T12:30'
+  link: '#/331/lectures/10'
+-
+  title: Binary Search Trees
+  type: Lecture
+  startDate: '2021-11-17T11:15'
+  endDate: '2021-11-17T12:30'
+  link: '#/331/lectures/11'
+-
+  title: Binary Search Trees
+  type: Lecture
+  startDate: '2021-11-19T11:15'
+  endDate: '2021-11-19T12:30'
+  link: '#/331/lectures/11'
+-
+  title: Thanksgiving Break
+  type: Holiday
+  startDate: '2021-11-24T00:00'
+  endDate: '2021-11-28T24:00'
+-
+  title: AVL Trees
+  type: Lecture
+  startDate: '2021-12-01T11:15'
+  endDate: '2021-12-01T12:30'
+  link: '#/331/lectures/12'
+-
+  title: AVL Trees
+  type: Lecture
+  startDate: '2021-12-03T11:15'
+  endDate: '2021-12-03T12:30'
+  link: '#/331/lectures/12'

@@ -1,0 +1,499 @@
+-
+  title: Syllabus
+  type: Lecture
+  startDate: '2022-01-10T17:10'
+  endDate: '2022-01-10T18:25'
+  link: '#/201/syllabus'
+-
+  title: Programming Basics
+  type: Lecture
+  startDate: '2022-01-10T17:10'
+  endDate: '2022-01-10T18:25'
+  link: '#/201/lectures/0'
+-
+  title: 'Flow of Control: Selection'
+  type: Lecture
+  startDate: '2022-01-12T17:10'
+  endDate: '2022-01-12T18:25'
+  link: '#/201/lectures/1'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-01-14T17:10'
+  endDate: '2022-01-14T18:50'
+-
+  title: MLK Day
+  type: Holiday
+  startDate: '2022-01-17T00:00'
+  endDate: '2022-01-17T24:00'
+-
+  title: 'Flow of Control: Selection'
+  type: Lecture
+  startDate: '2022-01-19T17:10'
+  endDate: '2022-01-19T18:25'
+  link: '#/201/lectures/1'
+-
+  title: Lab 0
+  type: Assignment
+  startDate: '2022-01-19T23:00'
+  endDate: '2022-01-19T24:00'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-01-21T17:10'
+  endDate: '2022-01-21T18:50'
+-
+  title: 'Flow of Control: Iteration'
+  type: Lecture
+  startDate: '2022-01-24T17:10'
+  endDate: '2022-01-24T18:25'
+  link: '#/201/lectures/2'
+-
+  title: Lab 1
+  type: Assignment
+  startDate: '2022-01-24T23:00'
+  endDate: '2022-01-24T24:00'
+-
+  title: 'Flow of Control: Iteration'
+  type: Lecture
+  startDate: '2022-01-26T17:10'
+  endDate: '2022-01-26T18:25'
+  link: '#/201/lectures/2'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-01-28T17:10'
+  endDate: '2022-01-28T18:50'
+-
+  title: 'Arrays'
+  type: Lecture
+  startDate: '2022-01-31T17:10'
+  endDate: '2022-01-31T18:25'
+  link: '#/201/lectures/3'
+-
+  title: Lab 2
+  type: Assignment
+  startDate: '2022-01-31T23:00'
+  endDate: '2022-01-31T24:00'
+-
+  title: 'Arrays'
+  type: Lecture
+  startDate: '2022-02-02T17:10'
+  endDate: '2022-02-02T18:25'
+  link: '#/201/lectures/3'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-02-04T17:10'
+  endDate: '2022-02-04T18:50'
+-
+  title: 'Exceptions/FileWriters'
+  type: Lecture
+  startDate: '2022-02-07T17:10'
+  endDate: '2022-02-07T18:25'
+  link: '#/201/lectures/4'
+-
+  title: Lab 3
+  type: Assignment
+  startDate: '2022-02-07T23:00'
+  endDate: '2022-02-07T24:00'
+-
+  title: 'Objects'
+  type: Lecture
+  startDate: '2022-02-09T17:10'
+  endDate: '2022-02-09T18:25'
+  link: '#/201/lectures/5'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-02-11T17:10'
+  endDate: '2022-02-11T18:50'
+-
+  title: 'Objects'
+  type: Lecture
+  startDate: '2022-02-14T17:10'
+  endDate: '2022-02-14T18:25'
+  link: '#/201/lectures/5'
+-
+  title: 'Inheritance/Polymorphism'
+  type: Lecture
+  startDate: '2022-02-16T17:10'
+  endDate: '2022-02-16T18:25'
+  link: '#/201/lectures/6'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-02-18T17:10'
+  endDate: '2022-02-18T18:50'
+-
+  title: 'Inheritance/Polymorphism'
+  type: Lecture
+  startDate: '2022-02-21T17:10'
+  endDate: '2022-02-21T18:25'
+  link: '#/201/lectures/6'
+-
+  title: Lab 4
+  type: Assignment
+  startDate: '2022-02-21T23:00'
+  endDate: '2022-02-21T24:00'
+-
+  title: Review
+  type: Lecture
+  startDate: '2022-02-23T17:10'
+  endDate: '2022-02-23T18:25'
+  link: '#/201/review'
+-
+  title: Midterm Exam
+  type: Exam
+  startDate: '2022-02-25T17:10'
+  endDate: '2022-02-25T18:50'
+-
+  title: 'Abstract Classes'
+  type: Lecture
+  startDate: '2022-02-28T17:10'
+  endDate: '2022-02-28T18:25'
+  link: '#/201/lectures/7'
+-
+  title: 'Interfaces'
+  type: Lecture
+  startDate: '2022-03-02T17:10'
+  endDate: '2022-03-02T18:25'
+  link: '#/201/lectures/8'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-03-04T17:10'
+  endDate: '2022-03-04T18:50'
+-
+  title: 'Lists'
+  type: Lecture
+  startDate: '2022-03-07T17:10'
+  endDate: '2022-03-07T18:25'
+  link: '#/201/lectures/9'
+-
+  title: Lab 5
+  type: Assignment
+  startDate: '2022-03-07T23:00'
+  endDate: '2022-03-07T24:00'
+-
+  title: 'Lists'
+  type: Lecture
+  startDate: '2022-03-09T17:10'
+  endDate: '2022-03-09T18:25'
+  link: '#/201/lectures/9'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-03-11T17:10'
+  endDate: '2022-03-11T18:50'
+-
+  title: Spring Break
+  type: Holiday
+  startDate: '2022-03-12T00:00'
+  endDate: '2022-03-20T24:00'
+-
+  title: 'Recursion'
+  type: Lecture
+  startDate: '2022-03-21T17:10'
+  endDate: '2022-03-21T18:25'
+  link: '#/201/lectures/10'
+-
+  title: Lab 6
+  type: Assignment
+  startDate: '2022-03-21T23:00'
+  endDate: '2022-03-21T24:00'
+-
+  title: 'Sorting'
+  type: Lecture
+  startDate: '2022-03-23T17:10'
+  endDate: '2022-03-23T18:25'
+  link: '#/201/lectures/11'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-03-25T17:10'
+  endDate: '2022-03-25T18:50'
+-
+  title: 'Searching'
+  type: Lecture
+  startDate: '2022-03-28T17:10'
+  endDate: '2022-03-28T18:25'
+  link: '#/201/lectures/12'
+-
+  title: 'Activity'
+  type: Lecture
+  startDate: '2022-03-30T17:10'
+  endDate: '2022-03-30T18:25'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-04-01T17:10'
+  endDate: '2022-04-01T18:50'
+-
+  title: 'Regex/Enums'
+  type: Lecture
+  startDate: '2022-04-04T17:10'
+  endDate: '2022-04-04T18:25'
+  link: '#/201/lectures/13'
+-
+  title: Lab 7
+  type: Assignment
+  startDate: '2022-04-04T23:00'
+  endDate: '2022-04-04T24:00'
+-
+  title: 'Activity'
+  type: Lecture
+  startDate: '2022-04-06T17:10'
+  endDate: '2022-04-06T18:25'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-04-08T17:10'
+  endDate: '2022-04-08T18:50'
+-
+  title: 'Generics'
+  type: Lecture
+  startDate: '2022-04-11T17:10'
+  endDate: '2022-04-11T18:25'
+  link: '#/201/lectures/14'
+-
+  title: 'Activity'
+  type: Lecture
+  startDate: '2022-04-13T17:10'
+  endDate: '2022-04-13T18:25'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-04-15T17:10'
+  endDate: '2022-04-15T18:50'
+-
+  title: 'JUnit Testing'
+  type: Lecture
+  startDate: '2022-04-18T17:10'
+  endDate: '2022-04-18T18:25'
+  link: '#/201/lectures/15'
+-
+  title: 'Activity'
+  type: Lecture
+  startDate: '2022-04-20T17:10'
+  endDate: '2022-04-20T18:25'
+-
+  title: Lab
+  type: Lab
+  startDate: '2022-04-22T17:10'
+  endDate: '2022-04-22T18:50'
+-
+  title: 'Lambda Functions'
+  type: Lecture
+  startDate: '2022-04-25T17:10'
+  endDate: '2022-04-25T18:25'
+  link: '#/201/lectures/16'
+-
+  title: Review
+  type: Lecture
+  startDate: '2022-04-27T17:10'
+  endDate: '2022-04-27T18:25'
+  link: '#/201/review'
+-
+  title: Final Exam
+  type: Exam
+  startDate: '2022-04-29T17:10'
+  endDate: '2022-04-29T18:50'
+-
+  title: Objects
+  type: Lecture
+  startDate: '2021-09-27T17:10'
+  endDate: '2021-09-27T18:25'
+  link: '#/201/lectures/5'
+-
+  title: Lab 3
+  type: Assignment
+  startDate: '2021-09-27T23:00'
+  endDate: '2021-09-27T24:00'
+-
+  title: Inheritance/Polymorphism
+  type: Lecture
+  startDate: '2021-09-29T17:10'
+  endDate: '2021-09-29T18:25'
+  link: '#/201/lectures/6'
+-
+  title: Lab
+  type: Lab
+  startDate: '2021-10-01T17:10'
+  endDate: '2021-10-01T18:50'
+-
+  title: Inheritance/Polymorphism
+  type: Lecture
+  startDate: '2021-10-04T17:10'
+  endDate: '2021-10-04T18:25'
+  link: '#/201/lectures/6'
+-
+  title: Lab 4
+  type: Assignment
+  startDate: '2021-10-04T23:00'
+  endDate: '2021-10-04T24:00'
+-
+  title: Review
+  type: Lecture
+  startDate: '2021-10-06T17:10'
+  endDate: '2021-10-06T18:25'
+  link: '#/201/review'
+-
+  title: Midterm Exam
+  type: Exam
+  startDate: '2021-10-08T17:10'
+  endDate: '2021-10-08T18:50'
+-
+  title: Fall Break
+  type: Holiday
+  startDate: '2021-10-09T00:00'
+  endDate: '2021-10-11T24:00'
+-
+  title: Abstract Classes
+  type: Lecture
+  startDate: '2021-10-13T17:10'
+  endDate: '2021-10-13T18:25'
+  link: '#/201/lectures/7'
+-
+  title: Lab
+  type: Lab
+  startDate: '2021-10-15T17:10'
+  endDate: '2021-10-15T18:25'
+-
+  title: Interfaces
+  type: Lecture
+  startDate: '2021-10-18T17:10'
+  endDate: '2021-10-18T18:25'
+  link: '#/201/lectures/8'
+-
+  title: Lab 5
+  type: Assignment
+  startDate: '2021-10-18T23:00'
+  endDate: '2021-10-18T24:00'
+-
+  title: Lists
+  type: Lecture
+  startDate: '2021-10-20T17:10'
+  endDate: '2021-10-20T18:25'
+  link: '#/201/lectures/9'
+-
+  title: Lab
+  type: Lab
+  startDate: '2021-10-22T17:10'
+  endDate: '2021-10-22T18:50'
+-
+  title: Lists
+  type: Lecture
+  startDate: '2021-10-25T17:10'
+  endDate: '2021-10-25T18:25'
+  link: '#/201/lectures/9'
+-
+  title: Recursion
+  type: Lecture
+  startDate: '2021-10-27T17:10'
+  endDate: '2021-10-27T18:25'
+  link: '#/201/lectures/10'
+-
+  title: Lab
+  type: Lab
+  startDate: '2021-10-29T17:10'
+  endDate: '2021-10-29T18:50'
+-
+  title: Sorting
+  type: Lecture
+  startDate: '2021-11-01T17:10'
+  endDate: '2021-11-01T18:25'
+  link: '#/201/lectures/11'
+-
+  title: Lab 6
+  type: Assignment
+  startDate: '2021-11-01T23:00'
+  endDate: '2021-11-01T24:00'
+-
+  title: Searching
+  type: Lecture
+  startDate: '2021-11-03T17:10'
+  endDate: '2021-11-03T18:25'
+  link: '#/201/lectures/12'
+-
+  title: Lab
+  type: Lab
+  startDate: '2021-11-05T17:10'
+  endDate: '2021-11-05T18:50'
+-
+  title: Regex/Enums
+  type: Lecture
+  startDate: '2021-11-08T17:10'
+  endDate: '2021-11-08T18:25'
+  link: '#/201/lectures/13'
+-
+  title: Lab 7
+  type: Assignment
+  startDate: '2021-11-08T23:00'
+  endDate: '2021-11-08T24:00'
+-
+  title: Regex/Enums
+  type: Lecture
+  startDate: '2021-11-10T17:10'
+  endDate: '2021-11-10T18:25'
+  link: '#/201/lectures/13'
+-
+  title: Lab
+  type: Lab
+  startDate: '2021-11-12T17:10'
+  endDate: '2021-11-12T18:50'
+-
+  title: Generics
+  type: Lecture
+  startDate: '2021-11-15T17:10'
+  endDate: '2021-11-15T18:25'
+  link: '#/201/lectures/14'
+-
+  title: Final Project Design
+  type: Assignment
+  startDate: '2021-11-15T23:00'
+  endDate: '2021-11-15T24:00'
+-
+  title: Generics
+  type: Lecture
+  startDate: '2021-11-17T17:10'
+  endDate: '2021-11-17T18:25'
+  link: '#/201/lectures/14'
+-
+  title: Lab
+  type: Lab
+  startDate: '2021-11-19T17:10'
+  endDate: '2021-11-19T18:50'
+-
+  title: JUnit
+  type: Lecture
+  startDate: '2021-11-22T17:10'
+  endDate: '2021-11-22T18:25'
+  link: '#/201/lectures/15'
+-
+  title: Thanksgiving Break
+  type: Holiday
+  startDate: '2021-11-24T00:00'
+  endDate: '2021-11-28T24:00'
+-
+  title: JUnit
+  type: Lecture
+  startDate: '2021-11-29T17:10'
+  endDate: '2021-11-29T18:25'
+  link: '#/201/lectures/15'
+-
+  title: Review
+  type: Lecture
+  startDate: '2021-12-01T17:10'
+  endDate: '2021-12-01T18:25'
+  link: '#/201/review'
+-
+  title: Final Exam
+  type: Exam
+  startDate: '2021-12-03T17:10'
+  endDate: '2021-12-03T18:50'
+-
+  title: Final Project Code
+  type: Assignment
+  startDate: '2021-12-10T23:00'
+  endDate: '2021-12-10T24:0'
