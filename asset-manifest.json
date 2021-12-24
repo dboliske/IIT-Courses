@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/IIT-Courses/static/css/main.55589a5f.css",
-    "main.js": "/IIT-Courses/static/js/main.00656232.js",
+    "main.js": "/IIT-Courses/static/js/main.0d8f646c.js",
     "index.html": "/IIT-Courses/index.html",
     "main.55589a5f.css.map": "/IIT-Courses/static/css/main.55589a5f.css.map",
-    "main.00656232.js.map": "/IIT-Courses/static/js/main.00656232.js.map"
+    "main.0d8f646c.js.map": "/IIT-Courses/static/js/main.0d8f646c.js.map"
   },
   "entrypoints": [
     "static/css/main.55589a5f.css",
-    "static/js/main.00656232.js"
+    "static/js/main.0d8f646c.js"
   ]
 }

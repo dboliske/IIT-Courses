@@ -16,6 +16,11 @@
   startDate: '2022-01-11T19:35'
   endDate: '2022-01-11T20:25'
 -
+  title: MLK Day
+  type: Holiday
+  startDate: '2022-01-17T00:00'
+  endDate: '2022-01-17T24:00'
+-
   title: Python Language Intro B
   type: Lecture
   startDate: '2022-01-18T17:00'
@@ -99,27 +104,21 @@
   startDate: '2022-03-01T19:35'
   endDate: '2022-03-01T20:25'
 -
-  title: Map
+  title: Maps and Hashtables
   type: Lecture
   startDate: '2022-03-08T17:00'
   endDate: '2022-03-08T19:30'
   link: '#/331/lectures/9'
 -
+  title: Spring Break
+  type: Holiday
+  startDate: '2022-03-12T00:00'
+  endDate: '2022-03-20T24:00'
+-
   title: Lab
   type: Lab
   startDate: '2022-03-08T19:35'
   endDate: '2022-03-08T20:25'
--
-  title: Hashtables
-  type: Lecture
-  startDate: '2022-03-15T17:00'
-  endDate: '2022-03-15T19:30'
-  link: '#/331/lectures/9'
--
-  title: Lab
-  type: Lab
-  startDate: '2022-03-15T19:35'
-  endDate: '2022-03-15T20:25'
 -
   title: Stacks and Queues
   type: Lecture
