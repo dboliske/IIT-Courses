@@ -82,6 +82,9 @@ resources:
       -
         name: Download Discord
         link: https://discord.com/download
+      -
+        name: Discord Invite
+        link: https://discord.gg/Tjs5E4JG3B
 goals:
   - "Analyze and explain the behavior of simple programs involving the following fundamental programming constructs: assignment, I/O (including file I/O), selection, iteration, methods"
   - "Write a program that uses each of the following fundamental programming constructs: assignment, I/O (including file I/O), selection, iteration, methods"

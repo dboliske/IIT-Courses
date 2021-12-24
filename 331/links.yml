@@ -13,14 +13,14 @@
   url: '#/331/lectures'
   text: Lectures
   icon: notes
--
-  name: Exams
-  url: '#/331/review'
-  text: Exam Review
-  icon: assignment-in
+# -
+#   name: Exams
+#   url: '#/331/review'
+#   text: Exam Review
+#   icon: assignment-in
 -
   name: Discord
-  url: ''
+  url: 'https://discord.com/channels/922508964174897152/922508964174897155'
   text: Discord
   icon: discord
 -

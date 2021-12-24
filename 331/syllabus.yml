@@ -22,6 +22,9 @@ resources:
       -
         name: Download Discord
         link: https://discord.com/download
+      -
+        name: Discord Invite
+        link: https://discord.gg/chT4yaCzYw
   -
     title: Mimir
     description: You should receive an invite to Mimir, the platform where you'll be completing all assessments this spring. If not, you can sign up below.
