@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /calendar/
 Disallow: /review/
 Disallow: /static/
-Sitemap: http://mypages.iit.edu/~dboliske/sitemap.xml
+Sitemap: https://dboliske.github.io/IIT-Courses/sitemap.xml

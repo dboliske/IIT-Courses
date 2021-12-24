@@ -1,21 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://mypages.iit.edu/~dboliske</loc>
-        <lastmod>2021-05-15</lastmod>
+        <loc>https://dboliske.github.io/IIT-Courses</loc>
+        <lastmod>2021-12-24</lastmod>
         <changefreq>yearly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>http://mypages.iit.edu/~dboliske/#/syllabus</loc>
-        <lastmod>2021-05-15</lastmod>
+        <loc>https://dboliske.github.io/IIT-Courses/#/201</loc>
+        <lastmod>2021-12-24</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://dboliske.github.io/IIT-Courses/#/331</loc>
+        <lastmod>2021-12-24</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://dboliske.github.io/IIT-Courses/#/201/syllabus</loc>
+        <lastmod>2021-12-24</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>http://mypages.iit.edu/~dboliske/#/modules</loc>
-        <lastmod>2021-05-15</lastmod>
+        <loc>https://dboliske.github.io/IIT-Courses/#/331/syllabus</loc>
+        <lastmod>2021-12-24</lastmod>
         <changefreq>yearly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://dboliske.github.io/IIT-Courses/#/201/lectures</loc>
+        <lastmod>2021-12-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://dboliske.github.io/IIT-Courses/#/331/lectures</loc>
+        <lastmod>2021-12-24</lastmod>
+        <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 </urlset>
