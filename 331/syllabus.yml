@@ -9,11 +9,11 @@ instructor:
   email: dboliske@hawk.iit.edu
   discord:
 assistants:
-  # -
-  #   name: Rishi Shukla
-  #   hours: TH 17.00-18.00 CDT
-  #   office: SB 108
-  #   email: rshukla2@hawk.iit.edu
+  -
+    name: Sudharshana Ganeshkumar
+    hours: WED 14.00-15.00 CDT + FRI 15.00-17.00 CDT
+    office: Online/SB 108
+    email: rshukla2@hawk.iit.edu
 resources:
   -
     title: Discord
