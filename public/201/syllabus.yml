@@ -10,25 +10,15 @@ instructor:
   discord:
 assistants:
   -
-    name: Rishi Shukla
-    hours: TH 17.00-18.00 CDT
+    name: Mohammad Firas Sada
+    hours: MON 10.00-11.00 CDT
     office: SB 108
-    email: rshukla2@hawk.iit.edu
+    email: msada@hawk.iit.edu
   -
-    name: Isaac Kane
-    hours: TBA
+    name: Mohamed Trigui
+    hours: TH 10.30-11.30 CDT
     office: SB 108
-    email: ikane@hawk.iit.edu
-  -
-    name: Elliot Tan
-    hours: FRI 16.10-17.10 CDT
-    office: SB 108
-    email: etan1@hawk.iit.edu
-  -
-    name: Arman Idress
-    hours: TH 13.30-15.30 CDT
-    office: SB 108
-    email: aidress1@hawk.iit.edu
+    email: mtrigui@hawk.iit.edu
 textbooks:
   required: false
   books:
@@ -82,6 +72,9 @@ resources:
       -
         name: Download Discord
         link: https://discord.com/download
+      -
+        name: Discord Invite
+        link: https://discord.gg/Tjs5E4JG3B
 goals:
   - "Analyze and explain the behavior of simple programs involving the following fundamental programming constructs: assignment, I/O (including file I/O), selection, iteration, methods"
   - "Write a program that uses each of the following fundamental programming constructs: assignment, I/O (including file I/O), selection, iteration, methods"
@@ -109,7 +102,7 @@ assignments:
   - The assignments are designed to assist you in developing a more concrete understanding of the concepts introduced in class. They also serve as a springboard for the programming project that you will create later in the semester. You are required to do each assignment. Assignments will be pushed to your repository no later than the due date for the previous assignment. Additional coding demonstrations and information concerning the assignments will be given during the lab period. As a result, attendance to the labs is strongly encouraged.
   - "The policy for late assignments is this: 10% off for each day late, up to 5 days late. Your TA will pull your repositories exactly 5 days after the assignment is due in order to grade them, so if you intend for the assignment to be graded, please make sure you push your code to your repository and that it shows up when looking at the web interface."
 exams:
-  - You will have two exams, one midterm and one final. Exams are closed book, closed notes, closed neighbor, no calculators, and no cell phones. Each exam will, generally, be four questions each focusing on a different topic covered during the semester. If you are caught cheating on an exam, you will automatically receive a zero. There are no make-up exams without an university-accepted excuse.
+  - You will have two exams, one midterm and one final. Exams are closed book, closed notes, closed neighbor, no calculators, and no cell phones. Each exam will, generally, be five questions each focusing on a different topic covered during the semester. If you are caught cheating on an exam, you will automatically receive a zero. There are no make-up exams without an university-accepted excuse.
 project:
   - "You will be assigned a programming project where you solve a real world problem. The project will consist of a design phase and an implementation phase. No late projects will be accepted. Each student is responsible for deleting their project from labs computers and taking all safeguards to prevent copying of the final project. The instructor has the right to test (written or oral) any student on their project. All projects found to be similar to another student's project will be given a grade of zero. There are 2 parts to the final project: design and coding. Part II will NOT be accepted without a reasonable Part I submission. The instructor reserves the right to assign a failing semester grade to any student who fails or does not submit the final project."
 grading:

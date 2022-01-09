@@ -17,16 +17,15 @@ import Link from '@mui/material/Link';
 import MenuIcon from '@mui/icons-material/Menu';
 import MenuOpenIcon from '@mui/icons-material/MenuOpen';
 import MailIcon from '@mui/icons-material/Mail';
-// import { mainListItems, secondaryListItems } from './listItems';
 
-import { mainListItems } from '../201/listItems';
-import { mainListItems as secondaryListItems } from '../331/listItems'
+import CourseLinks from './CourseLinks';
+import Calendar from '../Landing/Calendar';
 
 function Copyright(props) {
   return (
     <Typography variant="body2" color="text.secondary" align="center" {...props}>
       {'Copyright © '}
-      <Link color="inherit" href="http://mypages.iit.edu/~dboliske/">
+      <Link color="inherit" href="https://dboliske.github.io/IIT-CourseWebsite/">
         Dylan Boliske
       </Link>{' '}
       {new Date().getFullYear()}
@@ -88,6 +87,7 @@ function MainContent() {
   const toggleDrawer = () => {
     setOpen(!open);
   };
+  document.title = "IIT Courses";
 
   return (
     <ThemeProvider theme={mdTheme}>
@@ -139,9 +139,9 @@ function MainContent() {
             </IconButton>
           </Toolbar>
           <Divider />
-          <List>{mainListItems}</List>
+          <List><CourseLinks course='201' main={true} /></List>
           <Divider />
-          <List>{secondaryListItems}</List>
+          <List><CourseLinks course='331' main={true} /></List>
         </Drawer>
         <Box
           component="main"
@@ -158,7 +158,19 @@ function MainContent() {
           <Toolbar />
           <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
             <Grid container spacing={3}>
-            
+              <Grid item xs={12}>
+                <Typography variant="h3">
+                  Welcome!
+                </Typography>
+              </Grid>
+              <Grid item xs={12}>
+                <Typography variant="subtitle1">
+                  Welcome to my website for all the courses I am currently teaching at IIT. If you are looking for either CS201 or CS331 details, please checkout the links in the menu. Below you can also see my full schedule for the semester, just so you know when I am busy and not going to be available for office hours or able to answer messages/emails.
+                </Typography>
+              </Grid>
+              <Grid item xs={12}>
+                <Calendar course={['201', '331']} />
+              </Grid>
             </Grid>
             <Copyright sx={{ pt: 4 }} />
           </Container>

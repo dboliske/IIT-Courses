@@ -1,10 +1,12 @@
 {
   "name": "iit-sites",
-  "homepage": "http://mypages.iit.edu/~dboliske/",
-  "version": "0.1.0",
+  "homepage": "https://dboliske.github.io/IIT-Courses/",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -46,6 +48,8 @@
     "@mui/lab": "^5.0.0-alpha.48",
     "@mui/material": "^5.0.1",
     "@mui/styles": "^5.0.1",
+    "assert": "^2.0.0",
+    "buffer": "^6.0.3",
     "clsx": "^1.1.1",
     "prop-types": "^15.7.2",
     "react-dom": "^17.0.2",
@@ -53,7 +57,11 @@
     "react-icons": "^4.2.0",
     "react-iframe": "^1.8.0",
     "react-router-dom": "^5.3.0",
-    "react-scripts": "^4.0.3",
-    "react-spinners": "^0.11.0"
+    "react-scripts": "^5.0.0",
+    "react-spinners": "^0.11.0",
+    "xml-js": "^1.6.11"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }

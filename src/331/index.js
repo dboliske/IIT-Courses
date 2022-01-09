@@ -17,7 +17,7 @@ import Link from '@mui/material/Link';
 import MenuIcon from '@mui/icons-material/Menu';
 import MenuOpenIcon from '@mui/icons-material/MenuOpen';
 import MailIcon from '@mui/icons-material/Mail';
-import { mainListItems } from './listItems';
+import CourseLinks from '../Home/CourseLinks';
 
 import { purple } from '@mui/material/colors';
 
@@ -36,7 +36,7 @@ function Copyright(props) {
   return (
     <Typography variant="body2" color="text.secondary" align="center" {...props}>
       {'Copyright © '}
-      <Link color="inherit" href="http://mypages.iit.edu/~dboliske/">
+      <Link color="inherit" href="https://dboliske.github.io/IIT-CourseWebsite/">
         Dylan Boliske
       </Link>{' '}
       {new Date().getFullYear()}
@@ -150,7 +150,7 @@ function CS331Content() {
             </IconButton>
           </Toolbar>
           <Divider />
-          <List>{mainListItems}</List>
+          <List><CourseLinks course='331' /></List>
         </Drawer>
         <Box
           component="main"

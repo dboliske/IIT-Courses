@@ -12,7 +12,7 @@ import Tooltip from '@mui/material/Tooltip';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ClassIcon from '@mui/icons-material/Class';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-import { teal, amber, blue, red, blueGrey } from '@mui/material/colors';
+import { red, pink, purple, deepPurple, indigo, blue, lightBlue, cyan, teal, green, lightGreen, lime, yellow, amber, orange, deepOrange, brown, grey, blueGrey } from '@mui/material/colors';
 import { ViewState } from '@devexpress/dx-react-scheduler';
 import { Scheduler, DayView, MonthView, Appointments, AppointmentTooltip, Resources } from '@devexpress/dx-react-scheduler-material-ui';
 
@@ -32,17 +32,24 @@ function CalendarPlaceHolder() {
     );
 }
 
-const resources = [{
-    fieldName: 'type',
-    title: '',
-    instances: [
-        { id: 'Assignment', text: 'Due Date', color: amber },
-        { id: 'Lecture', text: 'Lecture', color: teal },
-        { id: 'Lab', text: 'Lab', color: blue },
-        { id: 'Exam', text: 'Exam', color: red },
-        { id: 'Holiday', text: 'No Class', color: blueGrey }
-    ]
-}];
+function resources(course) {
+    return [{
+        fieldName: 'type',
+        title: '',
+        instances: [
+            { id: '201-Assignment', text: 'Due Date', color: amber },
+            { id: '201-Lecture', text: 'Lecture', color: red },
+            { id: '201-Lab', text: 'Lab', color: orange },
+            { id: '201-Exam', text: 'Exam', color: deepOrange },
+            { id: '331-Assignment', text: 'Due Date', color: pink },
+            { id: '331-Lecture', text: 'Lecture', color: indigo },
+            { id: '331-Lab', text: 'Lab', color: purple },
+            { id: '331-Exam', text: 'Exam', color: deepPurple },
+            { id: '201-Holiday', text: 'No Class', color: blueGrey },
+            { id: '331-Holiday', text: 'No Class', color: blueGrey }
+        ]
+    }];
+}
 
 function buildTooltipLinks(type, data) {
     switch (type) {
@@ -115,7 +122,7 @@ function RenderCalendar(props) {
                                     headerComponent={Header}
                                     showCloseButton
                                 />
-                                <Resources data={resources} />
+                                <Resources data={resources(props.course)} />
                             </Scheduler>
                         </Paper>
                     </Grid>
@@ -132,20 +139,23 @@ class CalendarContent extends React.Component {
             course: props.course,
             today: new Date(),
             current: new Date(),
-            data: {},
+            data: [],
             loaded: false
         };
     }
 
     componentDidMount() {
         const { today } = this.state;
-        var month = today.getMonth();
         var start = new Date();
         start.setDate(1);
         start.setHours(0);
         start.setMinutes(0);
         start.setSeconds(0);
-        this.load(this.props.course);
+        if (Array.isArray(this.props.course)) {
+            this.props.course.map((course) => this.load(course));
+        } else {
+            this.load(this.props.course);
+        }
     }
 
     load(course) {
@@ -156,15 +166,27 @@ class CalendarContent extends React.Component {
                 (result) => {
                     var events = yaml.safeLoad(result);
                     this.setState((state) => {
-                        return {data: (events===null?[]:(events[0].title===undefined?null:events))};
+                        return {data: (events===null?[]:(events[0].title===undefined?[]:
+                            this.deleteDuplicates(this.state.data.concat(events.map((event) => ({...event, type: course+'-'+event.type}))))))
+                        };
                     });
                 },
                 (error) => {
                     this.setState((state) => {
-                        return {data: null};
+                        return {data: []};
                     });
                 }
             )
+    }
+
+    deleteDuplicates(array) {
+        let unique = array.filter((value, index, self) =>
+        index === self.findIndex((t) => (
+          t.title === value.title && t.startDate === value.startDate
+        ))
+      )
+
+        return unique;
     }
 
     render() {
@@ -175,7 +197,7 @@ class CalendarContent extends React.Component {
                     {
                         this.state.data===null ?
                         <CalendarPlaceHolder /> :
-                        <RenderCalendar details={this.state.data} current={this.state.current} calendar={this} />
+                        <RenderCalendar details={this.state.data} current={this.state.current} calendar={this} course={this.state.course} />
                     }
                 </Box>
             </ThemeProvider>

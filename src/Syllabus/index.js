@@ -159,13 +159,13 @@ function TAContent(props) {
         return (
             <Paper style={{padding:'1rem'}} elevation={0}>
                 <Typography variant="h4" gutterBottom>
-                    Teaching Assistants
+                    Lab Assistants
                 </Typography>
-                <Grid container spacing={2}>
+                <Grid container spacing={2} alignItems="stretch">
                 {props.assistants.map((ta) => (
                     <Grid item xs={6}>
                         <Card variant="outlined">
-                            <CardContent style={{paddingBottom:'0.5rem'}}>
+                            <CardContent sx={{paddingBottom:'0.5rem'}}>
                                 <Grid container spacing={1}>
                                     <Grid item xs={12} sm={8}>
                                         <Typography variant="h5">
@@ -360,18 +360,20 @@ function ResourceContent(props) {
                 <Typography variant="h4" gutterBottom>
                     Resources
                 </Typography>
-                <Grid container spacing={2}>
+                <Grid container spacing={2} alignItems="Strech">
                     {props.resources.map((resource) => (
-                        <Grid item xs={12} lg={6}>
-                            <Card variant="outlined">
-                                <CardContent style={{paddingBottom:'0.5rem'}}>
-                                    <Typography variant="h5">
-                                        {resource.title}
-                                    </Typography>
-                                    <Typography variant="body1" gutterBottom>
-                                        {resource.description}
-                                    </Typography>
-                                    <div style={{width: '100%'}}>
+                        <Grid item xs={12} lg={6} sx={{display:'flex'}}>
+                            <Card variant="outlined" sx={{minHeigh:'100%'}}>
+                                <CardContent sx={{minHeight:'100%',pb:'0.5rem',display:'flex',flexDirection:'column',justifyContent:'space-between'}}>
+                                    <Box>
+                                        <Typography variant="h5">
+                                            {resource.title}
+                                        </Typography>
+                                        <Typography variant="body1" gutterBottom>
+                                            {resource.description}
+                                        </Typography>
+                                    </Box>
+                                    <Box style={{width: '100%'}}>
                                         <Box sx={{display: 'flex'}}>
                                             {
                                                 resource.links.length===1?(
@@ -391,7 +393,7 @@ function ResourceContent(props) {
                                                 )
                                             }
                                         </Box>
-                                    </div>
+                                    </Box>
                                 </CardContent>
                             </Card>
                         </Grid>
@@ -450,8 +452,8 @@ function GoalsContent(props) {
                     Course Goals
                 </Typography>
                 <Typography variant="body1">
-                    <ul>
-                        {props.goals.map((goal) => (<li>{goal}</li>))}
+                    <ul style={{listStyleType:'disc',listStylePosition:'inside'}}>
+                        {props.goals.map((goal) => (<li style={{listStyleType:'disc',listStylePosition:'inside'}}>{goal}</li>))}
                     </ul>
                 </Typography>
             </Paper>
@@ -469,8 +471,8 @@ function OutcomesContent(props) {
                     Course Outcomes
                 </Typography>
                 <Typography variant="body1">
-                    <ul>
-                        {props.outcomes.map((outcome) => (<li>{outcome}</li>))}
+                    <ul style={{listStyleType:'disc',listStylePosition:'inside'}}>
+                        {props.outcomes.map((outcome) => (<li style={{listStyleType:'disc',listStylePosition:'inside'}}>{outcome}</li>))}
                     </ul>
                 </Typography>
             </Paper>
@@ -680,7 +682,7 @@ class SyllabusContent extends React.Component {
                             <ParagraphContent loaded={loaded} paragraphs={details===null?null:details.assignments} title={"Assignments"} />
                         </Grid>
                         {
-                            loaded&&details.quizess!==null&&details.quizess!==undefined?<Grid item xs={12}>
+                            loaded&&details.quizzes!==null&&details.quizzes!==undefined?<Grid item xs={12}>
                                 <ParagraphContent loaded={loaded} paragraphs={details===null?null:details.quizzes} title={"Quizzes"} />
                             </Grid>:''
                         }

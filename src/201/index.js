@@ -16,7 +16,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import MenuOpenIcon from '@mui/icons-material/MenuOpen';
 import MailIcon from '@mui/icons-material/Mail';
 import { red } from '@mui/material/colors';
-import { mainListItems } from './listItems';
+import CourseLinks from '../Home/CourseLinks';
 
 import { Route, HashRouter as Router, Switch } from 'react-router-dom';
 
@@ -33,7 +33,7 @@ function Copyright(props) {
   return (
     <Typography variant="body2" color="text.secondary" align="center" {...props}>
       {'Copyright © '}
-      <Link color="inherit" href="http://mypages.iit.edu/~dboliske/#/201">
+      <Link color="inherit" href="https://dboliske.github.io/IIT-CourseWebsite/#/201">
         CS 201
       </Link>{' '}
       {new Date().getFullYear()}
@@ -147,7 +147,7 @@ function CS201Content() {
             </IconButton>
           </Toolbar>
           <Divider />
-          <List>{mainListItems}</List>
+          <List><CourseLinks course='201' /></List>
         </Drawer>
         <Box
           component="main"

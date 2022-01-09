@@ -1,0 +1,30 @@
+-
+  name: Home
+  url: '#/331'
+  text: Home
+  icon: python
+-
+  name: Syllabus
+  url: '#/331/syllabus'
+  text: Syllabus
+  icon: toc
+-
+  name: Lectures
+  url: '#/331/lectures'
+  text: Lectures
+  icon: notes
+# -
+#   name: Exams
+#   url: '#/331/review'
+#   text: Exam Review
+#   icon: assignment-in
+-
+  name: Discord
+  url: 'https://discord.com/channels/922508964174897152/922508964174897155'
+  text: Discord
+  icon: discord
+-
+  name: Mimir
+  url: ''
+  text: Mimir
+  icon: mimir

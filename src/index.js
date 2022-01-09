@@ -6,6 +6,7 @@ import Main from './Home';
 import CS201 from './201';
 import CS331 from './331';
 import NotFound from './NotFound';
+import SiteMap from './SiteMap';
 
 ReactDOM.render(
   <Router>
@@ -15,6 +16,9 @@ ReactDOM.render(
       <Route path="/201/*" component={CS201}/>
       <Route path="/331" component={CS331}/>
       <Route path="/331/*" component={CS331}/>
+
+      <Route path='/sitemap' component={SiteMap} />
+
       <Route component={NotFound} />
     </Switch>
   </Router>,
