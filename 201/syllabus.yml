@@ -10,25 +10,10 @@ instructor:
   discord:
 assistants:
   -
-    name: Rishi Shukla
-    hours: TH 17.00-18.00 CDT
+    name: Mohamed Trigui
+    hours: TH 10.30-11.30 CDT
     office: SB 108
-    email: rshukla2@hawk.iit.edu
-  -
-    name: Isaac Kane
-    hours: TBA
-    office: SB 108
-    email: ikane@hawk.iit.edu
-  -
-    name: Elliot Tan
-    hours: FRI 16.10-17.10 CDT
-    office: SB 108
-    email: etan1@hawk.iit.edu
-  -
-    name: Arman Idress
-    hours: TH 13.30-15.30 CDT
-    office: SB 108
-    email: aidress1@hawk.iit.edu
+    email: mtrigui@hawk.iit.edu
 textbooks:
   required: false
   books:
