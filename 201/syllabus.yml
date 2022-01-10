@@ -24,6 +24,11 @@ assistants:
     hours: MON 12.00-13.00 CDT
     office: SB 108
     email: gkumari@hawk.iit.edu
+  -
+    name: Aman Idrees
+    hours: FRI 16.00-17.00 CDT
+    office: SB 108
+    email: aidrees1@hawk.iit.edu
 textbooks:
   required: false
   books:
