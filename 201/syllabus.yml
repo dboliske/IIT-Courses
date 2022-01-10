@@ -19,6 +19,11 @@ assistants:
     hours: TH 10.30-11.30 CDT
     office: SB 108
     email: mtrigui@hawk.iit.edu
+  -
+    name: Gauri Kumari
+    hours: MON 12.00-13.00 CDT
+    office: SB 108
+    email: gkumari@hawk.iit.edu
 textbooks:
   required: false
   books:
