@@ -14,6 +14,11 @@ assistants:
     hours: WED 14.00-15.00 CDT + FRI 15.00-17.00 CDT
     office: Online/SB 108
     email: sganeshkumar@hawk.iit.edu
+  -
+    name: Theo Guidroz
+    hours: TUES 09.15-11.15 CDT
+    office: Online/SB 108
+    email: tguidroz@hawk.iit.edu
 resources:
   -
     title: Discord
