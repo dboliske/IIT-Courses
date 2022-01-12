@@ -25,6 +25,6 @@
   icon: discord
 -
   name: BitBucket
-  url: ''
+  url: 'https://bitbucket.org/dboliske/cs201-202201-lectures/src/main'
   text: Lecture Repository
   icon: bitbucket
