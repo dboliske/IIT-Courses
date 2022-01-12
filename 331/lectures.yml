@@ -10,6 +10,7 @@ lectures:
     notebook:
       name: 01-lang-intro-a.ipynb
       gist: dboliske/fb8cbeb1874b0172297e3370b463f563
+    video: https://www.youtube.com/watch?v=OBu91BY3HXc
   -
     title: Python Language Introduction B
     description: The purpose of this lecture is to give you a quick understanding of the Python programming language.

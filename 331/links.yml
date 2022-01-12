@@ -25,6 +25,11 @@
   icon: discord
 -
   name: Mimir
-  url: ''
+  url: 'https://class.mimir.io/courses/96ee3275-b934-4b71-af80-dfc168ebdacd'
   text: Mimir
   icon: mimir
+-
+  name: Github
+  url: 'https://github.com/dboliske/cs331'
+  text: Example Notebooks
+  icon: github
