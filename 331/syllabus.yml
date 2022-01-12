@@ -54,24 +54,25 @@ resources:
         name: Installation Guide
         link: http://jupyter.org/install.html
 goals:
-  - "Explain, implement, and apply the following data-structures: lists (unordered and ordered), stacks, queues, expression trees, binary search trees, heaps, and hash tables"
-  - Analyze the time and space complexity of algorithms using asymptotic upper bounds (big-O notation).
-  - Explain and use references and linked structures.
-  - "Outline basic object-oriented design concepts: composition, inheritance, polymorphism"
-  - Outline basic concepts of immutable data structures and explain the trade-offs compared to mutable data.
-  - Write and test recursive procedures, and explain the run-time stack concept.
-  - Analyze searching and sorting algorithms, and explain their relationship to data-structures.
-  - Choose and implement appropriate data-structures to solve an application problem.
-  - Understand techniques of software development, such as unit testing and version control.
+  - 'Design and implement data structures based on the following abstract data types: lists, stacks, queues, priority queues, sets, maps, trees.'
+  - Understand which data structures to use, and how to apply them to a variety of problems.
+  - Analyze the asymptotic runtime complexity of common search/sort algorithms, and others used in the implementation of data structures.
+  - Design and implement recursive functions.
+  - Understand the utility of object-orientation in the implementation of sophisticated data types and APIs.
+  - Identify aspects in the design and implementation of data structures that play a role in secure computing.
+  - Practice test-driven development.
 outcomes:
-  # - An ability to apply knowledge of computing and mathematics appropriate to the program's student outcomes and to the discipline.
+  - Analyze a complex computing problem and to apply principles of computing and other relevant disciplines to identify solutions.
+  - Design, implement, and evaluate a computing-based solution to meet a given set of computing requirements in the context of the program?s discipline.
+  - Apply computer science theory and software development fundamentals to produce computing-based solutions.
 assignments:
   - There will be approximately 12 machine problems assigned over the course of the semester. They will be accessed, completed, and submitted via the online development environment and learning platform Mimir. Machine problems are not equally weighted.
   - Each student starts the semester with a "late pool" of 7 days. Late days are automatically applied when machine problems are submitted late (though not after the last day of the semester). After the late day pool is exhausted, late assignments will not be accepted for credit.
 quizzes:
   - Quizzes will be periodically released on Mimir to help students prepare for upcoming exams. Students may retake quizzes as often as they wish before the deadline, though scores will not be released until after the final submission date. Quizzes are equally weighted.
 exams:
-  - all exams are nominally cumulative, though will generally focus on material not covered by preceding exam(s). Exams are equally weighted.
+  - 'There will be three exams: two midterms and a final. All exams are nominally cumulative, though will generally focus on material not covered by preceding exam(s). Exams are equally weighted.'
+  - At the instructor's discretion, scores for the second midterm and final exam may be used to replace earlier exam scores, if they show improvement.
 grading:
   chart:
     -
