@@ -3,7 +3,7 @@ name: Data Structures and Algorithms
 description: Implementation and application of the essential data structures used in computer science. Analysis of basic sorting and searching algorithms and their relationship to these data structures. Particular emphasis is given to the use of object-oriented design and data abstraction in the creation and application of data structures. (3-1-3)
 instructor:
   name: Dylan Boliske
-  hours: 16.00-17.00 CDT
+  hours: 16.00-17.00
   office: SB 105C
   mailbox: CS Dept. (SB 235-236)
   email: dboliske@hawk.iit.edu
@@ -11,14 +11,19 @@ instructor:
 assistants:
   -
     name: Sudharshana Ganeshkumar
-    hours: WED 14.00-15.00 CDT + FRI 15.00-17.00 CDT
+    hours: WED 14.00-15.00 + FRI 15.00-17.00
     office: Online/SB 108
     email: sganeshkumar@hawk.iit.edu
   -
     name: Theo Guidroz
-    hours: TUES 09.15-11.15 CDT
+    hours: TUES 09.15-11.15
     office: Online/SB 108
     email: tguidroz@hawk.iit.edu
+  -
+    name: David Fedaravicius
+    hours: TUES 10.00-11.00
+    office: Online/SB 108
+    email: dfedaravicius@hawk.iit.edu
 resources:
   -
     title: Discord

@@ -3,7 +3,7 @@ name: Advanced Introduction to Object Oriented Programming
 description: Problem-solving and design using an object-oriented programming language. Introduces a variety of problem-solving techniques, algorithms, and data structures in object-oriented programming. (3-2-4)
 instructor:
   name: Dylan Boliske
-  hours: 16.30-17.00 + 18.25+18.55 CDT
+  hours: 16.00-17.00
   office: SB 105C
   mailbox: CS Dept. (SB 235-236)
   email: dboliske@hawk.iit.edu
@@ -11,24 +11,29 @@ instructor:
 assistants:
   -
     name: Mohammad Firas Sada
-    hours: MON 10.00-11.00 CDT
-    office: SB 108
+    hours: MON 10.00-11.00
+    office: Online/SB 108
     email: msada@hawk.iit.edu
   -
     name: Mohamed Trigui
-    hours: TH 10.30-11.30 CDT
-    office: SB 108
+    hours: TH 10.30-11.30
+    office: Online/SB 108
     email: mtrigui@hawk.iit.edu
   -
     name: Gauri Kumari
-    hours: MON 12.00-13.00 CDT
-    office: SB 108
+    hours: MON 12.00-13.00
+    office: Online/SB 108
     email: gkumari@hawk.iit.edu
   -
     name: Aman Idrees
-    hours: FRI 16.00-17.00 CDT
-    office: SB 108
+    hours: FRI 16.00-17.00
+    office: Online/SB 108
     email: aidrees1@hawk.iit.edu
+  -
+    name: David Fedaravicius
+    hours: TH 10.00-11.00
+    office: Online/SB 108
+    email: dfedaravicius@hawk.iit.edu
 textbooks:
   required: false
   books:
