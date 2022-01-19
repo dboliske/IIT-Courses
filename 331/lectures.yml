@@ -10,15 +10,16 @@ lectures:
     notebook:
       name: 01-lang-intro-a.ipynb
       gist: dboliske/fb8cbeb1874b0172297e3370b463f563
-    video: https://www.youtube.com/watch?v=OBu91BY3HXc
+    video: https://youtu.be/OBu91BY3HXc
   -
     title: Python Language Introduction B
     description: The purpose of this lecture is to give you a quick understanding of the Python programming language.
-    dates: January 18th
+    dates: January 11th-18th
     section: midterm-1
     notebook:
       name: 02-lang-intro-b.ipynb
       gist: dboliske/fb8cbeb1874b0172297e3370b463f563
+    video: https://www.youtube.com/playlist?list=PLTfWqJ1nohEk0cA_LjzD61pplbCD7NQtB
   -
     title: Python Language Introduction C
     description: The purpose of this lecture is to give you a quick understanding of the Python programming language.
@@ -27,6 +28,7 @@ lectures:
     notebook:
       name: 03-lang-intro-c.ipynb
       gist: dboliske/fb8cbeb1874b0172297e3370b463f563
+    video: https://youtu.be/ISZ3AfOqXfs
   -
     title: Python Data Structures
     description: ''
