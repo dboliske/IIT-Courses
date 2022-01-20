@@ -50,6 +50,7 @@ lectures:
     dates: January 12th + 19th
     section: midterm
     slides: https://docs.google.com/presentation/d/e/2PACX-1vTQ2LjxCmYMCyQE47TAqm9ofhK8vMYEfI7LqkNwRmdminNZfRocwCjKQW3fiYBLM0H91VEFa2cZA4I5/embed?start=false
+    video: https://www.youtube.com/playlist?list=PLTfWqJ1nohEneLFN-jsQDVq5S7_duFxyf
   -
     title: "Flow of Control: Repetition"
     description: Continued discussion of control structures this time focused on repetition structures such as while, do, and for.

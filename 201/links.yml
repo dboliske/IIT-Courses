@@ -28,3 +28,8 @@
   url: 'https://bitbucket.org/dboliske/cs201-202201-lectures/src/main'
   text: Lecture Repository
   icon: bitbucket
+-
+  name: YouTube
+  url: 'https://www.youtube.com/playlist?list=PLTfWqJ1nohEmujIZE6NxG30Mrz_RhsLpa'
+  text: YouTube Playlist
+  icon: youtube

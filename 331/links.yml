@@ -33,3 +33,8 @@
   url: 'https://github.com/dboliske/cs331'
   text: Example Notebooks
   icon: github
+-
+  name: YouTube
+  url: 'https://www.youtube.com/playlist?list=PLTfWqJ1nohEl2ufyH52fBZfgnyzRAXDfL'
+  text: YouTube Playlist
+  icon: youtube
