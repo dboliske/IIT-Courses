@@ -37,6 +37,7 @@ lectures:
     notebook:
       name: 04-data-structure-demo.ipynb
       gist: dboliske/fb8cbeb1874b0172297e3370b463f563
+    video: https://youtu.be/1aBDlI0NGfU
   -
     title: Timing and Runtime Complexity
     description: ''
