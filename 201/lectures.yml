@@ -50,6 +50,7 @@ lectures:
     dates: January 12th + 19th
     section: midterm
     slides: https://docs.google.com/presentation/d/e/2PACX-1vTQ2LjxCmYMCyQE47TAqm9ofhK8vMYEfI7LqkNwRmdminNZfRocwCjKQW3fiYBLM0H91VEFa2cZA4I5/embed?start=false
+    examples: https://bitbucket.org/dboliske/cs201-202201-lectures/src/main/src/lectures/selection
     video: https://www.youtube.com/playlist?list=PLTfWqJ1nohEneLFN-jsQDVq5S7_duFxyf
   -
     title: "Flow of Control: Repetition"
@@ -57,13 +58,16 @@ lectures:
     dates: January 24th + 26th
     section: midterm
     slides: https://docs.google.com/presentation/d/e/2PACX-1vROQsWC2Hfw3V1qLFQV4_bHBp2vdUqMp9l34W5GHDrhvvTLsE0fGUhQDUu9Y5eFqa9bAAnaHrBE4jv3/embed?start=false
-    video: https://youtu.be/8TDZFOA28JA
+    examples: https://bitbucket.org/dboliske/cs201-202201-lectures/src/main/src/lectures/repetition
+    video: https://www.youtube.com/playlist?list=PLTfWqJ1nohElswXEaqvTdZ8K4_NNfL4CC
   -
     title: Arrays
     description: A look at the course's first major data structure, arrays.
     dates: January 31st + February 2nd
     section: midterm
     slides: https://docs.google.com/presentation/d/e/2PACX-1vSsYsnkcRiW4ObQwUddB-Gwgk1OUBchNkPd0Vqv3PnEkWp1oYNMibyPiQJliZugqD6YMWI5xkL7W2D_/embed?start=false
+    examples: https://bitbucket.org/dboliske/cs201-202201-lectures/src/main/src/lectures/arrays
+    video: https://youtu.be/zM5Ga4u0O_s
   -
     title: Exceptions and FileWriters
     description: Introduction to handling errors and exceptions in code as well as how to read information from files.
