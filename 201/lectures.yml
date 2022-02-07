@@ -67,13 +67,15 @@ lectures:
     section: midterm
     slides: https://docs.google.com/presentation/d/e/2PACX-1vSsYsnkcRiW4ObQwUddB-Gwgk1OUBchNkPd0Vqv3PnEkWp1oYNMibyPiQJliZugqD6YMWI5xkL7W2D_/embed?start=false
     examples: https://bitbucket.org/dboliske/cs201-202201-lectures/src/main/src/lectures/arrays
-    video: https://youtu.be/zM5Ga4u0O_s
+    video: https://www.youtube.com/playlist?list=PLTfWqJ1nohEkvsL8j2oW48_i6BbBsiB-k
   -
     title: Exceptions and FileWriters
     description: Introduction to handling errors and exceptions in code as well as how to read information from files.
     dates: February 7th
     section: midterm
     slides: https://docs.google.com/presentation/d/e/2PACX-1vQWwyROVl4QS92oHKWWYVsGeyrqHjXbpOagUxDQ-hS3aexmqwrWI9VG9uJaZhZUecoUOmf57HPHxrH_/embed?start=false
+    examples: https://bitbucket.org/dboliske/cs201-202201-lectures/src/main/src/lectures/exceptions
+    video: https://youtu.be/ZiWn7Dz69ew
   -
     title: Objects and Classes
     description: Introduction to the course's second and most important data structure, objects and classes.
