@@ -71,6 +71,11 @@
   startDate: '2022-02-08T19:35'
   endDate: '2022-02-08T20:25'
 -
+  title: Quiz 1
+  type: Assignment
+  startDate: '2022-02-08T19:30'
+  endDate: '2022-02-15T17:00'
+-
   title: Iterators
   type: Lecture
   startDate: '2022-02-15T17:00'
@@ -92,6 +97,11 @@
   type: Lab
   startDate: '2022-02-22T19:35'
   endDate: '2022-02-22T20:25'
+-
+  title: Midterm 1
+  type: Exam
+  startDate: '2022-02-28T19:30'
+  endDate: '2022-03-01T20:30'
 -
   title: Linked List
   type: Lecture

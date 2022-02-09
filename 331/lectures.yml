@@ -56,6 +56,7 @@ lectures:
     notebook:
       name: 06-array-list.ipynb
       gist: dboliske/fb8cbeb1874b0172297e3370b463f563
+    vidoe: https://youtu.be/E0zGXqPeG-M
   -
     title: Iterators
     description: ''
