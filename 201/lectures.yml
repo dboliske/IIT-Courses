@@ -82,6 +82,8 @@ lectures:
     dates: February 9th + 14th
     section: midterm
     slides: https://docs.google.com/presentation/d/e/2PACX-1vREHh-UErq_6DM_L1JInEa_aeWG59WM20XiMFvuwE_wFvpdfEAz7-yiwwBsqDjq9_jkhnPzOBGOyYmf/embed?start=false
+    examples: https://bitbucket.org/dboliske/cs201-202201-lectures/src/main/src/lectures/objects
+    video: https://www.youtube.com/playlist?list=PLTfWqJ1nohEnsn-jKx6qKSR47lCpu6jMb
   -
     title: Inheritance/Polymorphism
     description: A continued look at objects and more specifically the relationships between multiple objects.
