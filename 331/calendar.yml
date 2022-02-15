@@ -87,6 +87,11 @@
   startDate: '2022-02-15T19:35'
   endDate: '2022-02-15T20:25'
 -
+  title: Quiz 2
+  type: Assignment
+  startDate: '2022-02-15T19:30'
+  endDate: '2022-02-22T17:00'
+-
   title: Linked Structures
   type: Lecture
   startDate: '2022-02-22T17:00'
