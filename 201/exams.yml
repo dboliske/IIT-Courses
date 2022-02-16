@@ -204,7 +204,7 @@ sections:
             content: Write a class that implements the following UML diagram. For distance(Point), the method body should calculate the distance between the instance data and the parameter.
           -
             type: image
-            content: https://dboliske.github.io/IIT-Courses/assets/review/Point.png
+            content: https://dboliske.github.io/IIT-Courses/assets/review/point.png
         solution:
           -
             name: Point.java
