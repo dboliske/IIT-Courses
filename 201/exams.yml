@@ -180,7 +180,7 @@ sections:
             content: Write a class that implements the following UML diagram. Make sure to include all shown methods. Additionally, make sure to validate data so that day is between 1 and 31 and month is between 1 and 12.
           -
             type: image
-            content: /assets/review/Date.png
+            content: https://dboliske.github.io/IIT-Courses/assets/review/Date.png
         solution:
           -
             name: Date.java
@@ -192,7 +192,7 @@ sections:
             content: Write a class that implements the following UML diagram. For haveBirthday(), the method body should increase the age by one.
           -
             type: image
-            content: /assets/review/Person.png
+            content: https://dboliske.github.io/IIT-Courses/assets/review/Person.png
         solution:
           -
             name: Person.java
@@ -204,7 +204,7 @@ sections:
             content: Write a class that implements the following UML diagram. For distance(Point), the method body should calculate the distance between the instance data and the parameter.
           -
             type: image
-            content: /assets/review/Point.png
+            content: https://dboliske.github.io/IIT-Courses/assets/review/Point.png
         solution:
           -
             name: Point.java
@@ -222,7 +222,7 @@ sections:
             content: Write a java classes based on the following UML diagram. Include all standard methods, such as constructors, mutators, accessors, toString, and equals. Additionally, implement all methods shown in the diagram.
           -
             type: image
-            content: /assets/review/rectangle-square.png
+            content: https://dboliske.github.io/IIT-Courses/assets/review/rectangle-square.png
         solution:
           -
             name: Rectangle.java
@@ -237,7 +237,7 @@ sections:
             content: Write a java classes based on the following UML diagram. Include all standard methods, such as constructors, mutators, accessors, toString, and equals. Additionally, implement all methods shown in the diagram.
           -
             type: image
-            content: /assets/review/rectangle-cube.png
+            content: https://dboliske.github.io/IIT-Courses/assets/review/rectangle-cube.png
         solution:
           -
             name: Rectangle.java
@@ -258,7 +258,7 @@ sections:
             content: Write a java classes based on the following UML diagram. Include all standard methods, such as constructors, mutators, accessors, toString, and equals. Additionally, implement all methods shown in the diagram.
           -
             type: image
-            content: /assets/review/animal-cat-dog.png
+            content: https://dboliske.github.io/IIT-Courses/assets/review/animal-cat-dog.png
         solution:
           -
             name: Animal.java
@@ -276,7 +276,7 @@ sections:
             content: Write a java classes based on the following UML diagram. Include all standard methods, such as constructors, mutators, accessors, toString, and equals. Additionally, implement all methods shown in the diagram.
           -
             type: image
-            content: /assets/review/phones.png
+            content: https://dboliske.github.io/IIT-Courses/assets/review/phones.png
         solution:
           -
             name: Phone.java
