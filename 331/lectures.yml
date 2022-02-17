@@ -46,7 +46,7 @@ lectures:
     notebook:
       name: 05-timing.ipynb
       gist: dboliske/fb8cbeb1874b0172297e3370b463f563
-    example: https://moss.cs.iit.edu/cs331/slides/runtime-complexity.pdf
+    examples: https://moss.cs.iit.edu/cs331/slides/runtime-complexity.pdf
     video: https://youtu.be/u_lZU67GZII
   -
     title: Array-backed Lists

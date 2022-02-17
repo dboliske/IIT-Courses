@@ -90,6 +90,8 @@ lectures:
     dates: February 16th + 21st
     section: final
     slides: https://docs.google.com/presentation/d/e/2PACX-1vS1fYYmcSP23fKV-WJs6SfgvVUep1G2m4itH02Ss8P2x5UiO8vy5h3ndeMw6KRHagb-tOW-UZXmXKo4/embed?start=false
+    examples: https://bitbucket.org/dboliske/cs201-202201-lectures/src/main/src/lectures/inheritance
+    video: https://www.youtube.com/playlist?list=PLTfWqJ1nohEmk70A6pIIV4BYlS7gnHOhZ
   -
     title: Abstract Classes
     description: Begin looking at more advanced class design, specifically, partially implemented classes.
