@@ -8,32 +8,32 @@ instructor:
   mailbox: CS Dept. (SB 235-236)
   email: dboliske@hawk.iit.edu
   discord:
-assistants:
-  -
-    name: Mohammad Firas Sada
-    hours: MON 10.00-11.00
-    office: Online/SB 108
-    email: msada@hawk.iit.edu
-  -
-    name: Mohamed Trigui
-    hours: TH 10.30-11.30
-    office: Online/SB 108
-    email: mtrigui@hawk.iit.edu
-  -
-    name: Gauri Kumari
-    hours: MON 12.00-13.00
-    office: Online/SB 108
-    email: gkumari@hawk.iit.edu
-  -
-    name: Aman Idrees
-    hours: FRI 16.00-17.00
-    office: Online/SB 108
-    email: aidrees1@hawk.iit.edu
-  -
-    name: David Fedaravicius
-    hours: TH 10.00-11.00
-    office: Online/SB 108
-    email: dfedaravicius@hawk.iit.edu
+# assistants:
+#   -
+#     name: Mohammad Firas Sada
+#     hours: MON 10.00-11.00
+#     office: Online/SB 108
+#     email: msada@hawk.iit.edu
+#   -
+#     name: Mohamed Trigui
+#     hours: TH 10.30-11.30
+#     office: Online/SB 108
+#     email: mtrigui@hawk.iit.edu
+#   -
+#     name: Gauri Kumari
+#     hours: MON 12.00-13.00
+#     office: Online/SB 108
+#     email: gkumari@hawk.iit.edu
+#   -
+#     name: Aman Idrees
+#     hours: FRI 16.00-17.00
+#     office: Online/SB 108
+#     email: aidrees1@hawk.iit.edu
+#   -
+#     name: David Fedaravicius
+#     hours: TH 10.00-11.00
+#     office: Online/SB 108
+#     email: dfedaravicius@hawk.iit.edu
 textbooks:
   required: false
   books:
@@ -87,9 +87,9 @@ resources:
       -
         name: Download Discord
         link: https://discord.com/download
-      -
-        name: Discord Invite
-        link: https://discord.gg/Tjs5E4JG3B
+      # -
+      #   name: Discord Invite
+      #   link: https://discord.gg/Tjs5E4JG3B
 goals:
   - "Analyze and explain the behavior of simple programs involving the following fundamental programming constructs: assignment, I/O (including file I/O), selection, iteration, methods"
   - "Write a program that uses each of the following fundamental programming constructs: assignment, I/O (including file I/O), selection, iteration, methods"

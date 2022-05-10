@@ -8,22 +8,22 @@ instructor:
   mailbox: CS Dept. (SB 235-236)
   email: dboliske@hawk.iit.edu
   discord:
-assistants:
-  -
-    name: Sudharshana Ganeshkumar
-    hours: WED 14.00-15.00 + FRI 15.00-17.00
-    office: Online/SB 108
-    email: sganeshkumar@hawk.iit.edu
-  -
-    name: Theo Guidroz
-    hours: TUES 09.15-11.15
-    office: Online/SB 108
-    email: tguidroz@hawk.iit.edu
-  -
-    name: David Fedaravicius
-    hours: TUES 10.00-11.00
-    office: Online/SB 108
-    email: dfedaravicius@hawk.iit.edu
+# assistants:
+#   -
+#     name: Sudharshana Ganeshkumar
+#     hours: WED 14.00-15.00 + FRI 15.00-17.00
+#     office: Online/SB 108
+#     email: sganeshkumar@hawk.iit.edu
+#   -
+#     name: Theo Guidroz
+#     hours: TUES 09.15-11.15
+#     office: Online/SB 108
+#     email: tguidroz@hawk.iit.edu
+#   -
+#     name: David Fedaravicius
+#     hours: TUES 10.00-11.00
+#     office: Online/SB 108
+#     email: dfedaravicius@hawk.iit.edu
 resources:
   -
     title: Discord
@@ -32,9 +32,9 @@ resources:
       -
         name: Download Discord
         link: https://discord.com/download
-      -
-        name: Discord Invite
-        link: https://discord.gg/chT4yaCzYw
+      # -
+      #   name: Discord Invite
+      #   link: https://discord.gg/chT4yaCzYw
   -
     title: Mimir
     description: You should receive an invite to Mimir, the platform where you'll be completing all assessments this spring. If not, you can sign up below.
