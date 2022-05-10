@@ -8,28 +8,28 @@
   url: '#/201/syllabus'
   text: Syllabus
   icon: toc
--
-  name: Lectures
-  url: '#/201/lectures'
-  text: Lectures
-  icon: notes
--
-  name: Exams
-  url: '#/201/review'
-  text: Exam Review
-  icon: assignment-in
--
-  name: Discord
-  url: 'https://discord.com/channels/922508817747550280/922508818397663284'
-  text: Discord
-  icon: discord
--
-  name: BitBucket
-  url: 'https://bitbucket.org/dboliske/cs201-202201-lectures/src/main'
-  text: Lecture Repository
-  icon: bitbucket
--
-  name: YouTube
-  url: 'https://www.youtube.com/playlist?list=PLTfWqJ1nohEmujIZE6NxG30Mrz_RhsLpa'
-  text: YouTube Playlist
-  icon: youtube
+# -
+#   name: Lectures
+#   url: '#/201/lectures'
+#   text: Lectures
+#   icon: notes
+# -
+#   name: Exams
+#   url: '#/201/review'
+#   text: Exam Review
+#   icon: assignment-in
+# -
+#   name: Discord
+#   url: 'https://discord.com/channels/922508817747550280/922508818397663284'
+#   text: Discord
+#   icon: discord
+# -
+#   name: BitBucket
+#   url: 'https://bitbucket.org/dboliske/cs201-202201-lectures/src/main'
+#   text: Lecture Repository
+#   icon: bitbucket
+# -
+#   name: YouTube
+#   url: 'https://www.youtube.com/playlist?list=PLTfWqJ1nohEmujIZE6NxG30Mrz_RhsLpa'
+#   text: YouTube Playlist
+#   icon: youtube
